@@ -1,0 +1,346 @@
+2021-04-01 09:56:03.172  INFO 11984 --- [main] c.e.r.RulescontrolApplication            : Starting RulescontrolApplication using Java 15.0.1 on DESKTOP-94H032M with PID 11984 (C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol\target\classes started by Арман in C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol)
+2021-04-01 09:56:03.219  INFO 11984 --- [main] c.e.r.RulescontrolApplication            : No active profile set, falling back to default profiles: default
+2021-04-01 09:56:05.094  INFO 11984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-01 09:56:05.245  INFO 11984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100 ms. Found 4 JPA repository interfaces.
+2021-04-01 09:56:06.510  INFO 11984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-04-01 09:56:06.523  INFO 11984 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-01 09:56:06.524  INFO 11984 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-01 09:56:07.316  INFO 11984 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-01 09:56:07.328  INFO 11984 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3960 ms
+2021-04-01 09:56:07.570  INFO 11984 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-01 09:56:07.633  INFO 11984 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-01 09:56:07.765  INFO 11984 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-01 09:56:07.893  INFO 11984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-01 09:56:08.346  INFO 11984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-01 09:56:08.371  INFO 11984 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-04-01 09:56:09.741  INFO 11984 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-01 09:56:09.755  INFO 11984 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 09:56:10.408  INFO 11984 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 09:56:10.726  INFO 11984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-04-01 09:56:10.740  INFO 11984 --- [main] c.e.r.RulescontrolApplication            : Started RulescontrolApplication in 8.424 seconds (JVM running for 10.73)
+2021-04-01 09:56:34.227  INFO 11984 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-01 09:56:34.227  INFO 11984 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-01 09:56:34.229  INFO 11984 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-04-01 10:10:15.012  INFO 11984 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:10:15.016  INFO 11984 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:10:15.021  INFO 11984 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-01 10:10:15.039  INFO 11984 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-01 10:10:22.673  INFO 8388 --- [main] c.e.r.RulescontrolApplication            : Starting RulescontrolApplication using Java 15.0.1 on DESKTOP-94H032M with PID 8388 (C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol\target\classes started by Арман in C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol)
+2021-04-01 10:10:22.678  INFO 8388 --- [main] c.e.r.RulescontrolApplication            : No active profile set, falling back to default profiles: default
+2021-04-01 10:10:24.103  INFO 8388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-01 10:10:24.192  INFO 8388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 4 JPA repository interfaces.
+2021-04-01 10:10:24.817  INFO 8388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-04-01 10:10:24.828  INFO 8388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-01 10:10:24.828  INFO 8388 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-01 10:10:24.978  INFO 8388 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-01 10:10:24.979  INFO 8388 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2194 ms
+2021-04-01 10:10:25.182  INFO 8388 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-01 10:10:25.234  INFO 8388 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-01 10:10:25.366  INFO 8388 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-01 10:10:25.496  INFO 8388 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-01 10:10:25.945  INFO 8388 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-01 10:10:25.971  INFO 8388 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-04-01 10:10:26.776  INFO 8388 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-01 10:10:26.789  INFO 8388 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:10:27.455  INFO 8388 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:10:27.745  INFO 8388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-04-01 10:10:27.757  INFO 8388 --- [main] c.e.r.RulescontrolApplication            : Started RulescontrolApplication in 5.89 seconds (JVM running for 7.454)
+2021-04-01 10:10:43.503  INFO 8388 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-01 10:10:43.504  INFO 8388 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-01 10:10:43.505  INFO 8388 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-01 10:12:53.101  INFO 8388 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:12:53.103  INFO 8388 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:12:53.106  INFO 8388 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-01 10:12:53.118  INFO 8388 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-01 10:12:59.952  INFO 10632 --- [main] c.e.r.RulescontrolApplication            : Starting RulescontrolApplication using Java 15.0.1 on DESKTOP-94H032M with PID 10632 (C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol\target\classes started by Арман in C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol)
+2021-04-01 10:12:59.957  INFO 10632 --- [main] c.e.r.RulescontrolApplication            : No active profile set, falling back to default profiles: default
+2021-04-01 10:13:01.424  INFO 10632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-01 10:13:01.543  INFO 10632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 4 JPA repository interfaces.
+2021-04-01 10:13:02.491  INFO 10632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-04-01 10:13:02.502  INFO 10632 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-01 10:13:02.502  INFO 10632 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-01 10:13:02.740  INFO 10632 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-01 10:13:02.741  INFO 10632 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2633 ms
+2021-04-01 10:13:02.930  INFO 10632 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-01 10:13:03.081  INFO 10632 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-01 10:13:03.379  INFO 10632 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-01 10:13:03.718  INFO 10632 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-01 10:13:04.698  INFO 10632 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-01 10:13:04.755  INFO 10632 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-04-01 10:13:06.626  INFO 10632 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-01 10:13:06.647  INFO 10632 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:13:07.598  INFO 10632 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:13:07.886  INFO 10632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-04-01 10:13:07.905  INFO 10632 --- [main] c.e.r.RulescontrolApplication            : Started RulescontrolApplication in 8.98 seconds (JVM running for 10.668)
+2021-04-01 10:13:21.152  INFO 10632 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:13:21.154  INFO 10632 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:13:21.157  INFO 10632 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-01 10:13:21.170  INFO 10632 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-01 10:13:30.288  INFO 10604 --- [main] c.e.r.RulescontrolApplication            : Starting RulescontrolApplication using Java 15.0.1 on DESKTOP-94H032M with PID 10604 (C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol\target\classes started by Арман in C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol)
+2021-04-01 10:13:30.293  INFO 10604 --- [main] c.e.r.RulescontrolApplication            : No active profile set, falling back to default profiles: default
+2021-04-01 10:13:31.534  INFO 10604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-01 10:13:31.655  INFO 10604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109 ms. Found 4 JPA repository interfaces.
+2021-04-01 10:13:32.360  INFO 10604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-04-01 10:13:32.372  INFO 10604 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-01 10:13:32.373  INFO 10604 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-01 10:13:32.587  INFO 10604 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-01 10:13:32.587  INFO 10604 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2109 ms
+2021-04-01 10:13:32.774  INFO 10604 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-01 10:13:32.848  INFO 10604 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-01 10:13:33.036  INFO 10604 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-01 10:13:33.162  INFO 10604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-01 10:13:33.732  INFO 10604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-01 10:13:33.773  INFO 10604 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-04-01 10:13:35.384  INFO 10604 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-01 10:13:35.400  INFO 10604 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:13:36.514  INFO 10604 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:13:37.105  INFO 10604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-04-01 10:13:37.130  INFO 10604 --- [main] c.e.r.RulescontrolApplication            : Started RulescontrolApplication in 7.744 seconds (JVM running for 9.367)
+2021-04-01 10:13:44.741  INFO 10604 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-01 10:13:44.742  INFO 10604 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-01 10:13:44.743  INFO 10604 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-01 10:15:37.056  INFO 10604 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:15:37.059  INFO 10604 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:15:37.062  INFO 10604 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-01 10:15:37.077  INFO 10604 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-01 10:15:47.326  INFO 9080 --- [main] c.e.r.RulescontrolApplication            : Starting RulescontrolApplication using Java 15.0.1 on DESKTOP-94H032M with PID 9080 (C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol\target\classes started by Арман in C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol)
+2021-04-01 10:15:47.330  INFO 9080 --- [main] c.e.r.RulescontrolApplication            : No active profile set, falling back to default profiles: default
+2021-04-01 10:15:48.400  INFO 9080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-01 10:15:48.508  INFO 9080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 4 JPA repository interfaces.
+2021-04-01 10:15:49.229  INFO 9080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-04-01 10:15:49.241  INFO 9080 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-01 10:15:49.242  INFO 9080 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-01 10:15:49.422  INFO 9080 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-01 10:15:49.423  INFO 9080 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2013 ms
+2021-04-01 10:15:49.666  INFO 9080 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-01 10:15:49.727  INFO 9080 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-01 10:15:49.862  INFO 9080 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-01 10:15:49.987  INFO 9080 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-01 10:15:50.562  INFO 9080 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-01 10:15:50.595  INFO 9080 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-04-01 10:15:51.625  INFO 9080 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-01 10:15:51.640  INFO 9080 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:15:52.542  INFO 9080 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:15:52.828  INFO 9080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-04-01 10:15:52.839  INFO 9080 --- [main] c.e.r.RulescontrolApplication            : Started RulescontrolApplication in 6.898 seconds (JVM running for 8.994)
+2021-04-01 10:15:52.986  INFO 9080 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-01 10:15:52.986  INFO 9080 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-01 10:15:52.988  INFO 9080 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-04-01 10:23:08.657  INFO 9080 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:23:08.659  INFO 9080 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:23:08.662  INFO 9080 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-01 10:23:08.677  INFO 9080 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-01 10:23:18.492  INFO 8492 --- [main] c.e.r.RulescontrolApplication            : Starting RulescontrolApplication using Java 15.0.1 on DESKTOP-94H032M with PID 8492 (C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol\target\classes started by Арман in C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol)
+2021-04-01 10:23:18.497  INFO 8492 --- [main] c.e.r.RulescontrolApplication            : No active profile set, falling back to default profiles: default
+2021-04-01 10:23:20.083  INFO 8492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-01 10:23:20.238  INFO 8492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 143 ms. Found 4 JPA repository interfaces.
+2021-04-01 10:23:20.863  INFO 8492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-04-01 10:23:20.875  INFO 8492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-01 10:23:20.875  INFO 8492 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-01 10:23:21.019  INFO 8492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-01 10:23:21.019  INFO 8492 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2407 ms
+2021-04-01 10:23:21.227  INFO 8492 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-01 10:23:21.281  INFO 8492 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-01 10:23:21.411  INFO 8492 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-01 10:23:21.533  INFO 8492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-01 10:23:21.960  INFO 8492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-01 10:23:21.985  INFO 8492 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-04-01 10:23:22.855  INFO 8492 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-01 10:23:22.868  INFO 8492 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:23:23.512  INFO 8492 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:23:23.837  INFO 8492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-04-01 10:23:23.850  INFO 8492 --- [main] c.e.r.RulescontrolApplication            : Started RulescontrolApplication in 6.523 seconds (JVM running for 8.427)
+2021-04-01 10:23:56.342  INFO 8492 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-01 10:23:56.342  INFO 8492 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-01 10:23:56.345  INFO 8492 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-04-01 10:26:49.768  WARN 8492 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s706ms537µs900ns).
+2021-04-01 10:26:49.861  INFO 8492 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:26:49.864  INFO 8492 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:26:49.868  INFO 8492 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-01 10:26:49.883  INFO 8492 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-01 10:26:59.484  INFO 7004 --- [main] c.e.r.RulescontrolApplication            : Starting RulescontrolApplication using Java 15.0.1 on DESKTOP-94H032M with PID 7004 (C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol\target\classes started by Арман in C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol)
+2021-04-01 10:26:59.495  INFO 7004 --- [main] c.e.r.RulescontrolApplication            : No active profile set, falling back to default profiles: default
+2021-04-01 10:27:01.009  INFO 7004 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-01 10:27:01.121  INFO 7004 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 4 JPA repository interfaces.
+2021-04-01 10:27:01.818  INFO 7004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-04-01 10:27:01.830  INFO 7004 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-01 10:27:01.831  INFO 7004 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-01 10:27:02.132  INFO 7004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-01 10:27:02.133  INFO 7004 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2522 ms
+2021-04-01 10:27:02.294  INFO 7004 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-01 10:27:02.359  INFO 7004 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-01 10:27:02.614  INFO 7004 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-01 10:27:03.034  INFO 7004 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-01 10:27:04.084  INFO 7004 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-01 10:27:04.133  INFO 7004 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-04-01 10:27:05.716  INFO 7004 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-01 10:27:05.735  INFO 7004 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:27:06.908  INFO 7004 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:27:07.255  INFO 7004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-04-01 10:27:07.270  INFO 7004 --- [main] c.e.r.RulescontrolApplication            : Started RulescontrolApplication in 8.703 seconds (JVM running for 10.187)
+2021-04-01 10:27:11.938  INFO 7004 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-01 10:27:11.938  INFO 7004 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-01 10:27:11.940  INFO 7004 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-01 10:28:16.382  INFO 7004 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:28:16.389  INFO 7004 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:28:16.395  INFO 7004 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-01 10:28:16.431  INFO 7004 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-01 10:28:25.002  INFO 9528 --- [main] c.e.r.RulescontrolApplication            : Starting RulescontrolApplication using Java 15.0.1 on DESKTOP-94H032M with PID 9528 (C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol\target\classes started by Арман in C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol)
+2021-04-01 10:28:25.021  INFO 9528 --- [main] c.e.r.RulescontrolApplication            : No active profile set, falling back to default profiles: default
+2021-04-01 10:28:26.290  INFO 9528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-01 10:28:26.384  INFO 9528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 4 JPA repository interfaces.
+2021-04-01 10:28:26.985  INFO 9528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-04-01 10:28:26.996  INFO 9528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-01 10:28:26.997  INFO 9528 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-01 10:28:27.166  INFO 9528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-01 10:28:27.167  INFO 9528 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2064 ms
+2021-04-01 10:28:27.340  INFO 9528 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-01 10:28:27.394  INFO 9528 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-01 10:28:27.531  INFO 9528 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-01 10:28:27.652  INFO 9528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-01 10:28:28.057  INFO 9528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-01 10:28:28.083  INFO 9528 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-04-01 10:28:28.962  INFO 9528 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-01 10:28:28.975  INFO 9528 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:28:29.669  INFO 9528 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:28:29.937  INFO 9528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-04-01 10:28:29.948  INFO 9528 --- [main] c.e.r.RulescontrolApplication            : Started RulescontrolApplication in 6.174 seconds (JVM running for 7.686)
+2021-04-01 10:28:33.712  INFO 9528 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-01 10:28:33.713  INFO 9528 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-01 10:28:33.714  INFO 9528 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-01 10:30:10.240  INFO 9528 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:30:10.243  INFO 9528 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:30:10.246  INFO 9528 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-01 10:30:10.260  INFO 9528 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-01 10:30:19.620  INFO 11392 --- [main] c.e.r.RulescontrolApplication            : Starting RulescontrolApplication using Java 15.0.1 on DESKTOP-94H032M with PID 11392 (C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol\target\classes started by Арман in C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol)
+2021-04-01 10:30:19.624  INFO 11392 --- [main] c.e.r.RulescontrolApplication            : No active profile set, falling back to default profiles: default
+2021-04-01 10:30:21.089  INFO 11392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-01 10:30:21.257  INFO 11392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 150 ms. Found 4 JPA repository interfaces.
+2021-04-01 10:30:22.183  INFO 11392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-04-01 10:30:22.197  INFO 11392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-01 10:30:22.198  INFO 11392 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-01 10:30:22.409  INFO 11392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-01 10:30:22.409  INFO 11392 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2702 ms
+2021-04-01 10:30:22.592  INFO 11392 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-01 10:30:22.642  INFO 11392 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-01 10:30:22.787  INFO 11392 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-01 10:30:22.938  INFO 11392 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-01 10:30:23.344  INFO 11392 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-01 10:30:23.370  INFO 11392 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-04-01 10:30:24.202  INFO 11392 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-01 10:30:24.214  INFO 11392 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:30:24.867  INFO 11392 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:30:25.151  INFO 11392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-04-01 10:30:25.162  INFO 11392 --- [main] c.e.r.RulescontrolApplication            : Started RulescontrolApplication in 6.615 seconds (JVM running for 8.333)
+2021-04-01 10:30:27.490  INFO 11392 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-01 10:30:27.490  INFO 11392 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-01 10:30:27.492  INFO 11392 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-01 10:31:22.259  INFO 11392 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:31:22.261  INFO 11392 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:31:22.264  INFO 11392 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-01 10:31:22.283  INFO 11392 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-01 10:31:30.573  INFO 7464 --- [main] c.e.r.RulescontrolApplication            : Starting RulescontrolApplication using Java 15.0.1 on DESKTOP-94H032M with PID 7464 (C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol\target\classes started by Арман in C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol)
+2021-04-01 10:31:30.578  INFO 7464 --- [main] c.e.r.RulescontrolApplication            : No active profile set, falling back to default profiles: default
+2021-04-01 10:31:31.676  INFO 7464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-01 10:31:31.772  INFO 7464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 4 JPA repository interfaces.
+2021-04-01 10:31:32.467  INFO 7464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-04-01 10:31:32.478  INFO 7464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-01 10:31:32.479  INFO 7464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-01 10:31:32.682  INFO 7464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-01 10:31:32.682  INFO 7464 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2021 ms
+2021-04-01 10:31:32.848  INFO 7464 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-01 10:31:32.902  INFO 7464 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-01 10:31:33.032  INFO 7464 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-01 10:31:33.157  INFO 7464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-01 10:31:33.620  INFO 7464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-01 10:31:33.644  INFO 7464 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-04-01 10:31:34.429  INFO 7464 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-01 10:31:34.443  INFO 7464 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:31:35.120  INFO 7464 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:31:35.413  INFO 7464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-04-01 10:31:35.429  INFO 7464 --- [main] c.e.r.RulescontrolApplication            : Started RulescontrolApplication in 5.781 seconds (JVM running for 7.166)
+2021-04-01 10:31:39.676  INFO 7464 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-01 10:31:39.705  INFO 7464 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-01 10:31:39.708  INFO 7464 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-04-01 10:32:01.517  INFO 7464 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:32:01.519  INFO 7464 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:32:01.522  INFO 7464 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-01 10:32:01.534  INFO 7464 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-01 10:32:10.438  INFO 2132 --- [main] c.e.r.RulescontrolApplication            : Starting RulescontrolApplication using Java 15.0.1 on DESKTOP-94H032M with PID 2132 (C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol\target\classes started by Арман in C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol)
+2021-04-01 10:32:10.445  INFO 2132 --- [main] c.e.r.RulescontrolApplication            : No active profile set, falling back to default profiles: default
+2021-04-01 10:32:12.043  INFO 2132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-01 10:32:12.140  INFO 2132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 4 JPA repository interfaces.
+2021-04-01 10:32:12.778  INFO 2132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-04-01 10:32:12.790  INFO 2132 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-01 10:32:12.790  INFO 2132 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-01 10:32:12.952  INFO 2132 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-01 10:32:12.953  INFO 2132 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2377 ms
+2021-04-01 10:32:13.195  INFO 2132 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-01 10:32:13.263  INFO 2132 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-01 10:32:13.402  INFO 2132 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-01 10:32:13.526  INFO 2132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-01 10:32:13.965  INFO 2132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-01 10:32:13.992  INFO 2132 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-04-01 10:32:15.167  INFO 2132 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-01 10:32:15.183  INFO 2132 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:32:16.023  INFO 2132 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:32:16.310  INFO 2132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-04-01 10:32:16.328  INFO 2132 --- [main] c.e.r.RulescontrolApplication            : Started RulescontrolApplication in 7.007 seconds (JVM running for 8.559)
+2021-04-01 10:32:16.383  INFO 2132 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-01 10:32:16.383  INFO 2132 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-01 10:32:16.385  INFO 2132 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-04-01 10:33:00.940  INFO 2132 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:33:00.942  INFO 2132 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:33:00.944  INFO 2132 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-01 10:33:00.956  INFO 2132 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-01 10:33:09.642  INFO 6732 --- [main] c.e.r.RulescontrolApplication            : Starting RulescontrolApplication using Java 15.0.1 on DESKTOP-94H032M with PID 6732 (C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol\target\classes started by Арман in C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol)
+2021-04-01 10:33:09.649  INFO 6732 --- [main] c.e.r.RulescontrolApplication            : No active profile set, falling back to default profiles: default
+2021-04-01 10:33:10.904  INFO 6732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-01 10:33:11.019  INFO 6732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102 ms. Found 4 JPA repository interfaces.
+2021-04-01 10:33:11.652  INFO 6732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-04-01 10:33:11.664  INFO 6732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-01 10:33:11.664  INFO 6732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-01 10:33:11.850  INFO 6732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-01 10:33:11.851  INFO 6732 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2123 ms
+2021-04-01 10:33:12.027  INFO 6732 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-01 10:33:12.079  INFO 6732 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-01 10:33:12.237  INFO 6732 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-01 10:33:12.403  INFO 6732 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-01 10:33:12.850  INFO 6732 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-01 10:33:12.875  INFO 6732 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-04-01 10:33:13.725  INFO 6732 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-01 10:33:13.740  INFO 6732 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:33:14.521  INFO 6732 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:33:14.851  INFO 6732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-04-01 10:33:14.864  INFO 6732 --- [main] c.e.r.RulescontrolApplication            : Started RulescontrolApplication in 6.172 seconds (JVM running for 7.712)
+2021-04-01 10:33:42.541  INFO 6732 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-01 10:33:42.542  INFO 6732 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-01 10:33:42.545  INFO 6732 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-04-01 10:42:44.103  INFO 6732 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:42:44.105  INFO 6732 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 10:42:44.108  INFO 6732 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-01 10:42:44.131  INFO 6732 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-01 11:28:11.311  INFO 11284 --- [main] c.e.r.RulescontrolApplication            : Starting RulescontrolApplication using Java 15.0.1 on DESKTOP-94H032M with PID 11284 (C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol\target\classes started by Арман in C:\Users\Арман\IdeaProjects\WORK\sortByLevels\workProjects\rulescontrol)
+2021-04-01 11:28:11.315  INFO 11284 --- [main] c.e.r.RulescontrolApplication            : No active profile set, falling back to default profiles: default
+2021-04-01 11:28:12.753  INFO 11284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-01 11:28:12.954  INFO 11284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 177 ms. Found 4 JPA repository interfaces.
+2021-04-01 11:28:13.802  INFO 11284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-04-01 11:28:13.820  INFO 11284 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-01 11:28:13.821  INFO 11284 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-01 11:28:14.061  INFO 11284 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-01 11:28:14.062  INFO 11284 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2662 ms
+2021-04-01 11:28:14.249  INFO 11284 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-01 11:28:14.322  INFO 11284 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-01 11:28:14.480  INFO 11284 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-01 11:28:14.639  INFO 11284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-01 11:28:15.109  INFO 11284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-01 11:28:15.140  INFO 11284 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-04-01 11:28:16.128  INFO 11284 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-01 11:28:16.141  INFO 11284 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-01 11:28:16.783  INFO 11284 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 11:28:17.096  INFO 11284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-04-01 11:28:17.111  INFO 11284 --- [main] c.e.r.RulescontrolApplication            : Started RulescontrolApplication in 6.973 seconds (JVM running for 8.973)
+2021-04-01 11:28:19.570  INFO 11284 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-01 11:28:19.571  INFO 11284 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-01 11:28:19.572  INFO 11284 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-01 14:31:00.894  WARN 11284 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m13s564ms33µs800ns).

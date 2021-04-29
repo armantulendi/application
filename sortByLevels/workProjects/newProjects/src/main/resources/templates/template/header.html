@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:sec="http://www.w3.org/1999/xhtml" xmlns:th="">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<header class="topbar" data-navbarbg="skin6" th:fragment="  header">
+    <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+        <div class="navbar-header" data-logobg="skin6">
+            <!-- ============================================================== -->
+            <!-- Logo -->
+            <!-- ============================================================== -->
+            <a class="navbar-brand" href="/">
+                <!-- Logo icon -->
+                <b class="logo-icon mr-0">
+                    <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                    <!-- Dark Logo icon -->
+                    <img th:width="200" th:height="80" src="/assets/images/logo-icon.jpg"  class="dark-logo">
+
+                </b>
+                <!--End Logo icon -->
+                <!-- Logo text -->
+<!--                <span class="logo-text mt-4">-->
+<!--                            &lt;!&ndash; dark Logo text &ndash;&gt;-->
+<!--                           <span style="color: #54667a">platform</span>-->
+<!--                        </span>-->
+            </a>
+            <!-- ============================================================== -->
+            <!-- End Logo -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- toggle and nav items -->
+            <!-- ============================================================== -->
+            <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Logo -->
+        <!-- ============================================================== -->
+        <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
+
+            <!-- ============================================================== -->
+            <!-- toggle and nav items -->
+            <!-- ============================================================== -->
+            <ul class="navbar-nav me-auto mt-md-0 ">
+                <!-- ============================================================== -->
+                <!-- Search -->
+                <!-- ============================================================== -->
+
+                <li class="nav-item hidden-sm-down">
+                    <form class="app-search ps-3">
+                        <input type="text" class="form-control" placeholder="Search for..."> <a class="srh-btn"><i class="ti-search"></i></a>
+                    </form>
+                </li>
+            </ul>
+
+            <!-- ============================================================== -->
+            <!-- Right side toggle and nav items -->
+            <!-- ============================================================== -->
+            <ul class="navbar-nav">
+                <!-- ============================================================== -->
+                <!-- User profile and search -->
+                <!-- ============================================================== -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle waves-effect waves-dark" th:text="${#authentication.name}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+                    </a>
+                    <ul class="dropdown-menu show" aria-labelledby="navbarDropdown"></ul>
+                </li>
+                <li class="nav-item dropdown" >
+                    <a class="nav-link dropdown-toggle waves-effect waves-dark"  href="/logout" th:href="@{#}" onclick="$('#form').submit();">
+                        <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>&nbsp;Выйти
+                    </a>
+                    <form style="visibility: hidden" id="form" method="post" action="#" th:action="@{/logout}"></form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+</body>
+</html>

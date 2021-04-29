@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="176.12500000000006" y="129.0">com.example.sweater.domain.other.User</node>
+    <node x="436.6250000000001" y="0.0">com.example.sweater.domain.other.Role</node>
+    <node x="546.875" y="778.0">com.example.sweater.config.WebSecurityConfig</node>
+    <node x="827.375" y="783.0">com.example.sweater.controller.UserController</node>
+    <node x="490.2386363636364" y="617.0">com.example.sweater.service.UserService</node>
+    <node x="50.00000000000006" y="422.0">com.example.sweater.domain.other.Message</node>
+    <node x="0.0" y="640.0">com.example.sweater.repos.MessageRepo</node>
+    <node x="280.87500000000006" y="778.0">com.example.sweater.controller.RegistrationController</node>
+    <node x="0.0" y="924.0">com.example.sweater.domain.multi.Book</node>
+    <node x="30.0" y="1119.0">com.example.sweater.repos.BookDao</node>
+    <node x="216.0" y="924.0">com.example.sweater.repos.UserDao</node>
+    <node x="62.87500000000006" y="756.0">com.example.sweater.controller.MainController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.sweater.domain.other.User" target="com.example.sweater.domain.other.Role">
+      <point x="-41.5" y="-116.5" />
+      <point x="217.62500000000006" y="99.0" />
+      <point x="447.1250000000001" y="99.0" />
+      <point x="-31.5" y="39.5" />
+    </edge>
+    <edge source="com.example.sweater.config.WebSecurityConfig" target="com.example.sweater.service.UserService">
+      <point x="0.0" y="-39.5" />
+      <point x="665.875" y="736.0" />
+      <point x="629.0719696969697" y="736.0" />
+      <point x="19.833333333333314" y="39.5" />
+    </edge>
+    <edge source="com.example.sweater.controller.MainController" target="com.example.sweater.domain.other.Message">
+      <point x="-24.75" y="-61.5" />
+      <point x="137.12500000000006" y="736.0" />
+      <point x="157.50000000000006" y="736.0" />
+      <point x="157.50000000000006" y="592.0" />
+      <point x="148.25000000000006" y="592.0" />
+      <point x="32.75" y="72.5" />
+    </edge>
+    <edge source="com.example.sweater.controller.MainController" target="com.example.sweater.repos.MessageRepo">
+      <point x="-74.25" y="-61.5" />
+      <point x="87.62500000000006" y="736.0" />
+      <point x="73.5" y="736.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="com.example.sweater.controller.UserController" target="com.example.sweater.service.UserService">
+      <point x="-65.25" y="-39.5" />
+      <point x="826.625" y="726.0" />
+      <point x="668.7386363636364" y="726.0" />
+      <point x="59.5" y="39.5" />
+    </edge>
+    <edge source="com.example.sweater.controller.UserController" target="com.example.sweater.domain.other.Role">
+      <point x="65.25" y="-39.5" />
+      <point x="957.125" y="736.0" />
+      <point x="940.875" y="736.0" />
+      <point x="940.875" y="99.0" />
+      <point x="510.1250000000001" y="99.0" />
+      <point x="31.5" y="39.5" />
+    </edge>
+    <edge source="com.example.sweater.controller.RegistrationController" target="com.example.sweater.service.UserService">
+      <point x="0.0" y="-39.5" />
+      <point x="403.87500000000006" y="726.0" />
+      <point x="549.7386363636364" y="726.0" />
+      <point x="-59.5" y="39.5" />
+    </edge>
+    <edge source="com.example.sweater.controller.MainController" target="com.example.sweater.domain.other.User">
+      <point x="24.75" y="-61.5" />
+      <point x="186.62500000000006" y="736.0" />
+      <point x="191.50000000000006" y="736.0" />
+      <point x="191.50000000000006" y="402.0" />
+      <point x="245.29166666666669" y="402.0" />
+      <point x="-13.833333333333371" y="116.5" />
+    </edge>
+    <edge source="com.example.sweater.repos.BookDao" target="com.example.sweater.domain.multi.Book">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="com.example.sweater.service.UserService" target="com.example.sweater.domain.other.User">
+      <point x="-59.5" y="-39.5" />
+      <point x="549.7386363636364" y="592.0" />
+      <point x="604.407196969697" y="592.0" />
+      <point x="604.407196969697" y="392.0" />
+      <point x="300.62500000000006" y="392.0" />
+      <point x="41.5" y="116.5" />
+    </edge>
+    <edge source="com.example.sweater.controller.UserController" target="com.example.sweater.domain.other.User">
+      <point x="21.75" y="-39.5" />
+      <point x="913.625" y="736.0" />
+      <point x="929.875" y="736.0" />
+      <point x="929.875" y="382.0" />
+      <point x="328.2916666666668" y="382.0" />
+      <point x="69.16666666666674" y="116.5" />
+    </edge>
+    <edge source="com.example.sweater.domain.other.Message" target="com.example.sweater.domain.other.User">
+      <point x="-32.75" y="-72.5" />
+      <point x="82.75000000000006" y="382.0" />
+      <point x="189.95833333333343" y="382.0" />
+      <point x="-69.16666666666663" y="116.5" />
+    </edge>
+    <edge source="com.example.sweater.service.UserService" target="com.example.sweater.domain.other.Role">
+      <point x="59.5" y="-39.5" />
+      <point x="668.7386363636364" y="592.0" />
+      <point x="635.907196969697" y="592.0" />
+      <point x="635.907196969697" y="109.0" />
+      <point x="489.1250000000001" y="109.0" />
+      <point x="10.5" y="39.5" />
+    </edge>
+    <edge source="com.example.sweater.controller.RegistrationController" target="com.example.sweater.domain.other.User">
+      <point x="-82.0" y="-39.5" />
+      <point x="321.87500000000006" y="402.0" />
+      <point x="272.9583333333334" y="402.0" />
+      <point x="13.833333333333371" y="116.5" />
+    </edge>
+    <edge source="com.example.sweater.repos.MessageRepo" target="com.example.sweater.domain.other.Message">
+      <point x="0.0" y="-16.5" />
+      <point x="73.5" y="592.0" />
+      <point x="82.75000000000006" y="592.0" />
+      <point x="-32.75" y="72.5" />
+    </edge>
+    <edge source="com.example.sweater.controller.MainController" target="com.example.sweater.service.UserService">
+      <point x="74.25" y="-61.5" />
+      <point x="236.12500000000006" y="716.0" />
+      <point x="510.07196969696975" y="716.0" />
+      <point x="-99.16666666666669" y="39.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="538.625" y="635.75" />
+  <SelectedNodes>
+    <node>com.example.sweater.controller.UserController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

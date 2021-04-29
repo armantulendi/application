@@ -113,6 +113,51 @@
             </tbody>
 
         </table>
+        <table class="table table-bordered  border-secondary ">
+            <thead>
+            <h5>Данные третьей БД</h5>
+            <tr>
+                <th scope="col">id</th>
+                <th>first_name</th>
+                <th>last_name</th>
+                <th>gender</th>
+                <th>email</th>
+                <th>действия</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <#--            <#if users??>-->
+            <#list data as d>
+                <form enctype="multipart/form-data" method="post" action="/databases/data">
+                    <tr>
+                        <td ><input type="text" class="form-control" aria-label="Sizing example input"
+                                    aria-describedby="inputGroup-sizing-default"
+                                    name="id" value="${d.id}"></td>
+                        <td ><input type="text" class="form-control" aria-label="Sizing example input"
+                                    aria-describedby="inputGroup-sizing-default"
+                                    name="firstName" value="${d.firstName}"></td>
+                        <td ><input type="text" class="form-control" aria-label="Sizing example input"
+                                    aria-describedby="inputGroup-sizing-default"
+                                    name="lastName" value="${d.lastName}"></td>
+
+                        <td ><input type="text" class="form-control" aria-label="Sizing example input"
+                                    aria-describedby="inputGroup-sizing-default"
+                                    name="gender" value="${d.gender}"></td>
+
+                        <td ><input type="text" class="form-control" aria-label="Sizing example input"
+                                    aria-describedby="inputGroup-sizing-default"
+                                    name="email" value="${d.email}"></td>
+                        <td>
+                            <button type="submit" class="btn btn-secondary  ">Сохранить</button>
+                        </td>
+                    </tr>
+                </form>
+            </#list>
+            <#--            </#if>-->
+            </tbody>
+
+        </table>
     <div class="col-1 mt-2">
     </div>
 </div>

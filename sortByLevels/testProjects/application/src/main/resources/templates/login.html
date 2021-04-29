@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:fragment="header">
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+
+</head>
+<body>
+<div class="row">
+    <div class="col-4"></div>
+    <div class="col-8">
+<aside  class="col-sm-5">
+<div class="card">
+    <article class="card-body">
+
+        <h4 class="card-title text-center mb-4 mt-1">Вход для пользователя</h4>
+        <div class="text-center" th:if="${param.error}">
+            Неправильное имя или пароль
+        </div>
+        <div class="text-center" th:if="${param.logout}">
+            Вы вышли из системы
+        </div>
+        <hr>
+        <p class="text-success text-center"></p>
+        <form th:action="@{/login}" method="post">
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                    </div>
+                        <input class="form-control" placeholder="Логин" type="text"  name="username">
+                </div> <!-- input-group.// -->
+            </div> <!-- form-group// -->
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                    </div>
+                    <input  class="form-control" name="password" placeholder="Пароль" type="password">
+                </div> <!-- input-group.// -->
+            </div> <!-- form-group// -->
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block"> Войти  </button>
+            </div> <!-- form-group// -->
+<!--            <input type="hidden" name="_csrf" value="${_csrf.token}">-->
+        </form>
+    </article>
+</div> <!-- card.// -->
+</aside>
+</div>
+</div>
+</body>
+</html>

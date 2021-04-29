@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <!-- Подключение библиотеки jQuery -->
+    <script src="/jquery/jquery.maskedinput.js"></script>
+    <!-- Подключение jQuery плагина Masked Input -->
+    <script src="/jquery/jquery.maskedinput.min.js"></script>
+    <title>Новая заявка</title>
+</head>
+<body>
+<!--<div class="position-relative">-->
+<!--    <div class="position-absolute top-50 start-50 translate-middle-x">-->
+<div class="row">
+    <!-- column -->
+    <div class="col-sm-4"></div>
+    <div class="col-sm-8">
+                <h2 class="card-title mt-4">Данные о клиенте</h2>
+                <form th:method="POST" th:action="@{/customer/new}" th:object="${customer}">
+                    <div class="row ">
+                        <div class="row  g-1 align-items-center">
+                            <div class="col-2"><label class="col-form-label">iin</label></div>
+                            <div class="col-4"><input type="text" class="form-control" th:field="*{iin}"></div>
+                            <div class="col-4"><span class="form-text" th:if="${#fields.hasErrors('iin')}" th:errors="*{iin}"> </span>
+                                <span th:if="${!iinError.isEmpty()}">Неправильный ИИН</span>
+                            </div>
+
+                        </div>
+                        <div class="row g-1 align-items-center">
+                            <div class="col-2"><label class="col-form-label">surname</label></div>
+                            <div class="col-4"><input type="text" class="form-control" th:field="*{surname}"></div>
+                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('surname')}" th:errors="*{surname}"> </span></div>
+                        </div>
+                        <div class="row g-1 align-items-center">
+                            <div class="col-2"><label class="col-form-label">name</label></div>
+                            <div class="col-4"><input type="text" class="form-control" th:field="*{name}"></div>
+                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('name')}" th:errors="*{name}"> </span></div>
+                        </div>
+                        <div class="row g-1 align-items-center">
+                            <div class="col-2"><label class="col-form-label">patronymic</label></div>
+                            <div class="col-4"><input type="text" class="form-control" th:field="*{patronymic}"></div>
+                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('patronymic')}" th:errors="*{patronymic}"> </span></div>
+                        </div>
+<!--                       -->
+                        <div class="row g-1 align-items-center">
+                            <div class="col-2"><label class="col-form-label">mobileNum</label></div>
+                            <div class="col-4"><input type="text" id="mobileNum"  th:field="*{mobileNum}" class="form-control"></div>
+                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('mobileNum')}" th:errors="*{mobileNum}"> </span></div>
+                        </div>
+                        <div class="row g-1 align-items-center">
+                            <div class="col-2"><label class="col-form-label">birthDay</label></div>
+                            <div class="col-4"><input type="date" class="form-control" th:field="*{birthDay}"></div>
+                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('birthDay')}" th:errors="*{birthDay}"> </span></div>
+                        </div>
+                        <div class="row g-1 align-items-center">
+                            <div class="col-2"><label class="col-form-label">gender</label></div>
+                            <div class="col-4"><input type="text" class="form-control" th:field="*{gender}"></div>
+                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('gender')}" th:errors="*{gender}"> </span></div>
+                        </div>
+                        <div><hr></div>
+                        <div class="row g-1 align-items-center">
+                            <div class="col-2"><label class="col-form-label">docNum</label></div>
+                            <div class="col-4"><input type="text" class="form-control" th:field="*{docNum}"></div>
+                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('docNum')}" th:errors="*{docNum}"> </span></div>
+                        </div>
+                        <div class="row g-1 align-items-center">
+                            <div class="col-2"><label class="col-form-label">issuedBy</label></div>
+                            <div class="col-4"><input type="text" class="form-control" th:field="*{issuedBy}"></div>
+                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('issuedBy')}" th:errors="*{issuedBy}"> </span></div>
+                        </div>
+                        <div class="row g-1 align-items-center">
+                            <div class="col-2"><label class="col-form-label">dateIssue</label></div>
+                            <div class="col-4"><input type="date" class="form-control" th:field="*{dateIssue}"></div>
+                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('dateIssue')}" th:errors="*{dateIssue}"> </span></div>
+                        </div>
+                        <div class="row g-1 align-items-center">
+                            <div class="col-2"><label class="col-form-label">validFor</label></div>
+                            <div class="col-4"><input type="date" class="form-control" th:field="*{validFor}"></div>
+                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('validFor')}" th:errors="*{validFor}"> </span></div>
+                        </div>
+                        <div class="row g-1 align-items-center">
+                            <div class="col-2"><label class="col-form-label">salary</label></div>
+                            <div class="col-4"><input type="text" class="form-control" th:field="*{salary}"></div>
+                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('salary')}" th:errors="*{salary}"> </span></div>
+                        </div>
+                        <div class="row g-1 align-items-center">
+                            <div class="col-2"><label class="col-form-label">utilities</label></div>
+                            <div class="col-4"><input type="text" class="form-control" th:field="*{utilities}"></div>
+                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('utilities')}" th:errors="*{utilities}"> </span></div>
+                        </div>
+                        <div class="row g-1 align-items-center">
+                            <div class="col-2">
+                                <button type="submit" class="btn btn-primary">Подтвердить</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+<script>
+    // $(document).ready(function () {
+        $(function(){
+            //2. Получить элемент, к которому необходимо добавить маску
+            $("#mobileNum").mask("+7(777) 999-9999");
+        });
+    // });
+
+</script>
+</body>
+</html>

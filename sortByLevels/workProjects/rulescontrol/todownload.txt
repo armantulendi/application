@@ -1,0 +1,10 @@
+http://kz.archive.ubuntu.com/ubuntu/pool/main/a/apr/libapr1_1.5.2-3_amd64.deb
+http://kz.archive.ubuntu.com/ubuntu/pool/main/a/apr-util/libaprutil1_1.5.4-1build1_amd64.deb
+http://kz.archive.ubuntu.com/ubuntu/pool/main/a/apr-util/libaprutil1-dbd-sqlite3_1.5.4-1build1_amd64.deb
+http://kz.archive.ubuntu.com/ubuntu/pool/main/a/apr-util/libaprutil1-ldap_1.5.4-1build1_amd64.deb
+http://kz.archive.ubuntu.com/ubuntu/pool/main/l/lua5.1/liblua5.1-0_5.1.5-8ubuntu1_amd64.deb
+http://kz.archive.ubuntu.com/ubuntu/pool/main/a/apache2/apache2-bin_2.4.18-2ubuntu3.17_amd64.deb
+http://kz.archive.ubuntu.com/ubuntu/pool/main/a/apache2/apache2-utils_2.4.18-2ubuntu3.17_amd64.deb
+http://kz.archive.ubuntu.com/ubuntu/pool/main/a/apache2/apache2-data_2.4.18-2ubuntu3.17_all.deb
+http://kz.archive.ubuntu.com/ubuntu/pool/main/a/apache2/apache2_2.4.18-2ubuntu3.17_amd64.deb
+http://kz.archive.ubuntu.com/ubuntu/pool/main/s/ssl-cert/ssl-cert_1.0.37_all.deb

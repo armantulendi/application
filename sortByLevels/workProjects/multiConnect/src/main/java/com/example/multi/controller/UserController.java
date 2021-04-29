@@ -4,6 +4,7 @@ import com.example.multi.config.BookConfig;
 import com.example.multi.config.UserConfig;
 import com.example.multi.connectToTwo.MySqlConnection;
 import com.example.multi.dao.book.BookDao;
+import com.example.multi.dao.data.DataDao;
 import com.example.multi.dao.user.UserDao;
 import com.example.multi.model.Book;
 import com.example.multi.model.User;
@@ -29,6 +30,8 @@ public class UserController {
     private UserDao userDao;
     @Autowired
     private BookDao bookDao;
+    @Autowired
+    private DataDao dataDao;
 
     private Book book;
 
@@ -63,6 +66,7 @@ public class UserController {
         bookDao.findAll();
         model.addAttribute("books",bookDao.findAll());
         model.addAttribute("users",userDao.findAll());
+        model.addAttribute("data",dataDao.findAll());
 
         return "forBook";
     }
@@ -103,21 +107,5 @@ public class UserController {
         userDao.save(users);
         return "redirect:/databases/view";
     }
-//    @Transactional("userTransactionManager")
-//    public void connect(){
-//        String url="jdbc:mysql://localhost:3306/datasource1?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
-//        String username="spring";
-//        String password="P@ssword1";
-//
-//        try(Connection conn= DriverManager.getConnection(url,username,password);
-//            Statement statement=conn.createStatement()) {
-//            Class.forName("com.mysql.cj.jdbc.Driver");
-//            statement.execute("select 1");
-//            System.out.println("connected");
-//        }
-//        catch(SQLException | ClassNotFoundException e){
-//            System.out.println(e.getMessage());
-//        }
-//    }
 
 }

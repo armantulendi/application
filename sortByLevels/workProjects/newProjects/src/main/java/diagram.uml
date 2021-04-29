@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="273.0" y="1328.0">com.example.withfront.config.EncriptionConfig</node>
+    <node x="36.5" y="412.0">com.example.withfront.config.UserDBConfig</node>
+    <node x="417.5578703703703" y="1121.0">com.example.withfront.repo.subscriber.DrRulesRepo</node>
+    <node x="120.0" y="129.0">com.example.withfront.model.User</node>
+    <node x="1151.6134259259259" y="815.0">com.example.withfront.config.SubscriberConfig</node>
+    <node x="255.44675925925927" y="1204.0">com.example.withfront.controller.RulesController</node>
+    <node x="66.13888888888886" y="647.0">com.example.withfront.controller.UserController</node>
+    <node x="966.9045454545455" y="0.0">com.example.withfront.model.Subscriber</node>
+    <node x="510.0" y="1328.0">com.example.withfront.controller.MainController</node>
+    <node x="893.3634259259259" y="815.0">com.example.withfront.model.Book</node>
+    <node x="255.45" y="495.0">com.example.withfront.service.UserService</node>
+    <node x="524.488425925926" y="1204.0">com.example.withfront.controller.GroupsController</node>
+    <node x="214.38888888888883" y="412.0">com.example.withfront.repo.user.UserRepo</node>
+    <node x="390.3078703703704" y="815.0">com.example.withfront.model.DrRules</node>
+    <node x="729.0" y="1328.0">com.example.withfront.config.MvcConfig</node>
+    <node x="310.5578703703703" y="1121.0">com.example.withfront.service.Ssh</node>
+    <node x="333.45" y="680.0">com.example.withfront.config.WebSecurityConfig</node>
+    <node x="124.55787037037038" y="1121.0">com.example.withfront.repo.subscriber.DrGatewayRepo</node>
+    <node x="636.6134259259259" y="1121.0">com.example.withfront.repo.subscriber.DrGroupsRepo</node>
+    <node x="569.4745370370371" y="859.0">com.example.withfront.model.DrGroups</node>
+    <node x="0.0" y="1328.0">com.example.withfront.WithfrontApplication</node>
+    <node x="894.1545454545455" y="522.0">com.example.withfront.controller.SubscribeController</node>
+    <node x="101.80787037037038" y="837.0">com.example.withfront.model.DrGateway</node>
+    <node x="837.6134259259259" y="1033.0">com.example.withfront.config.BookConfig</node>
+    <node x="161.0" y="0.0">com.example.withfront.model.Role</node>
+    <node x="649.7" y="392.0">com.example.withfront.service.SubscriberService</node>
+    <node x="995.6134259259259" y="1033.0">com.example.withfront.repo.book.BookDao</node>
+    <node x="904.95" y="274.5">com.example.withfront.repo.subscriber.SubscriberRepo</node>
+    <node x="589.95" y="240.0">com.example.withfront.exception.RecordNotFoundException</node>
+    <node x="0.0" y="1204.0">com.example.withfront.controller.ControlInputRoutes</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.withfront.controller.ControlInputRoutes" target="com.example.withfront.model.DrGateway">
+      <point x="0.0" y="-39.5" />
+      <point x="109.5" y="1184.0" />
+      <point x="104.4467592592593" y="1184.0" />
+      <point x="104.4467592592593" y="1101.0" />
+      <point x="155.05787037037038" y="1101.0" />
+      <point x="-17.75" y="106.0" />
+    </edge>
+    <edge source="com.example.withfront.controller.SubscribeController" target="com.example.withfront.model.Subscriber">
+      <point x="29.375" y="-39.5" />
+      <point x="1041.0295454545455" y="502.0" />
+      <point x="1089.45" y="502.0" />
+      <point x="1089.45" y="220.0" />
+      <point x="1053.1545454545455" y="220.0" />
+      <point x="17.25" y="95.0" />
+    </edge>
+    <edge source="com.example.withfront.controller.SubscribeController" target="com.example.withfront.service.SubscriberService">
+      <point x="-88.125" y="-39.5" />
+      <point x="923.5295454545455" y="502.0" />
+      <point x="766.7" y="502.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.example.withfront.controller.RulesController" target="com.example.withfront.repo.subscriber.DrRulesRepo">
+      <point x="91.25" y="-39.5" />
+      <point x="456.19675925925924" y="1184.0" />
+      <point x="454.3078703703703" y="1184.0" />
+      <point x="-36.75" y="16.5" />
+    </edge>
+    <edge source="com.example.withfront.repo.subscriber.DrGatewayRepo" target="com.example.withfront.model.DrGateway">
+      <point x="0.0" y="-16.5" />
+      <point x="207.05787037037038" y="1101.0" />
+      <point x="190.55787037037038" y="1101.0" />
+      <point x="17.75" y="106.0" />
+    </edge>
+    <edge source="com.example.withfront.repo.subscriber.DrGroupsRepo" target="com.example.withfront.model.DrGroups">
+      <point x="0.0" y="-16.5" />
+      <point x="714.6134259259259" y="1101.0" />
+      <point x="687.8078703703704" y="1101.0" />
+      <point x="47.33333333333337" y="84.0" />
+    </edge>
+    <edge source="com.example.withfront.service.UserService" target="com.example.withfront.model.Role">
+      <point x="79.33333333333331" y="-51.0" />
+      <point x="453.7833333333333" y="470.0" />
+      <point x="403.5805555555555" y="470.0" />
+      <point x="403.5805555555555" y="99.0" />
+      <point x="234.5" y="99.0" />
+      <point x="31.5" y="39.5" />
+    </edge>
+    <edge source="com.example.withfront.controller.UserController" target="com.example.withfront.model.User">
+      <point x="-47.599999999999966" y="-61.5" />
+      <point x="137.5388888888889" y="617.0" />
+      <point x="26.0" y="617.0" />
+      <point x="26.0" y="382.0" />
+      <point x="136.60000000000002" y="382.0" />
+      <point x="-66.39999999999998" y="116.5" />
+    </edge>
+    <edge source="com.example.withfront.controller.RulesController" target="com.example.withfront.service.Ssh">
+      <point x="-18.25" y="-39.5" />
+      <point x="346.69675925925924" y="1184.0" />
+      <point x="348.0578703703703" y="1184.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="com.example.withfront.service.SubscriberService" target="com.example.withfront.model.Subscriber">
+      <point x="-87.75" y="-40.0" />
+      <point x="678.95" y="372.0" />
+      <point x="579.45" y="372.0" />
+      <point x="579.45" y="220.0" />
+      <point x="984.1545454545455" y="220.0" />
+      <point x="-51.75" y="95.0" />
+    </edge>
+    <edge source="com.example.withfront.controller.GroupsController" target="com.example.withfront.model.DrGroups">
+      <point x="0.0" y="-39.5" />
+      <point x="626.988425925926" y="1184.0" />
+      <point x="615.113425925926" y="1184.0" />
+      <point x="615.113425925926" y="1091.0" />
+      <point x="593.1412037037037" y="1091.0" />
+      <point x="-47.33333333333337" y="84.0" />
+    </edge>
+    <edge source="com.example.withfront.controller.GroupsController" target="com.example.withfront.model.DrRules">
+      <point x="-41.0" y="-39.5" />
+      <point x="585.988425925926" y="1184.0" />
+      <point x="590.9328703703703" y="1184.0" />
+      <point x="590.9328703703703" y="1101.0" />
+      <point x="514.5578703703703" y="1101.0" />
+      <point x="53.25" y="128.0" />
+    </edge>
+    <edge source="com.example.withfront.controller.RulesController" target="com.example.withfront.model.DrRules">
+      <point x="18.25" y="-39.5" />
+      <point x="383.19675925925924" y="1184.0" />
+      <point x="396.0578703703703" y="1184.0" />
+      <point x="396.0578703703703" y="1091.0" />
+      <point x="408.0578703703704" y="1091.0" />
+      <point x="-53.25" y="128.0" />
+    </edge>
+    <edge source="com.example.withfront.controller.UserController" target="com.example.withfront.service.UserService">
+      <point x="95.20000000000005" y="-61.5" />
+      <point x="280.3388888888889" y="627.0" />
+      <point x="314.95" y="627.0" />
+      <point x="-59.5" y="51.0" />
+    </edge>
+    <edge source="com.example.withfront.controller.UserController" target="com.example.withfront.repo.user.UserRepo">
+      <point x="47.60000000000002" y="-61.5" />
+      <point x="232.73888888888888" y="627.0" />
+      <point x="244.38888888888883" y="627.0" />
+      <point x="-30.0" y="16.5" />
+    </edge>
+    <edge source="com.example.withfront.config.BookConfig" target="com.example.withfront.model.Book">
+      <point x="0.0" y="-16.5" />
+      <point x="906.6134259259259" y="1008.0" />
+      <point x="936.1134259259259" y="1008.0" />
+      <point x="-42.75" y="84.0" />
+    </edge>
+    <edge source="com.example.withfront.service.UserService" target="com.example.withfront.model.User">
+      <point x="0.0" y="-51.0" />
+      <point x="374.45" y="470.0" />
+      <point x="392.5805555555555" y="470.0" />
+      <point x="392.5805555555555" y="382.0" />
+      <point x="269.4" y="382.0" />
+      <point x="66.39999999999998" y="116.5" />
+    </edge>
+    <edge source="com.example.withfront.repo.subscriber.DrRulesRepo" target="com.example.withfront.model.DrRules">
+      <point x="5.6843418860808015E-14" y="-16.5" />
+      <point x="491.0578703703704" y="1101.0" />
+      <point x="479.0578703703704" y="1101.0" />
+      <point x="17.75" y="128.0" />
+    </edge>
+    <edge source="com.example.withfront.controller.GroupsController" target="com.example.withfront.repo.subscriber.DrRulesRepo">
+      <point x="-82.0" y="-39.5" />
+      <point x="544.988425925926" y="1184.0" />
+      <point x="527.8078703703704" y="1184.0" />
+      <point x="36.75000000000006" y="16.5" />
+    </edge>
+    <edge source="com.example.withfront.controller.GroupsController" target="com.example.withfront.repo.subscriber.DrGroupsRepo">
+      <point x="82.0" y="-39.5" />
+      <point x="708.988425925926" y="1184.0" />
+      <point x="714.6134259259259" y="1184.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="com.example.withfront.controller.SubscribeController" target="com.example.withfront.repo.subscriber.SubscriberRepo">
+      <point x="-29.375" y="-39.5" />
+      <point x="982.2795454545455" y="492.0" />
+      <point x="1039.6545454545455" y="492.0" />
+      <point x="1039.6545454545455" y="372.0" />
+      <point x="1049.95" y="372.0" />
+      <point x="58.0" y="16.5" />
+    </edge>
+    <edge source="com.example.withfront.config.UserDBConfig" target="com.example.withfront.model.User">
+      <point x="0.0" y="-16.5" />
+      <point x="114.5" y="392.0" />
+      <point x="169.8" y="392.0" />
+      <point x="-33.19999999999999" y="116.5" />
+    </edge>
+    <edge source="com.example.withfront.controller.RulesController" target="com.example.withfront.model.DrGateway">
+      <point x="-54.75" y="-39.5" />
+      <point x="310.19675925925924" y="1184.0" />
+      <point x="300.0578703703703" y="1184.0" />
+      <point x="300.0578703703703" y="1101.0" />
+      <point x="226.05787037037038" y="1101.0" />
+      <point x="53.25" y="106.0" />
+    </edge>
+    <edge source="com.example.withfront.service.UserService" target="com.example.withfront.repo.user.UserRepo">
+      <point x="-79.33333333333331" y="-51.0" />
+      <point x="295.1166666666667" y="470.0" />
+      <point x="304.3888888888888" y="470.0" />
+      <point x="30.0" y="16.5" />
+    </edge>
+    <edge source="com.example.withfront.model.User" target="com.example.withfront.model.Role">
+      <point x="41.5" y="-116.5" />
+      <point x="244.5" y="109.0" />
+      <point x="213.5" y="109.0" />
+      <point x="10.5" y="39.5" />
+    </edge>
+    <edge source="com.example.withfront.service.SubscriberService" target="com.example.withfront.repo.subscriber.SubscriberRepo">
+      <point x="87.75" y="-40.0" />
+      <point x="854.45" y="372.0" />
+      <point x="991.95" y="372.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="com.example.withfront.service.SubscriberService" target="com.example.withfront.exception.RecordNotFoundException">
+      <point x="-29.25" y="-40.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="com.example.withfront.config.WebSecurityConfig" target="com.example.withfront.service.UserService">
+      <point x="0.0" y="-28.5" />
+      <point x="59.5" y="51.0" />
+    </edge>
+    <edge source="com.example.withfront.controller.RulesController" target="com.example.withfront.repo.subscriber.DrGatewayRepo">
+      <point x="-91.25" y="-39.5" />
+      <point x="273.69675925925924" y="1184.0" />
+      <point x="248.30787037037038" y="1184.0" />
+      <point x="41.25" y="16.5" />
+    </edge>
+    <edge source="com.example.withfront.repo.user.UserRepo" target="com.example.withfront.model.User">
+      <point x="0.0" y="-16.5" />
+      <point x="274.3888888888888" y="392.0" />
+      <point x="236.2" y="392.0" />
+      <point x="33.19999999999999" y="116.5" />
+    </edge>
+    <edge source="com.example.withfront.controller.UserController" target="com.example.withfront.model.Role">
+      <point x="-95.19999999999993" y="-61.5" />
+      <point x="89.93888888888893" y="627.0" />
+      <point x="11.330555555555577" y="627.0" />
+      <point x="11.330555555555577" y="99.0" />
+      <point x="171.5" y="99.0" />
+      <point x="-31.5" y="39.5" />
+    </edge>
+    <edge source="com.example.withfront.controller.ControlInputRoutes" target="com.example.withfront.repo.subscriber.DrGatewayRepo">
+      <point x="73.0" y="-39.5" />
+      <point x="182.5" y="1184.0" />
+      <point x="165.80787037037038" y="1184.0" />
+      <point x="-41.25" y="16.5" />
+    </edge>
+    <edge source="com.example.withfront.repo.book.BookDao" target="com.example.withfront.model.Book">
+      <point x="0.0" y="-16.5" />
+      <point x="1051.1134259259259" y="1008.0" />
+      <point x="1021.6134259259259" y="1008.0" />
+      <point x="42.75" y="84.0" />
+    </edge>
+    <edge source="com.example.withfront.repo.subscriber.SubscriberRepo" target="com.example.withfront.model.Subscriber">
+      <point x="0.0" y="-16.5" />
+      <point x="991.95" y="220.0" />
+      <point x="1018.6545454545455" y="220.0" />
+      <point x="-17.25" y="95.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="561.1111111111111" y="1070.888888888889" />
+  <SelectedNodes>
+    <node>com.example.withfront.config.EncriptionConfig</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

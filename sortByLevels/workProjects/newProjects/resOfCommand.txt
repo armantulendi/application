@@ -1,0 +1,2381 @@
+Wed Mar 31 15:04:01 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 15:04:01 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #1
+Wed Mar 31 15:04:01 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80d6f5b36d90eb118e5ba8ed6e6e3c59;rport.
+Wed Mar 31 15:04:01 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:04:01 ALMT 2021: CSeq: 197 REGISTER.
+Wed Mar 31 15:04:01 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGQ8GGBkOuzSKqgmEkmj5liPZG9+fL6M", uri="sip:sip-proxy1.dom.loc", response="470b401a7666fbf7bbde790c83683630", algorithm=MD5.
+Wed Mar 31 15:04:01 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:04:01 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:04:01 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:04:01 ALMT 2021: 
+Wed Mar 31 15:04:01 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #2
+Wed Mar 31 15:04:01 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80d6f5b36d90eb118e5ba8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:04:01 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:04:01 ALMT 2021: CSeq: 197 REGISTER.
+Wed Mar 31 15:04:01 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:04:01 ALMT 2021: 
+Wed Mar 31 15:04:01 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #3
+Wed Mar 31 15:04:01 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80d6f5b36d90eb118e60a8ed6e6e3c59;rport.
+Wed Mar 31 15:04:01 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:04:01 ALMT 2021: CSeq: 198 REGISTER.
+Wed Mar 31 15:04:01 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:04:01 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:04:01 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:04:01 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:04:01 ALMT 2021: 
+Wed Mar 31 15:04:01 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #4
+Wed Mar 31 15:04:01 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80d6f5b36d90eb118e60a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:04:01 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:04:01 ALMT 2021: CSeq: 198 REGISTER.
+Wed Mar 31 15:04:01 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:04:01 ALMT 2021: .
+Wed Mar 31 15:04:01 ALMT 2021: #
+Wed Mar 31 15:04:01 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:04:01 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=376266634.
+Wed Mar 31 15:04:01 ALMT 2021: Call-ID: 80D6F5B3-6D90-EB11-8E5D-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:04:01 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:04:01 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:04:01 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:04:01 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:04:01 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:04:01 ALMT 2021: 
+Wed Mar 31 15:04:11 ALMT 2021: null
+Wed Mar 31 15:04:27 ALMT 2021: null
+Wed Mar 31 15:05:00 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 15:05:00 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #1
+Wed Mar 31 15:05:00 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK008620d76d90eb118e6ca8ed6e6e3c59;rport.
+Wed Mar 31 15:05:00 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:05:00 ALMT 2021: CSeq: 206 REGISTER.
+Wed Mar 31 15:05:00 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGQ8aWBkOz0IMXh197feaaiYM4qMDc+0", uri="sip:sip-proxy1.dom.loc", response="8d97d68dfef85b07da7eb066c8e6e889", algorithm=MD5.
+Wed Mar 31 15:05:00 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:05:00 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:05:00 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:05:00 ALMT 2021: 
+Wed Mar 31 15:05:00 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #2
+Wed Mar 31 15:05:00 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK008620d76d90eb118e6ca8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:05:00 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:05:00 ALMT 2021: CSeq: 206 REGISTER.
+Wed Mar 31 15:05:00 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:05:00 ALMT 2021: 
+Wed Mar 31 15:05:00 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #3
+Wed Mar 31 15:05:00 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK008620d76d90eb118e71a8ed6e6e3c59;rport.
+Wed Mar 31 15:05:00 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:05:00 ALMT 2021: CSeq: 207 REGISTER.
+Wed Mar 31 15:05:00 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:05:00 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:05:00 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:05:00 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:05:00 ALMT 2021: 
+Wed Mar 31 15:05:00 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #4
+Wed Mar 31 15:05:00 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK008620d76d90eb118e71a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:05:00 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:05:00 ALMT 2021: CSeq: 207 REGISTER.
+Wed Mar 31 15:05:00 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:05:00 ALMT 2021: .
+Wed Mar 31 15:05:00 ALMT 2021: #
+Wed Mar 31 15:05:00 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:05:00 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=3336161208.
+Wed Mar 31 15:05:00 ALMT 2021: Call-ID: 008620D7-6D90-EB11-8E6E-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:05:00 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:05:00 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:05:00 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:05:00 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:05:00 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:05:00 ALMT 2021: 
+Wed Mar 31 15:05:06 ALMT 2021: null
+Wed Mar 31 15:08:05 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 15:08:05 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #1
+Wed Mar 31 15:08:05 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK804865456e90eb118e72a8ed6e6e3c59;rport.
+Wed Mar 31 15:08:05 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:08:05 ALMT 2021: CSeq: 209 REGISTER.
+Wed Mar 31 15:08:05 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGQ8fGBkO1CjCnO3FCcXcuC+8EvxFZTD", uri="sip:sip-proxy1.dom.loc", response="2f2f4eede74b7f07dae4c16e4def47d6", algorithm=MD5.
+Wed Mar 31 15:08:05 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:08:05 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:08:05 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:08:05 ALMT 2021: 
+Wed Mar 31 15:08:05 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #2
+Wed Mar 31 15:08:05 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK804865456e90eb118e72a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:08:05 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:08:05 ALMT 2021: CSeq: 209 REGISTER.
+Wed Mar 31 15:08:05 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:08:05 ALMT 2021: 
+Wed Mar 31 15:08:05 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #3
+Wed Mar 31 15:08:05 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK804865456e90eb118e77a8ed6e6e3c59;rport.
+Wed Mar 31 15:08:05 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:08:05 ALMT 2021: CSeq: 210 REGISTER.
+Wed Mar 31 15:08:05 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:08:05 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:08:05 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:08:05 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:08:05 ALMT 2021: 
+Wed Mar 31 15:08:05 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #4
+Wed Mar 31 15:08:05 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK804865456e90eb118e77a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:08:05 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:08:05 ALMT 2021: CSeq: 210 REGISTER.
+Wed Mar 31 15:08:05 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:08:05 ALMT 2021: .
+Wed Mar 31 15:08:05 ALMT 2021: #
+Wed Mar 31 15:08:05 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:08:05 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=741704170.
+Wed Mar 31 15:08:05 ALMT 2021: Call-ID: 80486545-6E90-EB11-8E74-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:08:05 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:08:05 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:08:05 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:08:05 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:08:05 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:08:05 ALMT 2021: 
+Wed Mar 31 15:08:11 ALMT 2021: null
+Wed Mar 31 15:08:33 ALMT 2021: null
+Wed Mar 31 15:08:43 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 15:08:43 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #1
+Wed Mar 31 15:08:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bK45e75f86b158e6367.
+Wed Mar 31 15:08:43 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:08:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:08:43 ALMT 2021: CSeq: 27904 PING.
+Wed Mar 31 15:08:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:08:43 ALMT 2021: 
+Wed Mar 31 15:09:43 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #2
+Wed Mar 31 15:09:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bK45e75f86b158e6367;rport=5060.
+Wed Mar 31 15:09:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:09:43 ALMT 2021: CSeq: 27904 PING.
+Wed Mar 31 15:09:43 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:09:43 ALMT 2021: .
+Wed Mar 31 15:09:43 ALMT 2021: #
+Wed Mar 31 15:09:43 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 15:09:43 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 15:09:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:09:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:09:43 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 15:09:43 ALMT 2021: .
+Wed Mar 31 15:10:27 ALMT 2021: #
+Wed Mar 31 15:10:27 ALMT 2021: null
+Wed Mar 31 15:11:43 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 15:11:43 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #1
+Wed Mar 31 15:11:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKb64670c09fee9f598.
+Wed Mar 31 15:11:43 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:11:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:11:43 ALMT 2021: CSeq: 27907 PING.
+Wed Mar 31 15:11:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:11:43 ALMT 2021: 
+Wed Mar 31 15:11:48 ALMT 2021: null
+Wed Mar 31 15:12:26 ALMT 2021: null
+Wed Mar 31 15:12:43 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 15:12:43 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #1
+Wed Mar 31 15:12:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKcea9b5d767c9309cd.
+Wed Mar 31 15:12:43 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:12:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:12:43 ALMT 2021: CSeq: 27908 PING.
+Wed Mar 31 15:12:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:12:43 ALMT 2021: 
+Wed Mar 31 15:12:43 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #2
+Wed Mar 31 15:12:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKcea9b5d767c9309cd;rport=5060.
+Wed Mar 31 15:12:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:12:43 ALMT 2021: CSeq: 27908 PING.
+Wed Mar 31 15:12:43 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:12:43 ALMT 2021: .
+Wed Mar 31 15:12:43 ALMT 2021: #
+Wed Mar 31 15:12:43 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:12:43 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=741704170.
+Wed Mar 31 15:12:43 ALMT 2021: Call-ID: 80486545-6E90-EB11-8E74-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:12:43 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;Expires=0;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:12:43 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:12:43 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 15:12:43 ALMT 2021: Expires: 0.
+Wed Mar 31 15:12:43 ALMT 2021: .
+Wed Mar 31 15:12:44 ALMT 2021: #
+Wed Mar 31 15:12:44 ALMT 2021: SIP/2.0 200 OK.
+Wed Mar 31 15:12:44 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=741704170.
+Wed Mar 31 15:12:44 ALMT 2021: Call-ID: 80486545-6E90-EB11-8E74-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:12:44 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:12:44 ALMT 2021: .
+Wed Mar 31 15:12:44 ALMT 2021: #
+Wed Mar 31 15:12:44 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:12:44 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=3000444125.
+Wed Mar 31 15:12:44 ALMT 2021: Call-ID: 004EB1EB-6E90-EB11-8E79-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:12:44 ALMT 2021: Contact: <sip:1002@10.22.33.17:5061>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:12:44 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:12:44 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 15:12:44 ALMT 2021: Expires: 600.
+Wed Mar 31 15:12:44 ALMT 2021: .
+Wed Mar 31 15:12:44 ALMT 2021: #
+Wed Mar 31 15:12:44 ALMT 2021: SIP/2.0 401 Unauthorized.
+Wed Mar 31 15:12:44 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=3000444125.
+Wed Mar 31 15:12:44 ALMT 2021: Call-ID: 004EB1EB-6E90-EB11-8E79-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:12:44 ALMT 2021: WWW-Authenticate: Digest realm="sip-proxy1.dom.loc", nonce="YGQ+TGBkPSCEjrk0TNmKK7LZwtB1Vgbm".
+Wed Mar 31 15:12:44 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:12:44 ALMT 2021: 
+Wed Mar 31 15:12:44 ALMT 2021: U 10.22.33.17:5061 -> 192.168.17.81:5060 #7
+Wed Mar 31 15:12:44 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK004eb1eb6e90eb118e7da8ed6e6e3c59;rport.
+Wed Mar 31 15:12:44 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:12:44 ALMT 2021: CSeq: 214 REGISTER.
+Wed Mar 31 15:12:44 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGQ+TGBkPSCEjrk0TNmKK7LZwtB1Vgbm", uri="sip:sip-proxy1.dom.loc", response="6990bb531826d51f950086dbf779e8bc", algorithm=MD5.
+Wed Mar 31 15:12:44 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:12:44 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 15:12:44 ALMT 2021: Expires: 600.
+Wed Mar 31 15:12:44 ALMT 2021: .
+Wed Mar 31 15:13:05 ALMT 2021: #
+Wed Mar 31 15:13:05 ALMT 2021: null
+Wed Mar 31 15:13:42 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 15:13:42 ALMT 2021: U 10.22.33.17:5061 -> 192.168.17.81:5060 #1
+Wed Mar 31 15:13:42 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK0067430e6f90eb118e7da8ed6e6e3c59;rport.
+Wed Mar 31 15:13:42 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:13:42 ALMT 2021: CSeq: 215 REGISTER.
+Wed Mar 31 15:13:42 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGQ+TGBkPSCEjrk0TNmKK7LZwtB1Vgbm", uri="sip:sip-proxy1.dom.loc", response="6990bb531826d51f950086dbf779e8bc", algorithm=MD5.
+Wed Mar 31 15:13:42 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:13:42 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:13:42 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:13:42 ALMT 2021: 
+Wed Mar 31 15:13:42 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5061 #2
+Wed Mar 31 15:13:42 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK0067430e6f90eb118e7da8ed6e6e3c59;rport=5061;received=10.22.33.17.
+Wed Mar 31 15:13:42 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.1795d2ff.
+Wed Mar 31 15:13:42 ALMT 2021: CSeq: 215 REGISTER.
+Wed Mar 31 15:13:42 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:13:42 ALMT 2021: 
+Wed Mar 31 15:13:42 ALMT 2021: U 10.22.33.17:5061 -> 192.168.17.81:5060 #3
+Wed Mar 31 15:13:42 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK0067430e6f90eb118e82a8ed6e6e3c59;rport.
+Wed Mar 31 15:13:42 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:13:42 ALMT 2021: CSeq: 216 REGISTER.
+Wed Mar 31 15:13:42 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:13:42 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:13:42 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:13:42 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:13:42 ALMT 2021: 
+Wed Mar 31 15:13:42 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5061 #4
+Wed Mar 31 15:13:42 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK0067430e6f90eb118e82a8ed6e6e3c59;rport=5061;received=10.22.33.17.
+Wed Mar 31 15:13:42 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.1795d2ff.
+Wed Mar 31 15:13:42 ALMT 2021: CSeq: 216 REGISTER.
+Wed Mar 31 15:13:42 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:13:42 ALMT 2021: .
+Wed Mar 31 15:13:42 ALMT 2021: #
+Wed Mar 31 15:13:42 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:13:42 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=125793202.
+Wed Mar 31 15:13:42 ALMT 2021: Call-ID: 0067430E-6F90-EB11-8E7F-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:13:42 ALMT 2021: Contact: <sip:1002@10.22.33.17:5061>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:13:42 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:13:42 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:13:42 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:13:42 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:13:42 ALMT 2021: 
+Wed Mar 31 15:13:43 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5061 #6
+Wed Mar 31 15:13:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK0067430e6f90eb118e83a8ed6e6e3c59;rport=5061;received=10.22.33.17.
+Wed Mar 31 15:13:43 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.1795d2ff.
+Wed Mar 31 15:13:43 ALMT 2021: CSeq: 217 REGISTER.
+Wed Mar 31 15:13:43 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:13:43 ALMT 2021: .
+Wed Mar 31 15:13:43 ALMT 2021: #
+Wed Mar 31 15:13:43 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 15:13:43 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 15:13:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:13:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:13:43 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 15:13:43 ALMT 2021: .
+Wed Mar 31 15:13:45 ALMT 2021: #
+Wed Mar 31 15:17:00 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 15:17:00 ALMT 2021: U 10.22.33.17:5061 -> 192.168.17.81:5060 #1
+Wed Mar 31 15:17:00 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK00ce47846f90eb118e83a8ed6e6e3c59;rport.
+Wed Mar 31 15:17:00 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:17:00 ALMT 2021: CSeq: 218 REGISTER.
+Wed Mar 31 15:17:00 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGQ+h2BkPVtPgaf4NiJi8IzjlFuJeP2i", uri="sip:sip-proxy1.dom.loc", response="60c2ca8786b800079ef528d1e159b0c1", algorithm=MD5.
+Wed Mar 31 15:17:00 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:17:00 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:17:00 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:17:00 ALMT 2021: 
+Wed Mar 31 15:17:01 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5061 #2
+Wed Mar 31 15:17:01 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK00ce47846f90eb118e83a8ed6e6e3c59;rport=5061;received=10.22.33.17.
+Wed Mar 31 15:17:01 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.1795d2ff.
+Wed Mar 31 15:17:01 ALMT 2021: CSeq: 218 REGISTER.
+Wed Mar 31 15:17:01 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:17:01 ALMT 2021: 
+Wed Mar 31 15:17:01 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #3
+Wed Mar 31 15:17:01 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00ce47846f90eb118e88a8ed6e6e3c59;rport.
+Wed Mar 31 15:17:01 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:17:01 ALMT 2021: CSeq: 219 REGISTER.
+Wed Mar 31 15:17:01 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:17:01 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:17:01 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:17:01 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:17:01 ALMT 2021: 
+Wed Mar 31 15:17:01 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #4
+Wed Mar 31 15:17:01 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00ce47846f90eb118e88a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:17:01 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:17:01 ALMT 2021: CSeq: 219 REGISTER.
+Wed Mar 31 15:17:01 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:17:01 ALMT 2021: .
+Wed Mar 31 15:17:01 ALMT 2021: #
+Wed Mar 31 15:17:01 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:17:01 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2067026736.
+Wed Mar 31 15:17:01 ALMT 2021: Call-ID: 00CE4784-6F90-EB11-8E85-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:17:01 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:17:01 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:17:01 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:17:01 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:17:01 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:17:01 ALMT 2021: 
+Wed Mar 31 15:17:05 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #6
+Wed Mar 31 15:17:05 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK8064e0846f90eb118e88a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:17:05 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:17:05 ALMT 2021: CSeq: 220 REGISTER.
+Wed Mar 31 15:17:05 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:17:05 ALMT 2021: .
+Wed Mar 31 15:17:05 ALMT 2021: #
+Wed Mar 31 15:17:05 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:17:05 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2067026736.
+Wed Mar 31 15:17:05 ALMT 2021: Call-ID: 00CE4784-6F90-EB11-8E85-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:17:05 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;Expires=0;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:17:05 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:17:05 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 15:17:05 ALMT 2021: Expires: 0.
+Wed Mar 31 15:17:05 ALMT 2021: .
+Wed Mar 31 15:17:05 ALMT 2021: #
+Wed Mar 31 15:17:05 ALMT 2021: SIP/2.0 200 OK.
+Wed Mar 31 15:17:05 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2067026736.
+Wed Mar 31 15:17:05 ALMT 2021: Call-ID: 00CE4784-6F90-EB11-8E85-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:17:05 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:17:05 ALMT 2021: .
+Wed Mar 31 15:17:05 ALMT 2021: #
+Wed Mar 31 15:17:05 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:17:05 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2553771913.
+Wed Mar 31 15:17:05 ALMT 2021: Call-ID: 80BE4287-6F90-EB11-8E8A-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:17:05 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:17:05 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:17:05 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 15:17:05 ALMT 2021: Expires: 600.
+Wed Mar 31 15:17:05 ALMT 2021: .
+Wed Mar 31 15:17:05 ALMT 2021: #
+Wed Mar 31 15:17:05 ALMT 2021: SIP/2.0 401 Unauthorized.
+Wed Mar 31 15:17:05 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2553771913.
+Wed Mar 31 15:17:05 ALMT 2021: Call-ID: 80BE4287-6F90-EB11-8E8A-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:17:05 ALMT 2021: WWW-Authenticate: Digest realm="sip-proxy1.dom.loc", nonce="YGQ/UmBkPiYNvIRBwFfjv8I+YG2I4gF9".
+Wed Mar 31 15:17:05 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:17:05 ALMT 2021: 
+Wed Mar 31 15:17:05 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #11
+Wed Mar 31 15:17:05 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80be42876f90eb118e8ea8ed6e6e3c59;rport.
+Wed Mar 31 15:17:05 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:17:05 ALMT 2021: CSeq: 223 REGISTER.
+Wed Mar 31 15:17:05 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGQ/UmBkPiYNvIRBwFfjv8I+YG2I4gF9", uri="sip:sip-proxy1.dom.loc", response="45e4048d906a967c272baf37cc2be78a", algorithm=MD5.
+Wed Mar 31 15:17:05 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:17:05 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 15:17:05 ALMT 2021: Expires: 600.
+Wed Mar 31 15:17:05 ALMT 2021: .
+Wed Mar 31 15:17:06 ALMT 2021: #
+Wed Mar 31 15:18:33 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 15:18:33 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #1
+Wed Mar 31 15:18:33 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00e41dbb6f90eb118e8ea8ed6e6e3c59;rport.
+Wed Mar 31 15:18:33 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:18:33 ALMT 2021: CSeq: 224 REGISTER.
+Wed Mar 31 15:18:33 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGQ/UmBkPiYNvIRBwFfjv8I+YG2I4gF9", uri="sip:sip-proxy1.dom.loc", response="45e4048d906a967c272baf37cc2be78a", algorithm=MD5.
+Wed Mar 31 15:18:33 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:18:33 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:18:33 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:18:33 ALMT 2021: 
+Wed Mar 31 15:18:33 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #2
+Wed Mar 31 15:18:33 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00e41dbb6f90eb118e8ea8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:18:33 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:18:33 ALMT 2021: CSeq: 224 REGISTER.
+Wed Mar 31 15:18:33 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:18:33 ALMT 2021: 
+Wed Mar 31 15:18:33 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #3
+Wed Mar 31 15:18:33 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK807ab6bb6f90eb118e92a8ed6e6e3c59;rport.
+Wed Mar 31 15:18:33 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:18:33 ALMT 2021: CSeq: 225 REGISTER.
+Wed Mar 31 15:18:33 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:18:33 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:18:33 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:18:33 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:18:33 ALMT 2021: 
+Wed Mar 31 15:18:33 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #4
+Wed Mar 31 15:18:33 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK807ab6bb6f90eb118e92a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:18:33 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:18:33 ALMT 2021: CSeq: 225 REGISTER.
+Wed Mar 31 15:18:33 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:18:33 ALMT 2021: .
+Wed Mar 31 15:18:33 ALMT 2021: #
+Wed Mar 31 15:18:33 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:18:33 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2714610081.
+Wed Mar 31 15:18:33 ALMT 2021: Call-ID: 807AB6BB-6F90-EB11-8E8F-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:18:33 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:18:33 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:18:33 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:18:33 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:18:33 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:18:33 ALMT 2021: 
+Wed Mar 31 15:18:34 ALMT 2021: null
+Wed Mar 31 15:21:43 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 15:21:43 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #1
+Wed Mar 31 15:21:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKcac1cbf1ec42b5020.
+Wed Mar 31 15:21:43 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:21:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:21:43 ALMT 2021: CSeq: 27917 PING.
+Wed Mar 31 15:21:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:21:43 ALMT 2021: 
+Wed Mar 31 15:21:48 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #2
+Wed Mar 31 15:21:48 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKcac1cbf1ec42b5020;rport=5060.
+Wed Mar 31 15:21:48 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:21:48 ALMT 2021: CSeq: 27917 PING.
+Wed Mar 31 15:21:48 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:21:48 ALMT 2021: .
+Wed Mar 31 15:21:48 ALMT 2021: #
+Wed Mar 31 15:21:48 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:21:48 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2714610081.
+Wed Mar 31 15:21:48 ALMT 2021: Call-ID: 807AB6BB-6F90-EB11-8E8F-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:21:48 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;Expires=0;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:21:48 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:21:48 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 15:21:48 ALMT 2021: Expires: 0.
+Wed Mar 31 15:21:48 ALMT 2021: .
+Wed Mar 31 15:21:48 ALMT 2021: #
+Wed Mar 31 15:21:48 ALMT 2021: SIP/2.0 200 OK.
+Wed Mar 31 15:21:48 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2714610081.
+Wed Mar 31 15:21:48 ALMT 2021: Call-ID: 807AB6BB-6F90-EB11-8E8F-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:21:48 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:21:48 ALMT 2021: .
+Wed Mar 31 15:21:48 ALMT 2021: #
+Wed Mar 31 15:21:48 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:21:48 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1880273089.
+Wed Mar 31 15:21:48 ALMT 2021: Call-ID: 001EF12F-7090-EB11-8E94-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:21:48 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:21:48 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:21:48 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 15:21:48 ALMT 2021: Expires: 600.
+Wed Mar 31 15:21:48 ALMT 2021: .
+Wed Mar 31 15:21:48 ALMT 2021: #
+Wed Mar 31 15:21:48 ALMT 2021: SIP/2.0 401 Unauthorized.
+Wed Mar 31 15:21:48 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1880273089.
+Wed Mar 31 15:21:48 ALMT 2021: Call-ID: 001EF12F-7090-EB11-8E94-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:21:48 ALMT 2021: WWW-Authenticate: Digest realm="sip-proxy1.dom.loc", nonce="YGRAbGBkP0DvxDpzbotXy8j7w9kgGPLM".
+Wed Mar 31 15:21:48 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:21:48 ALMT 2021: 
+Wed Mar 31 15:21:48 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #7
+Wed Mar 31 15:21:48 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK001ef12f7090eb118e98a8ed6e6e3c59;rport.
+Wed Mar 31 15:21:48 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:21:48 ALMT 2021: CSeq: 229 REGISTER.
+Wed Mar 31 15:21:48 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRAbGBkP0DvxDpzbotXy8j7w9kgGPLM", uri="sip:sip-proxy1.dom.loc", response="496b320839c7630edb3499b6c4e04010", algorithm=MD5.
+Wed Mar 31 15:21:48 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:21:48 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 15:21:48 ALMT 2021: Expires: 600.
+Wed Mar 31 15:21:48 ALMT 2021: .
+Wed Mar 31 15:22:09 ALMT 2021: #
+Wed Mar 31 15:22:37 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 15:22:37 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #1
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e98a8ed6e6e3c59;rport.
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 230 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRAbGBkP0DvxDpzbotXy8j7w9kgGPLM", uri="sip:sip-proxy1.dom.loc", response="496b320839c7630edb3499b6c4e04010", algorithm=MD5.
+Wed Mar 31 15:22:37 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:22:37 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:37 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 15:22:37 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #1
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e98a8ed6e6e3c59;rport.
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 230 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRAbGBkP0DvxDpzbotXy8j7w9kgGPLM", uri="sip:sip-proxy1.dom.loc", response="496b320839c7630edb3499b6c4e04010", algorithm=MD5.
+Wed Mar 31 15:22:37 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:22:37 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:37 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 15:22:37 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #1
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e98a8ed6e6e3c59;rport.
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 230 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRAbGBkP0DvxDpzbotXy8j7w9kgGPLM", uri="sip:sip-proxy1.dom.loc", response="496b320839c7630edb3499b6c4e04010", algorithm=MD5.
+Wed Mar 31 15:22:37 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:22:37 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:37 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 15:22:37 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #1
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e98a8ed6e6e3c59;rport.
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 230 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRAbGBkP0DvxDpzbotXy8j7w9kgGPLM", uri="sip:sip-proxy1.dom.loc", response="496b320839c7630edb3499b6c4e04010", algorithm=MD5.
+Wed Mar 31 15:22:37 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:22:37 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:37 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 15:22:37 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #1
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e98a8ed6e6e3c59;rport.
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 230 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRAbGBkP0DvxDpzbotXy8j7w9kgGPLM", uri="sip:sip-proxy1.dom.loc", response="496b320839c7630edb3499b6c4e04010", algorithm=MD5.
+Wed Mar 31 15:22:37 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:22:37 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:37 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #2
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e98a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 230 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:37 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #3
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e9da8ed6e6e3c59;rport.
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 231 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:22:37 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:22:37 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:37 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #4
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e9da8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 231 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:22:37 ALMT 2021: .
+Wed Mar 31 15:22:37 ALMT 2021: #
+Wed Mar 31 15:22:37 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:22:37 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=172805058.
+Wed Mar 31 15:22:37 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #2
+Wed Mar 31 15:22:37 ALMT 2021: Call-ID: 80EC254D-7090-EB11-8E9A-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e98a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:22:37 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:22:37 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 230 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #3
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e9da8ed6e6e3c59;rport.
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 231 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:22:37 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:22:37 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:37 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #4
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e9da8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 231 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:22:37 ALMT 2021: .
+Wed Mar 31 15:22:37 ALMT 2021: #
+Wed Mar 31 15:22:37 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:22:37 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=172805058.
+Wed Mar 31 15:22:37 ALMT 2021: Call-ID: 80EC254D-7090-EB11-8E9A-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:22:37 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:22:37 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:22:37 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:22:37 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:37 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #2
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e98a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 230 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:37 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #3
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e9da8ed6e6e3c59;rport.
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 231 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:22:37 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:22:37 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:37 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #4
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e9da8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 231 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:22:37 ALMT 2021: .
+Wed Mar 31 15:22:37 ALMT 2021: #
+Wed Mar 31 15:22:37 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:22:37 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=172805058.
+Wed Mar 31 15:22:37 ALMT 2021: Call-ID: 80EC254D-7090-EB11-8E9A-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:22:37 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:22:37 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:22:37 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:22:37 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:37 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #2
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e98a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 230 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:37 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #3
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e9da8ed6e6e3c59;rport.
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 231 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:22:37 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:22:37 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:37 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #4
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e9da8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 231 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:22:37 ALMT 2021: .
+Wed Mar 31 15:22:37 ALMT 2021: #
+Wed Mar 31 15:22:37 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:22:37 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=172805058.
+Wed Mar 31 15:22:37 ALMT 2021: Call-ID: 80EC254D-7090-EB11-8E9A-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:22:37 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:22:37 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:22:37 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:22:37 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:37 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #2
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e98a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 230 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:37 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #3
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e9da8ed6e6e3c59;rport.
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 231 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:22:37 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:22:37 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:37 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #4
+Wed Mar 31 15:22:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e9da8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:22:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:22:37 ALMT 2021: CSeq: 231 REGISTER.
+Wed Mar 31 15:22:37 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:22:37 ALMT 2021: .
+Wed Mar 31 15:22:37 ALMT 2021: #
+Wed Mar 31 15:22:37 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:22:37 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=172805058.
+Wed Mar 31 15:22:37 ALMT 2021: Call-ID: 80EC254D-7090-EB11-8E9A-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:22:37 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:22:37 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:22:37 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:22:37 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:22:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:22:37 ALMT 2021: 
+Wed Mar 31 15:22:39 ALMT 2021: null
+Wed Mar 31 15:22:43 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #6
+Wed Mar 31 15:22:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e9ea8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:22:43 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:22:43 ALMT 2021: CSeq: 232 REGISTER.
+Wed Mar 31 15:22:43 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:22:43 ALMT 2021: .
+Wed Mar 31 15:22:43 ALMT 2021: #
+Wed Mar 31 15:22:43 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 15:22:43 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 15:22:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:22:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:22:43 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 15:22:43 ALMT 2021: .
+Wed Mar 31 15:22:43 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #6
+Wed Mar 31 15:22:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e9ea8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:22:43 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:22:43 ALMT 2021: CSeq: 232 REGISTER.
+Wed Mar 31 15:22:43 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:22:43 ALMT 2021: .
+Wed Mar 31 15:22:43 ALMT 2021: #
+Wed Mar 31 15:22:43 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 15:22:43 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 15:22:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:22:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:22:43 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 15:22:43 ALMT 2021: .
+Wed Mar 31 15:22:43 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #6
+Wed Mar 31 15:22:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e9ea8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:22:43 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:22:43 ALMT 2021: CSeq: 232 REGISTER.
+Wed Mar 31 15:22:43 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:22:43 ALMT 2021: .
+Wed Mar 31 15:22:43 ALMT 2021: #
+Wed Mar 31 15:22:43 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 15:22:43 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 15:22:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:22:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:22:43 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 15:22:43 ALMT 2021: .
+Wed Mar 31 15:22:43 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #6
+Wed Mar 31 15:22:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80ec254d7090eb118e9ea8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:22:43 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:22:43 ALMT 2021: CSeq: 232 REGISTER.
+Wed Mar 31 15:22:43 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:22:43 ALMT 2021: .
+Wed Mar 31 15:22:43 ALMT 2021: #
+Wed Mar 31 15:22:43 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 15:22:43 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 15:22:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:22:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:22:43 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 15:22:43 ALMT 2021: .
+Wed Mar 31 15:23:43 ALMT 2021: #
+Wed Mar 31 15:23:43 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Wed Mar 31 15:23:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:23:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:23:43 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGRApGBkP3i4I9zf3Ox8jhUjlf2egKnx".
+Wed Mar 31 15:23:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:23:43 ALMT 2021: 
+Wed Mar 31 15:23:43 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #9
+Wed Mar 31 15:23:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bK179dc26ae5aff49f7.
+Wed Mar 31 15:23:43 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:23:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:23:43 ALMT 2021: CSeq: 27919 PING.
+Wed Mar 31 15:23:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:23:43 ALMT 2021: 
+Wed Mar 31 15:23:43 ALMT 2021: #
+Wed Mar 31 15:23:43 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Wed Mar 31 15:23:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:23:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:23:43 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGRApGBkP3i4I9zf3Ox8jhUjlf2egKnx".
+Wed Mar 31 15:23:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:23:43 ALMT 2021: 
+Wed Mar 31 15:23:43 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #9
+Wed Mar 31 15:23:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bK179dc26ae5aff49f7.
+Wed Mar 31 15:23:43 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:23:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:23:43 ALMT 2021: CSeq: 27919 PING.
+Wed Mar 31 15:23:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:23:43 ALMT 2021: 
+Wed Mar 31 15:23:43 ALMT 2021: #
+Wed Mar 31 15:23:43 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Wed Mar 31 15:23:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:23:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:23:43 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGRApGBkP3i4I9zf3Ox8jhUjlf2egKnx".
+Wed Mar 31 15:23:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:23:43 ALMT 2021: 
+Wed Mar 31 15:23:43 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #9
+Wed Mar 31 15:23:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bK179dc26ae5aff49f7.
+Wed Mar 31 15:23:43 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:23:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:23:43 ALMT 2021: CSeq: 27919 PING.
+Wed Mar 31 15:23:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:23:43 ALMT 2021: 
+Wed Mar 31 15:23:43 ALMT 2021: #
+Wed Mar 31 15:23:43 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Wed Mar 31 15:23:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:23:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:23:43 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGRApGBkP3i4I9zf3Ox8jhUjlf2egKnx".
+Wed Mar 31 15:23:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:23:43 ALMT 2021: 
+Wed Mar 31 15:23:43 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #9
+Wed Mar 31 15:23:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bK179dc26ae5aff49f7.
+Wed Mar 31 15:23:43 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:23:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:23:43 ALMT 2021: CSeq: 27919 PING.
+Wed Mar 31 15:23:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:23:43 ALMT 2021: 
+Wed Mar 31 15:24:14 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #10
+Wed Mar 31 15:24:14 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bK179dc26ae5aff49f7;rport=5060.
+Wed Mar 31 15:24:14 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:24:14 ALMT 2021: CSeq: 27919 PING.
+Wed Mar 31 15:24:14 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:24:14 ALMT 2021: .
+Wed Mar 31 15:24:14 ALMT 2021: #
+Wed Mar 31 15:24:14 ALMT 2021: REGISTER sip:192.168.17.81 SIP/2.0.
+Wed Mar 31 15:24:14 ALMT 2021: From: <sip:1008@192.168.17.81>;tag=fa27067f-2e61-459e-a845-825dd5f18c27.
+Wed Mar 31 15:24:14 ALMT 2021: Call-ID: 5542a1c9-9a43-477e-91d2-81f081cf409f.
+Wed Mar 31 15:24:14 ALMT 2021: Contact: <sip:s@192.168.17.83:5060>.
+Wed Mar 31 15:24:14 ALMT 2021: Allow: OPTIONS, REGISTER, SUBSCRIBE, NOTIFY, PUBLISH, INVITE, ACK, BYE, CANCEL, UPDATE, PRACK, MESSAGE, REFER.
+Wed Mar 31 15:24:14 ALMT 2021: User-Agent: Asterisk PBX 16.16.0.
+Wed Mar 31 15:24:14 ALMT 2021: .
+Wed Mar 31 15:24:14 ALMT 2021: #
+Wed Mar 31 15:24:14 ALMT 2021: SIP/2.0 401 Unauthorized.
+Wed Mar 31 15:24:14 ALMT 2021: From: <sip:1008@192.168.17.81>;tag=fa27067f-2e61-459e-a845-825dd5f18c27.
+Wed Mar 31 15:24:14 ALMT 2021: Call-ID: 5542a1c9-9a43-477e-91d2-81f081cf409f.
+Wed Mar 31 15:24:14 ALMT 2021: WWW-Authenticate: Digest realm="192.168.17.81", nonce="YGRA/mBkP9Ilet/xqt8T9IXtibAgcu2P".
+Wed Mar 31 15:24:14 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:24:14 ALMT 2021: 
+Wed Mar 31 15:24:14 ALMT 2021: U 192.168.17.83:5060 -> 192.168.17.81:5060 #13
+Wed Mar 31 15:24:14 ALMT 2021: Via: SIP/2.0/UDP 192.168.17.83:5060;rport;branch=z9hG4bKPj258ef6a8-8250-475e-81fb-bb4b8a4e217b.
+Wed Mar 31 15:24:14 ALMT 2021: To: <sip:1008@192.168.17.81>.
+Wed Mar 31 15:24:14 ALMT 2021: CSeq: 55094 REGISTER.
+Wed Mar 31 15:24:14 ALMT 2021: Expires: 3600.
+Wed Mar 31 15:24:14 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:24:14 ALMT 2021: Authorization: Digest username="1008", realm="192.168.17.81", nonce="YGRA/mBkP9Ilet/xqt8T9IXtibAgcu2P", uri="sip:192.168.17.81", response="729bcf0f6530fa4ed0c7f53a744471c1".
+Wed Mar 31 15:24:14 ALMT 2021: .
+Wed Mar 31 15:24:14 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #10
+Wed Mar 31 15:24:14 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bK179dc26ae5aff49f7;rport=5060.
+Wed Mar 31 15:24:14 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:24:14 ALMT 2021: CSeq: 27919 PING.
+Wed Mar 31 15:24:14 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:24:14 ALMT 2021: .
+Wed Mar 31 15:24:14 ALMT 2021: #
+Wed Mar 31 15:24:14 ALMT 2021: REGISTER sip:192.168.17.81 SIP/2.0.
+Wed Mar 31 15:24:14 ALMT 2021: From: <sip:1008@192.168.17.81>;tag=fa27067f-2e61-459e-a845-825dd5f18c27.
+Wed Mar 31 15:24:14 ALMT 2021: Call-ID: 5542a1c9-9a43-477e-91d2-81f081cf409f.
+Wed Mar 31 15:24:14 ALMT 2021: Contact: <sip:s@192.168.17.83:5060>.
+Wed Mar 31 15:24:14 ALMT 2021: Allow: OPTIONS, REGISTER, SUBSCRIBE, NOTIFY, PUBLISH, INVITE, ACK, BYE, CANCEL, UPDATE, PRACK, MESSAGE, REFER.
+Wed Mar 31 15:24:14 ALMT 2021: User-Agent: Asterisk PBX 16.16.0.
+Wed Mar 31 15:24:14 ALMT 2021: .
+Wed Mar 31 15:24:14 ALMT 2021: #
+Wed Mar 31 15:24:14 ALMT 2021: SIP/2.0 401 Unauthorized.
+Wed Mar 31 15:24:14 ALMT 2021: From: <sip:1008@192.168.17.81>;tag=fa27067f-2e61-459e-a845-825dd5f18c27.
+Wed Mar 31 15:24:14 ALMT 2021: Call-ID: 5542a1c9-9a43-477e-91d2-81f081cf409f.
+Wed Mar 31 15:24:14 ALMT 2021: WWW-Authenticate: Digest realm="192.168.17.81", nonce="YGRA/mBkP9Ilet/xqt8T9IXtibAgcu2P".
+Wed Mar 31 15:24:14 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:24:14 ALMT 2021: 
+Wed Mar 31 15:24:14 ALMT 2021: U 192.168.17.83:5060 -> 192.168.17.81:5060 #13
+Wed Mar 31 15:24:14 ALMT 2021: Via: SIP/2.0/UDP 192.168.17.83:5060;rport;branch=z9hG4bKPj258ef6a8-8250-475e-81fb-bb4b8a4e217b.
+Wed Mar 31 15:24:14 ALMT 2021: To: <sip:1008@192.168.17.81>.
+Wed Mar 31 15:24:14 ALMT 2021: CSeq: 55094 REGISTER.
+Wed Mar 31 15:24:14 ALMT 2021: Expires: 3600.
+Wed Mar 31 15:24:14 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:24:14 ALMT 2021: Authorization: Digest username="1008", realm="192.168.17.81", nonce="YGRA/mBkP9Ilet/xqt8T9IXtibAgcu2P", uri="sip:192.168.17.81", response="729bcf0f6530fa4ed0c7f53a744471c1".
+Wed Mar 31 15:24:14 ALMT 2021: .
+Wed Mar 31 15:24:14 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #10
+Wed Mar 31 15:24:14 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bK179dc26ae5aff49f7;rport=5060.
+Wed Mar 31 15:24:14 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:24:14 ALMT 2021: CSeq: 27919 PING.
+Wed Mar 31 15:24:14 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:24:14 ALMT 2021: .
+Wed Mar 31 15:24:14 ALMT 2021: #
+Wed Mar 31 15:24:14 ALMT 2021: REGISTER sip:192.168.17.81 SIP/2.0.
+Wed Mar 31 15:24:14 ALMT 2021: From: <sip:1008@192.168.17.81>;tag=fa27067f-2e61-459e-a845-825dd5f18c27.
+Wed Mar 31 15:24:14 ALMT 2021: Call-ID: 5542a1c9-9a43-477e-91d2-81f081cf409f.
+Wed Mar 31 15:24:14 ALMT 2021: Contact: <sip:s@192.168.17.83:5060>.
+Wed Mar 31 15:24:14 ALMT 2021: Allow: OPTIONS, REGISTER, SUBSCRIBE, NOTIFY, PUBLISH, INVITE, ACK, BYE, CANCEL, UPDATE, PRACK, MESSAGE, REFER.
+Wed Mar 31 15:24:14 ALMT 2021: User-Agent: Asterisk PBX 16.16.0.
+Wed Mar 31 15:24:14 ALMT 2021: .
+Wed Mar 31 15:24:14 ALMT 2021: #
+Wed Mar 31 15:24:14 ALMT 2021: SIP/2.0 401 Unauthorized.
+Wed Mar 31 15:24:14 ALMT 2021: From: <sip:1008@192.168.17.81>;tag=fa27067f-2e61-459e-a845-825dd5f18c27.
+Wed Mar 31 15:24:14 ALMT 2021: Call-ID: 5542a1c9-9a43-477e-91d2-81f081cf409f.
+Wed Mar 31 15:24:14 ALMT 2021: WWW-Authenticate: Digest realm="192.168.17.81", nonce="YGRA/mBkP9Ilet/xqt8T9IXtibAgcu2P".
+Wed Mar 31 15:24:14 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:24:14 ALMT 2021: 
+Wed Mar 31 15:24:14 ALMT 2021: U 192.168.17.83:5060 -> 192.168.17.81:5060 #13
+Wed Mar 31 15:24:14 ALMT 2021: Via: SIP/2.0/UDP 192.168.17.83:5060;rport;branch=z9hG4bKPj258ef6a8-8250-475e-81fb-bb4b8a4e217b.
+Wed Mar 31 15:24:14 ALMT 2021: To: <sip:1008@192.168.17.81>.
+Wed Mar 31 15:24:14 ALMT 2021: CSeq: 55094 REGISTER.
+Wed Mar 31 15:24:14 ALMT 2021: Expires: 3600.
+Wed Mar 31 15:24:14 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:24:14 ALMT 2021: Authorization: Digest username="1008", realm="192.168.17.81", nonce="YGRA/mBkP9Ilet/xqt8T9IXtibAgcu2P", uri="sip:192.168.17.81", response="729bcf0f6530fa4ed0c7f53a744471c1".
+Wed Mar 31 15:24:14 ALMT 2021: .
+Wed Mar 31 15:24:14 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #10
+Wed Mar 31 15:24:14 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bK179dc26ae5aff49f7;rport=5060.
+Wed Mar 31 15:24:14 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:24:14 ALMT 2021: CSeq: 27919 PING.
+Wed Mar 31 15:24:14 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:24:14 ALMT 2021: .
+Wed Mar 31 15:24:14 ALMT 2021: #
+Wed Mar 31 15:24:14 ALMT 2021: REGISTER sip:192.168.17.81 SIP/2.0.
+Wed Mar 31 15:24:14 ALMT 2021: From: <sip:1008@192.168.17.81>;tag=fa27067f-2e61-459e-a845-825dd5f18c27.
+Wed Mar 31 15:24:14 ALMT 2021: Call-ID: 5542a1c9-9a43-477e-91d2-81f081cf409f.
+Wed Mar 31 15:24:14 ALMT 2021: Contact: <sip:s@192.168.17.83:5060>.
+Wed Mar 31 15:24:14 ALMT 2021: Allow: OPTIONS, REGISTER, SUBSCRIBE, NOTIFY, PUBLISH, INVITE, ACK, BYE, CANCEL, UPDATE, PRACK, MESSAGE, REFER.
+Wed Mar 31 15:24:14 ALMT 2021: User-Agent: Asterisk PBX 16.16.0.
+Wed Mar 31 15:24:14 ALMT 2021: .
+Wed Mar 31 15:24:14 ALMT 2021: #
+Wed Mar 31 15:24:14 ALMT 2021: SIP/2.0 401 Unauthorized.
+Wed Mar 31 15:24:14 ALMT 2021: From: <sip:1008@192.168.17.81>;tag=fa27067f-2e61-459e-a845-825dd5f18c27.
+Wed Mar 31 15:24:14 ALMT 2021: Call-ID: 5542a1c9-9a43-477e-91d2-81f081cf409f.
+Wed Mar 31 15:24:14 ALMT 2021: WWW-Authenticate: Digest realm="192.168.17.81", nonce="YGRA/mBkP9Ilet/xqt8T9IXtibAgcu2P".
+Wed Mar 31 15:24:14 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:24:14 ALMT 2021: 
+Wed Mar 31 15:24:14 ALMT 2021: U 192.168.17.83:5060 -> 192.168.17.81:5060 #13
+Wed Mar 31 15:24:14 ALMT 2021: Via: SIP/2.0/UDP 192.168.17.83:5060;rport;branch=z9hG4bKPj258ef6a8-8250-475e-81fb-bb4b8a4e217b.
+Wed Mar 31 15:24:14 ALMT 2021: To: <sip:1008@192.168.17.81>.
+Wed Mar 31 15:24:14 ALMT 2021: CSeq: 55094 REGISTER.
+Wed Mar 31 15:24:14 ALMT 2021: Expires: 3600.
+Wed Mar 31 15:24:14 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:24:14 ALMT 2021: Authorization: Digest username="1008", realm="192.168.17.81", nonce="YGRA/mBkP9Ilet/xqt8T9IXtibAgcu2P", uri="sip:192.168.17.81", response="729bcf0f6530fa4ed0c7f53a744471c1".
+Wed Mar 31 15:24:14 ALMT 2021: .
+Wed Mar 31 15:24:43 ALMT 2021: #
+Wed Mar 31 15:24:43 ALMT 2021: SIP/2.0 200 OK.
+Wed Mar 31 15:24:43 ALMT 2021: From: <sip:1008@192.168.17.81>;tag=fa27067f-2e61-459e-a845-825dd5f18c27.
+Wed Mar 31 15:24:43 ALMT 2021: Call-ID: 5542a1c9-9a43-477e-91d2-81f081cf409f.
+Wed Mar 31 15:24:43 ALMT 2021: Contact: <sip:s@192.168.17.83:5060>;expires=3600.
+Wed Mar 31 15:24:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:24:43 ALMT 2021: 
+Wed Mar 31 15:24:43 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #15
+Wed Mar 31 15:24:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKc20c9d638b5b0ad77.
+Wed Mar 31 15:24:43 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:24:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:24:43 ALMT 2021: CSeq: 27920 PING.
+Wed Mar 31 15:24:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:24:43 ALMT 2021: 
+Wed Mar 31 15:24:43 ALMT 2021: #
+Wed Mar 31 15:24:43 ALMT 2021: SIP/2.0 200 OK.
+Wed Mar 31 15:24:43 ALMT 2021: From: <sip:1008@192.168.17.81>;tag=fa27067f-2e61-459e-a845-825dd5f18c27.
+Wed Mar 31 15:24:43 ALMT 2021: Call-ID: 5542a1c9-9a43-477e-91d2-81f081cf409f.
+Wed Mar 31 15:24:43 ALMT 2021: Contact: <sip:s@192.168.17.83:5060>;expires=3600.
+Wed Mar 31 15:24:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:24:43 ALMT 2021: 
+Wed Mar 31 15:24:43 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #15
+Wed Mar 31 15:24:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKc20c9d638b5b0ad77.
+Wed Mar 31 15:24:43 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:24:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:24:43 ALMT 2021: CSeq: 27920 PING.
+Wed Mar 31 15:24:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:24:43 ALMT 2021: 
+Wed Mar 31 15:24:43 ALMT 2021: #
+Wed Mar 31 15:24:43 ALMT 2021: SIP/2.0 200 OK.
+Wed Mar 31 15:24:43 ALMT 2021: From: <sip:1008@192.168.17.81>;tag=fa27067f-2e61-459e-a845-825dd5f18c27.
+Wed Mar 31 15:24:43 ALMT 2021: Call-ID: 5542a1c9-9a43-477e-91d2-81f081cf409f.
+Wed Mar 31 15:24:43 ALMT 2021: Contact: <sip:s@192.168.17.83:5060>;expires=3600.
+Wed Mar 31 15:24:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:24:43 ALMT 2021: 
+Wed Mar 31 15:24:43 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #15
+Wed Mar 31 15:24:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKc20c9d638b5b0ad77.
+Wed Mar 31 15:24:43 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:24:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:24:43 ALMT 2021: CSeq: 27920 PING.
+Wed Mar 31 15:24:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:24:43 ALMT 2021: 
+Wed Mar 31 15:24:43 ALMT 2021: #
+Wed Mar 31 15:24:43 ALMT 2021: SIP/2.0 200 OK.
+Wed Mar 31 15:24:43 ALMT 2021: From: <sip:1008@192.168.17.81>;tag=fa27067f-2e61-459e-a845-825dd5f18c27.
+Wed Mar 31 15:24:43 ALMT 2021: Call-ID: 5542a1c9-9a43-477e-91d2-81f081cf409f.
+Wed Mar 31 15:24:43 ALMT 2021: Contact: <sip:s@192.168.17.83:5060>;expires=3600.
+Wed Mar 31 15:24:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:24:43 ALMT 2021: 
+Wed Mar 31 15:24:43 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #15
+Wed Mar 31 15:24:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKc20c9d638b5b0ad77.
+Wed Mar 31 15:24:43 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:24:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:24:43 ALMT 2021: CSeq: 27920 PING.
+Wed Mar 31 15:24:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:24:43 ALMT 2021: 
+Wed Mar 31 15:25:43 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #16
+Wed Mar 31 15:25:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKc20c9d638b5b0ad77;rport=5060.
+Wed Mar 31 15:25:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:25:43 ALMT 2021: CSeq: 27920 PING.
+Wed Mar 31 15:25:43 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:25:43 ALMT 2021: .
+Wed Mar 31 15:25:43 ALMT 2021: #
+Wed Mar 31 15:25:43 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 15:25:43 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 15:25:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:25:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:25:43 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 15:25:43 ALMT 2021: .
+Wed Mar 31 15:25:43 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #16
+Wed Mar 31 15:25:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKc20c9d638b5b0ad77;rport=5060.
+Wed Mar 31 15:25:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:25:43 ALMT 2021: CSeq: 27920 PING.
+Wed Mar 31 15:25:43 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:25:43 ALMT 2021: .
+Wed Mar 31 15:25:43 ALMT 2021: #
+Wed Mar 31 15:25:43 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 15:25:43 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 15:25:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:25:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:25:43 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 15:25:43 ALMT 2021: .
+Wed Mar 31 15:25:43 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #16
+Wed Mar 31 15:25:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKc20c9d638b5b0ad77;rport=5060.
+Wed Mar 31 15:25:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:25:43 ALMT 2021: CSeq: 27920 PING.
+Wed Mar 31 15:25:43 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:25:43 ALMT 2021: .
+Wed Mar 31 15:25:43 ALMT 2021: #
+Wed Mar 31 15:25:43 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 15:25:43 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 15:25:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:25:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:25:43 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 15:25:43 ALMT 2021: .
+Wed Mar 31 15:25:43 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #16
+Wed Mar 31 15:25:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKc20c9d638b5b0ad77;rport=5060.
+Wed Mar 31 15:25:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:25:43 ALMT 2021: CSeq: 27920 PING.
+Wed Mar 31 15:25:43 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:25:43 ALMT 2021: .
+Wed Mar 31 15:25:43 ALMT 2021: #
+Wed Mar 31 15:25:43 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 15:25:43 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 15:25:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:25:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:25:43 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 15:25:43 ALMT 2021: .
+Wed Mar 31 15:26:43 ALMT 2021: #
+Wed Mar 31 15:26:43 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Wed Mar 31 15:26:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:26:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:26:43 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGRBWGBkQCwzfr1ng+HgCa7/3TPQBrqz".
+Wed Mar 31 15:26:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:26:43 ALMT 2021: 
+Wed Mar 31 15:26:43 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #19
+Wed Mar 31 15:26:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKf4fedc48405876ea6.
+Wed Mar 31 15:26:43 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:26:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:26:43 ALMT 2021: CSeq: 27922 PING.
+Wed Mar 31 15:26:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:26:43 ALMT 2021: 
+Wed Mar 31 15:26:43 ALMT 2021: #
+Wed Mar 31 15:26:43 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Wed Mar 31 15:26:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:26:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:26:43 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGRBWGBkQCwzfr1ng+HgCa7/3TPQBrqz".
+Wed Mar 31 15:26:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:26:43 ALMT 2021: 
+Wed Mar 31 15:26:43 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #19
+Wed Mar 31 15:26:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKf4fedc48405876ea6.
+Wed Mar 31 15:26:43 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:26:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:26:43 ALMT 2021: CSeq: 27922 PING.
+Wed Mar 31 15:26:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:26:43 ALMT 2021: 
+Wed Mar 31 15:26:43 ALMT 2021: #
+Wed Mar 31 15:26:43 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Wed Mar 31 15:26:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:26:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:26:43 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGRBWGBkQCwzfr1ng+HgCa7/3TPQBrqz".
+Wed Mar 31 15:26:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:26:43 ALMT 2021: 
+Wed Mar 31 15:26:43 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #19
+Wed Mar 31 15:26:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKf4fedc48405876ea6.
+Wed Mar 31 15:26:43 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:26:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:26:43 ALMT 2021: CSeq: 27922 PING.
+Wed Mar 31 15:26:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:26:43 ALMT 2021: 
+Wed Mar 31 15:26:43 ALMT 2021: #
+Wed Mar 31 15:26:43 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Wed Mar 31 15:26:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:26:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:26:43 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGRBWGBkQCwzfr1ng+HgCa7/3TPQBrqz".
+Wed Mar 31 15:26:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:26:43 ALMT 2021: 
+Wed Mar 31 15:26:43 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #19
+Wed Mar 31 15:26:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKf4fedc48405876ea6.
+Wed Mar 31 15:26:43 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:26:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:26:43 ALMT 2021: CSeq: 27922 PING.
+Wed Mar 31 15:26:43 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:26:43 ALMT 2021: 
+Wed Mar 31 15:27:14 ALMT 2021: null
+Wed Mar 31 15:27:43 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #20
+Wed Mar 31 15:27:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKf4fedc48405876ea6;rport=5060.
+Wed Mar 31 15:27:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:27:43 ALMT 2021: CSeq: 27922 PING.
+Wed Mar 31 15:27:43 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:27:43 ALMT 2021: .
+Wed Mar 31 15:27:43 ALMT 2021: #
+Wed Mar 31 15:27:43 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 15:27:43 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 15:27:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:27:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:27:43 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 15:27:43 ALMT 2021: .
+Wed Mar 31 15:27:43 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #20
+Wed Mar 31 15:27:43 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKf4fedc48405876ea6;rport=5060.
+Wed Mar 31 15:27:43 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:27:43 ALMT 2021: CSeq: 27922 PING.
+Wed Mar 31 15:27:43 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:27:43 ALMT 2021: .
+Wed Mar 31 15:27:43 ALMT 2021: #
+Wed Mar 31 15:27:43 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 15:27:43 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 15:27:43 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:27:43 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:27:43 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 15:27:43 ALMT 2021: .
+Wed Mar 31 15:27:44 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #20
+Wed Mar 31 15:27:44 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKf4fedc48405876ea6;rport=5060.
+Wed Mar 31 15:27:44 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:27:44 ALMT 2021: CSeq: 27922 PING.
+Wed Mar 31 15:27:44 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:27:44 ALMT 2021: .
+Wed Mar 31 15:27:44 ALMT 2021: #
+Wed Mar 31 15:27:44 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 15:27:44 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 15:27:44 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:27:44 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:27:44 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 15:27:44 ALMT 2021: .
+Wed Mar 31 15:27:44 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #20
+Wed Mar 31 15:27:44 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKf4fedc48405876ea6;rport=5060.
+Wed Mar 31 15:27:44 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:27:44 ALMT 2021: CSeq: 27922 PING.
+Wed Mar 31 15:27:44 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:27:44 ALMT 2021: .
+Wed Mar 31 15:27:44 ALMT 2021: #
+Wed Mar 31 15:27:44 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 15:27:44 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 15:27:44 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:27:44 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:27:44 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 15:27:44 ALMT 2021: .
+Wed Mar 31 15:28:44 ALMT 2021: #
+Wed Mar 31 15:28:44 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Wed Mar 31 15:28:44 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:28:44 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:28:44 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGRB0GBkQKQ58TbI0QiMR6PlTDU59hJe".
+Wed Mar 31 15:28:44 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:28:44 ALMT 2021: 
+Wed Mar 31 15:28:44 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #23
+Wed Mar 31 15:28:44 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKf088bfb5009b9a727.
+Wed Mar 31 15:28:44 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:28:44 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:28:44 ALMT 2021: CSeq: 27924 PING.
+Wed Mar 31 15:28:44 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:28:44 ALMT 2021: 
+Wed Mar 31 15:28:44 ALMT 2021: #
+Wed Mar 31 15:28:44 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Wed Mar 31 15:28:44 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:28:44 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:28:44 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGRB0GBkQKQ58TbI0QiMR6PlTDU59hJe".
+Wed Mar 31 15:28:44 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:28:44 ALMT 2021: 
+Wed Mar 31 15:28:44 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #23
+Wed Mar 31 15:28:44 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKf088bfb5009b9a727.
+Wed Mar 31 15:28:44 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:28:44 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:28:44 ALMT 2021: CSeq: 27924 PING.
+Wed Mar 31 15:28:44 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:28:44 ALMT 2021: 
+Wed Mar 31 15:28:44 ALMT 2021: #
+Wed Mar 31 15:28:44 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Wed Mar 31 15:28:44 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:28:44 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:28:44 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGRB0GBkQKQ58TbI0QiMR6PlTDU59hJe".
+Wed Mar 31 15:28:44 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:28:44 ALMT 2021: 
+Wed Mar 31 15:28:44 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #23
+Wed Mar 31 15:28:44 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKf088bfb5009b9a727.
+Wed Mar 31 15:28:44 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:28:44 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:28:44 ALMT 2021: CSeq: 27924 PING.
+Wed Mar 31 15:28:44 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:28:44 ALMT 2021: 
+Wed Mar 31 15:28:44 ALMT 2021: #
+Wed Mar 31 15:28:44 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Wed Mar 31 15:28:44 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:28:44 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:28:44 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGRB0GBkQKQ58TbI0QiMR6PlTDU59hJe".
+Wed Mar 31 15:28:44 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:28:44 ALMT 2021: 
+Wed Mar 31 15:28:44 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #23
+Wed Mar 31 15:28:44 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKf088bfb5009b9a727.
+Wed Mar 31 15:28:44 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:28:44 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:28:44 ALMT 2021: CSeq: 27924 PING.
+Wed Mar 31 15:28:44 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:28:44 ALMT 2021: 
+Wed Mar 31 15:29:38 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 15:29:38 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #1
+Wed Mar 31 15:29:38 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK006d15487190eb118e9ea8ed6e6e3c59;rport.
+Wed Mar 31 15:29:38 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:29:38 ALMT 2021: CSeq: 233 REGISTER.
+Wed Mar 31 15:29:38 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRAnWBkP3F6xTFM03D54peN7U2I70Fo", uri="sip:sip-proxy1.dom.loc", response="918df468f5f73d7f235a4d56e176665c", algorithm=MD5.
+Wed Mar 31 15:29:38 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:29:38 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:38 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:38 ALMT 2021: 
+Wed Mar 31 15:29:38 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #2
+Wed Mar 31 15:29:38 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK006d15487190eb118e9ea8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:38 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:38 ALMT 2021: CSeq: 233 REGISTER.
+Wed Mar 31 15:29:38 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:29:38 ALMT 2021: .
+Wed Mar 31 15:29:38 ALMT 2021: #
+Wed Mar 31 15:29:38 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:29:38 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1842897642.
+Wed Mar 31 15:29:38 ALMT 2021: Call-ID: 006D1548-7190-EB11-8E9F-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:38 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;Expires=0;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:29:38 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:38 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 15:29:38 ALMT 2021: Expires: 0.
+Wed Mar 31 15:29:38 ALMT 2021: .
+Wed Mar 31 15:29:38 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #24
+Wed Mar 31 15:29:38 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKf088bfb5009b9a727;rport=5060.
+Wed Mar 31 15:29:38 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #24
+Wed Mar 31 15:29:38 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:29:38 ALMT 2021: CSeq: 27924 PING.
+Wed Mar 31 15:29:38 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKf088bfb5009b9a727;rport=5060.
+Wed Mar 31 15:29:38 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:29:38 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:29:38 ALMT 2021: .
+Wed Mar 31 15:29:38 ALMT 2021: CSeq: 27924 PING.
+Wed Mar 31 15:29:38 ALMT 2021: #
+Wed Mar 31 15:29:38 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:29:38 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:29:38 ALMT 2021: .
+Wed Mar 31 15:29:38 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=172805058.
+Wed Mar 31 15:29:38 ALMT 2021: #
+Wed Mar 31 15:29:38 ALMT 2021: Call-ID: 80EC254D-7090-EB11-8E9A-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:38 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:29:38 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;Expires=0;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:29:38 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=172805058.
+Wed Mar 31 15:29:38 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:38 ALMT 2021: Call-ID: 80EC254D-7090-EB11-8E9A-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:38 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 15:29:38 ALMT 2021: Expires: 0.
+Wed Mar 31 15:29:38 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;Expires=0;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:29:38 ALMT 2021: .
+Wed Mar 31 15:29:38 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:38 ALMT 2021: #
+Wed Mar 31 15:29:38 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 15:29:38 ALMT 2021: SIP/2.0 401 Unauthorized.
+Wed Mar 31 15:29:38 ALMT 2021: Expires: 0.
+Wed Mar 31 15:29:38 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=172805058.
+Wed Mar 31 15:29:38 ALMT 2021: .
+Wed Mar 31 15:29:38 ALMT 2021: Call-ID: 80EC254D-7090-EB11-8E9A-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:38 ALMT 2021: WWW-Authenticate: Digest realm="sip-proxy1.dom.loc", nonce="YGRCQ2BkQReYj0vHE2YMRwpso7yoOy/Z".
+Wed Mar 31 15:29:38 ALMT 2021: #
+Wed Mar 31 15:29:38 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:38 ALMT 2021: SIP/2.0 401 Unauthorized.
+Wed Mar 31 15:29:38 ALMT 2021: 
+Wed Mar 31 15:29:38 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=172805058.
+Wed Mar 31 15:29:38 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #27
+Wed Mar 31 15:29:38 ALMT 2021: Call-ID: 80EC254D-7090-EB11-8E9A-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:38 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK006d15487190eb118ea0a8ed6e6e3c59;rport.
+Wed Mar 31 15:29:38 ALMT 2021: WWW-Authenticate: Digest realm="sip-proxy1.dom.loc", nonce="YGRCQ2BkQReYj0vHE2YMRwpso7yoOy/Z".
+Wed Mar 31 15:29:38 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:29:38 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:38 ALMT 2021: CSeq: 234 REGISTER.
+Wed Mar 31 15:29:38 ALMT 2021: 
+Wed Mar 31 15:29:38 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRCQ2BkQReYj0vHE2YMRwpso7yoOy/Z", uri="sip:sip-proxy1.dom.loc", response="b062014e7c84f39daa6cea086f28aaf3", algorithm=MD5.
+Wed Mar 31 15:29:38 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #27
+Wed Mar 31 15:29:38 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:29:38 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK006d15487190eb118ea0a8ed6e6e3c59;rport.
+Wed Mar 31 15:29:38 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:38 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:29:38 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:38 ALMT 2021: CSeq: 234 REGISTER.
+Wed Mar 31 15:29:38 ALMT 2021: 
+Wed Mar 31 15:29:38 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRCQ2BkQReYj0vHE2YMRwpso7yoOy/Z", uri="sip:sip-proxy1.dom.loc", response="b062014e7c84f39daa6cea086f28aaf3", algorithm=MD5.
+Wed Mar 31 15:29:38 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:29:38 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:38 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:38 ALMT 2021: 
+Wed Mar 31 15:29:38 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #24
+Wed Mar 31 15:29:38 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKf088bfb5009b9a727;rport=5060.
+Wed Mar 31 15:29:38 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:29:38 ALMT 2021: CSeq: 27924 PING.
+Wed Mar 31 15:29:38 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:29:38 ALMT 2021: .
+Wed Mar 31 15:29:38 ALMT 2021: #
+Wed Mar 31 15:29:38 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:29:38 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=172805058.
+Wed Mar 31 15:29:38 ALMT 2021: Call-ID: 80EC254D-7090-EB11-8E9A-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:38 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;Expires=0;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:29:38 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:38 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 15:29:38 ALMT 2021: Expires: 0.
+Wed Mar 31 15:29:38 ALMT 2021: .
+Wed Mar 31 15:29:38 ALMT 2021: #
+Wed Mar 31 15:29:38 ALMT 2021: SIP/2.0 401 Unauthorized.
+Wed Mar 31 15:29:38 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=172805058.
+Wed Mar 31 15:29:38 ALMT 2021: Call-ID: 80EC254D-7090-EB11-8E9A-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:38 ALMT 2021: WWW-Authenticate: Digest realm="sip-proxy1.dom.loc", nonce="YGRCQ2BkQReYj0vHE2YMRwpso7yoOy/Z".
+Wed Mar 31 15:29:38 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:38 ALMT 2021: 
+Wed Mar 31 15:29:38 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #27
+Wed Mar 31 15:29:38 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK006d15487190eb118ea0a8ed6e6e3c59;rport.
+Wed Mar 31 15:29:38 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:29:38 ALMT 2021: CSeq: 234 REGISTER.
+Wed Mar 31 15:29:38 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRCQ2BkQReYj0vHE2YMRwpso7yoOy/Z", uri="sip:sip-proxy1.dom.loc", response="b062014e7c84f39daa6cea086f28aaf3", algorithm=MD5.
+Wed Mar 31 15:29:38 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:29:38 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:38 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:38 ALMT 2021: 
+Wed Mar 31 15:29:38 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #24
+Wed Mar 31 15:29:38 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKf088bfb5009b9a727;rport=5060.
+Wed Mar 31 15:29:38 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:29:38 ALMT 2021: CSeq: 27924 PING.
+Wed Mar 31 15:29:38 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:29:38 ALMT 2021: .
+Wed Mar 31 15:29:38 ALMT 2021: #
+Wed Mar 31 15:29:38 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:29:38 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=172805058.
+Wed Mar 31 15:29:38 ALMT 2021: Call-ID: 80EC254D-7090-EB11-8E9A-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:38 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;Expires=0;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:29:38 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:38 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 15:29:38 ALMT 2021: Expires: 0.
+Wed Mar 31 15:29:38 ALMT 2021: .
+Wed Mar 31 15:29:38 ALMT 2021: #
+Wed Mar 31 15:29:38 ALMT 2021: SIP/2.0 401 Unauthorized.
+Wed Mar 31 15:29:38 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=172805058.
+Wed Mar 31 15:29:38 ALMT 2021: Call-ID: 80EC254D-7090-EB11-8E9A-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:38 ALMT 2021: WWW-Authenticate: Digest realm="sip-proxy1.dom.loc", nonce="YGRCQ2BkQReYj0vHE2YMRwpso7yoOy/Z".
+Wed Mar 31 15:29:38 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:38 ALMT 2021: 
+Wed Mar 31 15:29:38 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #27
+Wed Mar 31 15:29:38 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK006d15487190eb118ea0a8ed6e6e3c59;rport.
+Wed Mar 31 15:29:38 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:29:38 ALMT 2021: CSeq: 234 REGISTER.
+Wed Mar 31 15:29:38 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRCQ2BkQReYj0vHE2YMRwpso7yoOy/Z", uri="sip:sip-proxy1.dom.loc", response="b062014e7c84f39daa6cea086f28aaf3", algorithm=MD5.
+Wed Mar 31 15:29:38 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:29:38 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:38 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:38 ALMT 2021: 
+Wed Mar 31 15:29:39 ALMT 2021: #
+Wed Mar 31 15:29:39 ALMT 2021: SIP/2.0 200 OK.
+Wed Mar 31 15:29:39 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1842897642.
+Wed Mar 31 15:29:39 ALMT 2021: Call-ID: 006D1548-7190-EB11-8E9F-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:39 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:29:39 ALMT 2021: .
+Wed Mar 31 15:29:39 ALMT 2021: #
+Wed Mar 31 15:29:39 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:29:39 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2688052480.
+Wed Mar 31 15:29:39 ALMT 2021: Call-ID: 8003AE48-7190-EB11-8EA0-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:39 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:29:39 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:29:39 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 15:29:39 ALMT 2021: Expires: 600.
+Wed Mar 31 15:29:39 ALMT 2021: .
+Wed Mar 31 15:29:39 ALMT 2021: #
+Wed Mar 31 15:29:39 ALMT 2021: SIP/2.0 401 Unauthorized.
+Wed Mar 31 15:29:39 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2688052480.
+Wed Mar 31 15:29:39 ALMT 2021: Call-ID: 8003AE48-7190-EB11-8EA0-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:39 ALMT 2021: WWW-Authenticate: Digest realm="sip-proxy1.dom.loc", nonce="YGRCQ2BkQReYj0vHE2YMRwpso7yoOy/Z".
+Wed Mar 31 15:29:39 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:39 ALMT 2021: 
+Wed Mar 31 15:29:39 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #28
+Wed Mar 31 15:29:39 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #28
+Wed Mar 31 15:29:39 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK006d15487190eb118ea0a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:39 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK006d15487190eb118ea0a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:39 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:39 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:39 ALMT 2021: CSeq: 234 REGISTER.
+Wed Mar 31 15:29:39 ALMT 2021: CSeq: 234 REGISTER.
+Wed Mar 31 15:29:39 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:39 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:39 ALMT 2021: 
+Wed Mar 31 15:29:39 ALMT 2021: 
+Wed Mar 31 15:29:39 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #29
+Wed Mar 31 15:29:39 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #29
+Wed Mar 31 15:29:39 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK8003ae487190eb118ea3a8ed6e6e3c59;rport.
+Wed Mar 31 15:29:39 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK8003ae487190eb118ea3a8ed6e6e3c59;rport.
+Wed Mar 31 15:29:39 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:29:39 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:29:39 ALMT 2021: CSeq: 235 REGISTER.
+Wed Mar 31 15:29:39 ALMT 2021: CSeq: 235 REGISTER.
+Wed Mar 31 15:29:39 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:39 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:39 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:29:39 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:29:39 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:39 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:39 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:39 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:39 ALMT 2021: 
+Wed Mar 31 15:29:39 ALMT 2021: 
+Wed Mar 31 15:29:39 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #30
+Wed Mar 31 15:29:39 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #30
+Wed Mar 31 15:29:39 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK8003ae487190eb118ea3a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:39 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK8003ae487190eb118ea3a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:39 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:39 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:39 ALMT 2021: CSeq: 235 REGISTER.
+Wed Mar 31 15:29:39 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:29:39 ALMT 2021: .
+Wed Mar 31 15:29:39 ALMT 2021: #
+Wed Mar 31 15:29:39 ALMT 2021: CSeq: 235 REGISTER.
+Wed Mar 31 15:29:39 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:29:39 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:29:39 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2688052480.
+Wed Mar 31 15:29:39 ALMT 2021: .
+Wed Mar 31 15:29:39 ALMT 2021: #
+Wed Mar 31 15:29:39 ALMT 2021: Call-ID: 8003AE48-7190-EB11-8EA0-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:39 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:29:39 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:29:39 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2688052480.
+Wed Mar 31 15:29:39 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:39 ALMT 2021: Call-ID: 8003AE48-7190-EB11-8EA0-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:39 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:29:39 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:29:39 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:39 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:39 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:29:39 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:39 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:39 ALMT 2021: 
+Wed Mar 31 15:29:39 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:39 ALMT 2021: 
+Wed Mar 31 15:29:39 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #28
+Wed Mar 31 15:29:39 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK006d15487190eb118ea0a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:39 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:39 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #28
+Wed Mar 31 15:29:39 ALMT 2021: CSeq: 234 REGISTER.
+Wed Mar 31 15:29:39 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK006d15487190eb118ea0a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:39 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:39 ALMT 2021: CSeq: 234 REGISTER.
+Wed Mar 31 15:29:39 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:39 ALMT 2021: 
+Wed Mar 31 15:29:39 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #29
+Wed Mar 31 15:29:39 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK8003ae487190eb118ea3a8ed6e6e3c59;rport.
+Wed Mar 31 15:29:39 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:39 ALMT 2021: 
+Wed Mar 31 15:29:39 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #29
+Wed Mar 31 15:29:39 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK8003ae487190eb118ea3a8ed6e6e3c59;rport.
+Wed Mar 31 15:29:39 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:29:39 ALMT 2021: CSeq: 235 REGISTER.
+Wed Mar 31 15:29:39 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:39 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:29:39 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:39 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:39 ALMT 2021: 
+Wed Mar 31 15:29:39 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #30
+Wed Mar 31 15:29:39 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK8003ae487190eb118ea3a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:39 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:39 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:29:39 ALMT 2021: CSeq: 235 REGISTER.
+Wed Mar 31 15:29:39 ALMT 2021: CSeq: 235 REGISTER.
+Wed Mar 31 15:29:39 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:39 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:29:39 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:39 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:39 ALMT 2021: 
+Wed Mar 31 15:29:39 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #30
+Wed Mar 31 15:29:39 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK8003ae487190eb118ea3a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:39 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:39 ALMT 2021: CSeq: 235 REGISTER.
+Wed Mar 31 15:29:39 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:29:39 ALMT 2021: .
+Wed Mar 31 15:29:39 ALMT 2021: #
+Wed Mar 31 15:29:39 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:29:39 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2688052480.
+Wed Mar 31 15:29:39 ALMT 2021: Call-ID: 8003AE48-7190-EB11-8EA0-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:39 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:29:39 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:39 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:29:39 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:39 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:39 ALMT 2021: 
+Wed Mar 31 15:29:39 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:29:39 ALMT 2021: .
+Wed Mar 31 15:29:39 ALMT 2021: #
+Wed Mar 31 15:29:39 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:29:39 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2688052480.
+Wed Mar 31 15:29:39 ALMT 2021: Call-ID: 8003AE48-7190-EB11-8EA0-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:39 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:29:39 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:39 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:29:39 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:39 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:39 ALMT 2021: 
+Wed Mar 31 15:29:39 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #7
+Wed Mar 31 15:29:39 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK8003ae487190eb118ea4a8ed6e6e3c59;rport.
+Wed Mar 31 15:29:39 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:29:39 ALMT 2021: CSeq: 236 REGISTER.
+Wed Mar 31 15:29:39 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRCQ2BkQReYj0vHE2YMRwpso7yoOy/Z", uri="sip:sip-proxy1.dom.loc", response="b062014e7c84f39daa6cea086f28aaf3", algorithm=MD5.
+Wed Mar 31 15:29:39 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:29:39 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 15:29:39 ALMT 2021: Expires: 600.
+Wed Mar 31 15:29:39 ALMT 2021: .
+Wed Mar 31 15:29:41 ALMT 2021: #
+Wed Mar 31 15:29:44 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #32
+Wed Mar 31 15:29:44 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK8003ae487190eb118ea4a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:44 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:44 ALMT 2021: CSeq: 236 REGISTER.
+Wed Mar 31 15:29:44 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:29:44 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #32
+Wed Mar 31 15:29:44 ALMT 2021: .
+Wed Mar 31 15:29:44 ALMT 2021: #
+Wed Mar 31 15:29:44 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 15:29:44 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK8003ae487190eb118ea4a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:44 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 15:29:44 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:29:44 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:44 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:29:44 ALMT 2021: CSeq: 236 REGISTER.
+Wed Mar 31 15:29:44 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 15:29:44 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:29:44 ALMT 2021: .
+Wed Mar 31 15:29:44 ALMT 2021: .
+Wed Mar 31 15:29:44 ALMT 2021: #
+Wed Mar 31 15:29:44 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 15:29:44 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 15:29:44 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:29:44 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:29:44 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 15:29:44 ALMT 2021: .
+Wed Mar 31 15:29:44 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #32
+Wed Mar 31 15:29:44 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK8003ae487190eb118ea4a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:44 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:44 ALMT 2021: CSeq: 236 REGISTER.
+Wed Mar 31 15:29:44 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:29:44 ALMT 2021: .
+Wed Mar 31 15:29:44 ALMT 2021: #
+Wed Mar 31 15:29:44 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 15:29:44 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 15:29:44 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:29:44 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:29:44 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 15:29:44 ALMT 2021: .
+Wed Mar 31 15:29:44 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #32
+Wed Mar 31 15:29:44 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK8003ae487190eb118ea4a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:44 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:44 ALMT 2021: CSeq: 236 REGISTER.
+Wed Mar 31 15:29:44 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:29:44 ALMT 2021: .
+Wed Mar 31 15:29:44 ALMT 2021: #
+Wed Mar 31 15:29:44 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 15:29:44 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 15:29:44 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:29:44 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:29:44 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 15:29:44 ALMT 2021: .
+Wed Mar 31 15:29:54 ALMT 2021: #
+Wed Mar 31 15:29:54 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Wed Mar 31 15:29:54 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:29:54 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:29:54 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGRCSGBkQRxUV/R6fxP8fVyQKBOamsP8".
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:29:54 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #35
+Wed Mar 31 15:29:54 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00d59e517190eb118ea4a8ed6e6e3c59;rport.
+Wed Mar 31 15:29:54 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:29:54 ALMT 2021: CSeq: 237 REGISTER.
+Wed Mar 31 15:29:54 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRCQ2BkQReYj0vHE2YMRwpso7yoOy/Z", uri="sip:sip-proxy1.dom.loc", response="b062014e7c84f39daa6cea086f28aaf3", algorithm=MD5.
+Wed Mar 31 15:29:54 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:29:54 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:29:54 ALMT 2021: #
+Wed Mar 31 15:29:54 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Wed Mar 31 15:29:54 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:29:54 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:29:54 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGRCSGBkQRxUV/R6fxP8fVyQKBOamsP8".
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:29:54 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #35
+Wed Mar 31 15:29:54 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00d59e517190eb118ea4a8ed6e6e3c59;rport.
+Wed Mar 31 15:29:54 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:29:54 ALMT 2021: CSeq: 237 REGISTER.
+Wed Mar 31 15:29:54 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRCQ2BkQReYj0vHE2YMRwpso7yoOy/Z", uri="sip:sip-proxy1.dom.loc", response="b062014e7c84f39daa6cea086f28aaf3", algorithm=MD5.
+Wed Mar 31 15:29:54 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:29:54 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:29:54 ALMT 2021: #
+Wed Mar 31 15:29:54 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Wed Mar 31 15:29:54 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:29:54 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:29:54 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGRCSGBkQRxUV/R6fxP8fVyQKBOamsP8".
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:29:54 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #35
+Wed Mar 31 15:29:54 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00d59e517190eb118ea4a8ed6e6e3c59;rport.
+Wed Mar 31 15:29:54 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:29:54 ALMT 2021: CSeq: 237 REGISTER.
+Wed Mar 31 15:29:54 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRCQ2BkQReYj0vHE2YMRwpso7yoOy/Z", uri="sip:sip-proxy1.dom.loc", response="b062014e7c84f39daa6cea086f28aaf3", algorithm=MD5.
+Wed Mar 31 15:29:54 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:29:54 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:29:54 ALMT 2021: #
+Wed Mar 31 15:29:54 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Wed Mar 31 15:29:54 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 15:29:54 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 15:29:54 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGRCSGBkQRxUV/R6fxP8fVyQKBOamsP8".
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:29:54 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #35
+Wed Mar 31 15:29:54 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00d59e517190eb118ea4a8ed6e6e3c59;rport.
+Wed Mar 31 15:29:54 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:29:54 ALMT 2021: CSeq: 237 REGISTER.
+Wed Mar 31 15:29:54 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRCQ2BkQReYj0vHE2YMRwpso7yoOy/Z", uri="sip:sip-proxy1.dom.loc", response="b062014e7c84f39daa6cea086f28aaf3", algorithm=MD5.
+Wed Mar 31 15:29:54 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:29:54 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:29:54 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #36
+Wed Mar 31 15:29:54 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00d59e517190eb118ea4a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:54 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:54 ALMT 2021: CSeq: 237 REGISTER.
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:29:54 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #37
+Wed Mar 31 15:29:54 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00d59e517190eb118ea9a8ed6e6e3c59;rport.
+Wed Mar 31 15:29:54 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:29:54 ALMT 2021: CSeq: 238 REGISTER.
+Wed Mar 31 15:29:54 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:54 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:29:54 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:29:54 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #36
+Wed Mar 31 15:29:54 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #36
+Wed Mar 31 15:29:54 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00d59e517190eb118ea4a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:54 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00d59e517190eb118ea4a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:54 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:54 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:54 ALMT 2021: CSeq: 237 REGISTER.
+Wed Mar 31 15:29:54 ALMT 2021: CSeq: 237 REGISTER.
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:29:54 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #37
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:29:54 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00d59e517190eb118ea9a8ed6e6e3c59;rport.
+Wed Mar 31 15:29:54 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #37
+Wed Mar 31 15:29:54 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:29:54 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00d59e517190eb118ea9a8ed6e6e3c59;rport.
+Wed Mar 31 15:29:54 ALMT 2021: CSeq: 238 REGISTER.
+Wed Mar 31 15:29:54 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:29:54 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:54 ALMT 2021: CSeq: 238 REGISTER.
+Wed Mar 31 15:29:54 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:29:54 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:54 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:54 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:29:54 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:29:54 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #38
+Wed Mar 31 15:29:54 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #38
+Wed Mar 31 15:29:54 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00d59e517190eb118ea9a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:54 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00d59e517190eb118ea9a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:54 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:54 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:54 ALMT 2021: CSeq: 238 REGISTER.
+Wed Mar 31 15:29:54 ALMT 2021: CSeq: 238 REGISTER.
+Wed Mar 31 15:29:54 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:29:54 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:29:54 ALMT 2021: .
+Wed Mar 31 15:29:54 ALMT 2021: #
+Wed Mar 31 15:29:54 ALMT 2021: .
+Wed Mar 31 15:29:54 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:29:54 ALMT 2021: #
+Wed Mar 31 15:29:54 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2554414614.
+Wed Mar 31 15:29:54 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:29:54 ALMT 2021: Call-ID: 00D59E51-7190-EB11-8EA6-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:54 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2554414614.
+Wed Mar 31 15:29:54 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:29:54 ALMT 2021: Call-ID: 00D59E51-7190-EB11-8EA6-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:54 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:54 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:29:54 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:29:54 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:54 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:54 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:29:54 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #36
+Wed Mar 31 15:29:54 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00d59e517190eb118ea4a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:54 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:54 ALMT 2021: CSeq: 237 REGISTER.
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:29:54 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #37
+Wed Mar 31 15:29:54 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00d59e517190eb118ea9a8ed6e6e3c59;rport.
+Wed Mar 31 15:29:54 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:29:54 ALMT 2021: CSeq: 238 REGISTER.
+Wed Mar 31 15:29:54 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:54 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:29:54 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:29:54 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #38
+Wed Mar 31 15:29:54 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00d59e517190eb118ea9a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:54 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:54 ALMT 2021: CSeq: 238 REGISTER.
+Wed Mar 31 15:29:54 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:29:54 ALMT 2021: .
+Wed Mar 31 15:29:54 ALMT 2021: #
+Wed Mar 31 15:29:54 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:29:54 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2554414614.
+Wed Mar 31 15:29:54 ALMT 2021: Call-ID: 00D59E51-7190-EB11-8EA6-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:54 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:29:54 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:54 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:29:54 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:29:54 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #38
+Wed Mar 31 15:29:54 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00d59e517190eb118ea9a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:29:54 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:29:54 ALMT 2021: CSeq: 238 REGISTER.
+Wed Mar 31 15:29:54 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:29:54 ALMT 2021: .
+Wed Mar 31 15:29:54 ALMT 2021: #
+Wed Mar 31 15:29:54 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:29:54 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2554414614.
+Wed Mar 31 15:29:54 ALMT 2021: Call-ID: 00D59E51-7190-EB11-8EA6-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:29:54 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:29:54 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:29:54 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:29:54 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:29:54 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:29:54 ALMT 2021: 
+Wed Mar 31 15:31:35 ALMT 2021: null
+Wed Mar 31 15:31:36 ALMT 2021: null
+Wed Mar 31 15:31:36 ALMT 2021: null
+Wed Mar 31 15:31:36 ALMT 2021: null
+Wed Mar 31 15:31:36 ALMT 2021: null
+Wed Mar 31 15:37:44 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 15:37:44 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #1
+Wed Mar 31 15:37:44 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bK9f776e39c5c9edd1b.
+Wed Mar 31 15:37:44 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:37:44 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 15:37:44 ALMT 2021: CSeq: 27933 PING.
+Wed Mar 31 15:37:44 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:37:44 ALMT 2021: 
+Wed Mar 31 15:37:46 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #2
+Wed Mar 31 15:37:46 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bK9f776e39c5c9edd1b;rport=5060.
+Wed Mar 31 15:37:46 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 15:37:46 ALMT 2021: CSeq: 27933 PING.
+Wed Mar 31 15:37:46 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:37:46 ALMT 2021: .
+Wed Mar 31 15:37:46 ALMT 2021: #
+Wed Mar 31 15:37:46 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:37:46 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=797292501.
+Wed Mar 31 15:37:46 ALMT 2021: Call-ID: 002A3B41-7290-EB11-8EB6-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:37:46 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;Expires=0;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:37:46 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:37:46 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 15:37:46 ALMT 2021: Expires: 0.
+Wed Mar 31 15:37:46 ALMT 2021: .
+Wed Mar 31 15:37:46 ALMT 2021: #
+Wed Mar 31 15:37:46 ALMT 2021: SIP/2.0 200 OK.
+Wed Mar 31 15:37:46 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=797292501.
+Wed Mar 31 15:37:46 ALMT 2021: Call-ID: 002A3B41-7290-EB11-8EB6-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:37:46 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:37:46 ALMT 2021: .
+Wed Mar 31 15:37:46 ALMT 2021: #
+Wed Mar 31 15:37:46 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:37:46 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2706709483.
+Wed Mar 31 15:37:46 ALMT 2021: Call-ID: 0051F46A-7290-EB11-8EBB-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:37:46 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:37:46 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:37:46 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 15:37:46 ALMT 2021: Expires: 600.
+Wed Mar 31 15:37:46 ALMT 2021: .
+Wed Mar 31 15:37:46 ALMT 2021: #
+Wed Mar 31 15:37:46 ALMT 2021: SIP/2.0 401 Unauthorized.
+Wed Mar 31 15:37:46 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2706709483.
+Wed Mar 31 15:37:46 ALMT 2021: Call-ID: 0051F46A-7290-EB11-8EBB-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:37:46 ALMT 2021: WWW-Authenticate: Digest realm="sip-proxy1.dom.loc", nonce="YGREKmBkQv5TJr2ZXEWOqKytwT7bJHZO".
+Wed Mar 31 15:37:46 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:37:46 ALMT 2021: 
+Wed Mar 31 15:37:46 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #7
+Wed Mar 31 15:37:46 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK0051f46a7290eb118ebfa8ed6e6e3c59;rport.
+Wed Mar 31 15:37:46 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:37:46 ALMT 2021: CSeq: 251 REGISTER.
+Wed Mar 31 15:37:46 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGREKmBkQv5TJr2ZXEWOqKytwT7bJHZO", uri="sip:sip-proxy1.dom.loc", response="20f307abd9b476fcecfa4e89702164e5", algorithm=MD5.
+Wed Mar 31 15:37:46 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:37:46 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 15:37:46 ALMT 2021: Expires: 600.
+Wed Mar 31 15:37:46 ALMT 2021: .
+Wed Mar 31 15:37:47 ALMT 2021: #
+Wed Mar 31 15:37:47 ALMT 2021: SIP/2.0 200 OK.
+Wed Mar 31 15:37:47 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2706709483.
+Wed Mar 31 15:37:47 ALMT 2021: Call-ID: 0051F46A-7290-EB11-8EBB-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:37:47 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;expires=600;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:37:47 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:37:47 ALMT 2021: 
+Wed Mar 31 15:37:47 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #9
+Wed Mar 31 15:37:47 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK0051f46a7290eb118ec0a8ed6e6e3c59;rport.
+Wed Mar 31 15:37:47 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:37:47 ALMT 2021: CSeq: 252 REGISTER.
+Wed Mar 31 15:37:47 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGREKmBkQv5TJr2ZXEWOqKytwT7bJHZO", uri="sip:sip-proxy1.dom.loc", response="20f307abd9b476fcecfa4e89702164e5", algorithm=MD5.
+Wed Mar 31 15:37:47 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 15:37:47 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:37:47 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:37:47 ALMT 2021: 
+Wed Mar 31 15:37:47 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #10
+Wed Mar 31 15:37:47 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK0051f46a7290eb118ec0a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:37:47 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:37:47 ALMT 2021: CSeq: 252 REGISTER.
+Wed Mar 31 15:37:47 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:37:47 ALMT 2021: 
+Wed Mar 31 15:37:47 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #11
+Wed Mar 31 15:37:47 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80e78c6b7290eb118ec4a8ed6e6e3c59;rport.
+Wed Mar 31 15:37:47 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 15:37:47 ALMT 2021: CSeq: 253 REGISTER.
+Wed Mar 31 15:37:47 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:37:47 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:37:47 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:37:47 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:37:47 ALMT 2021: 
+Wed Mar 31 15:37:47 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #12
+Wed Mar 31 15:37:47 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK80e78c6b7290eb118ec4a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 15:37:47 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 15:37:47 ALMT 2021: CSeq: 253 REGISTER.
+Wed Mar 31 15:37:47 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 15:37:47 ALMT 2021: .
+Wed Mar 31 15:37:47 ALMT 2021: #
+Wed Mar 31 15:37:47 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 15:37:47 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1402785454.
+Wed Mar 31 15:37:47 ALMT 2021: Call-ID: 80E78C6B-7290-EB11-8EC1-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 15:37:47 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 15:37:47 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 15:37:47 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 15:37:47 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 15:37:47 ALMT 2021: Content-Length: 0.
+Wed Mar 31 15:37:47 ALMT 2021: 
+Wed Mar 31 16:00:47 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 16:28:32 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 16:28:32 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #1
+Wed Mar 31 16:28:32 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK000883827990eb118ecaa8ed6e6e3c59;rport.
+Wed Mar 31 16:28:32 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 16:28:32 ALMT 2021: CSeq: 265 REGISTER.
+Wed Mar 31 16:28:32 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRPTWBkTiET9TSBNpBnIhXqA2qlvA4d", uri="sip:sip-proxy1.dom.loc", response="dd7a726725f0fa2215bbe01a00e75553", algorithm=MD5.
+Wed Mar 31 16:28:32 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 16:28:32 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 16:28:32 ALMT 2021: Content-Length: 0.
+Wed Mar 31 16:28:32 ALMT 2021: 
+Wed Mar 31 16:28:32 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #2
+Wed Mar 31 16:28:32 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK000883827990eb118ecaa8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 16:28:32 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 16:28:32 ALMT 2021: CSeq: 265 REGISTER.
+Wed Mar 31 16:28:32 ALMT 2021: Content-Length: 0.
+Wed Mar 31 16:28:32 ALMT 2021: 
+Wed Mar 31 16:28:32 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #3
+Wed Mar 31 16:28:32 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK000883827990eb118ecfa8ed6e6e3c59;rport.
+Wed Mar 31 16:28:32 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 16:28:32 ALMT 2021: CSeq: 266 REGISTER.
+Wed Mar 31 16:28:32 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 16:28:32 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 16:28:32 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 16:28:32 ALMT 2021: Content-Length: 0.
+Wed Mar 31 16:28:32 ALMT 2021: 
+Wed Mar 31 16:28:32 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #4
+Wed Mar 31 16:28:32 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK000883827990eb118ecfa8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 16:28:32 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 16:28:32 ALMT 2021: CSeq: 266 REGISTER.
+Wed Mar 31 16:28:32 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 16:28:32 ALMT 2021: .
+Wed Mar 31 16:28:32 ALMT 2021: #
+Wed Mar 31 16:28:32 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 16:28:32 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=450375669.
+Wed Mar 31 16:28:32 ALMT 2021: Call-ID: 00088382-7990-EB11-8ECC-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 16:28:32 ALMT 2021: Contact: <sip:1002@10.22.33.17:5060>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 16:28:32 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 16:28:32 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 16:28:32 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 16:28:32 ALMT 2021: Content-Length: 0.
+Wed Mar 31 16:28:32 ALMT 2021: 
+Wed Mar 31 16:33:20 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 16:33:20 ALMT 2021: U 10.22.33.17:5060 -> 192.168.17.81:5060 #1
+Wed Mar 31 16:33:20 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00582c2e7a90eb118ed0a8ed6e6e3c59;rport.
+Wed Mar 31 16:33:20 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 16:33:20 ALMT 2021: CSeq: 268 REGISTER.
+Wed Mar 31 16:33:20 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRQEGBkTuQRjVP3iOAbTvrzNzdQWioI", uri="sip:sip-proxy1.dom.loc", response="6cbe14d0b0495bcc7b7b7f22ab42f683", algorithm=MD5.
+Wed Mar 31 16:33:20 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 16:33:20 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 16:33:20 ALMT 2021: Content-Length: 0.
+Wed Mar 31 16:33:20 ALMT 2021: 
+Wed Mar 31 16:33:20 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5060 #2
+Wed Mar 31 16:33:20 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5060;branch=z9hG4bK00582c2e7a90eb118ed0a8ed6e6e3c59;rport=5060;received=10.22.33.17.
+Wed Mar 31 16:33:20 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.8f8487a7.
+Wed Mar 31 16:33:20 ALMT 2021: CSeq: 268 REGISTER.
+Wed Mar 31 16:33:20 ALMT 2021: Content-Length: 0.
+Wed Mar 31 16:33:20 ALMT 2021: 
+Wed Mar 31 16:33:20 ALMT 2021: U 10.22.33.17:5061 -> 192.168.17.81:5060 #3
+Wed Mar 31 16:33:20 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK00582c2e7a90eb118ed5a8ed6e6e3c59;rport.
+Wed Mar 31 16:33:20 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 16:33:20 ALMT 2021: CSeq: 269 REGISTER.
+Wed Mar 31 16:33:20 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 16:33:20 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 16:33:20 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 16:33:20 ALMT 2021: Content-Length: 0.
+Wed Mar 31 16:33:20 ALMT 2021: 
+Wed Mar 31 16:33:20 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5061 #4
+Wed Mar 31 16:33:20 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK00582c2e7a90eb118ed5a8ed6e6e3c59;rport=5061;received=10.22.33.17.
+Wed Mar 31 16:33:20 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.1795d2ff.
+Wed Mar 31 16:33:20 ALMT 2021: CSeq: 269 REGISTER.
+Wed Mar 31 16:33:20 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 16:33:20 ALMT 2021: .
+Wed Mar 31 16:33:20 ALMT 2021: #
+Wed Mar 31 16:33:20 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 16:33:20 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1768839663.
+Wed Mar 31 16:33:20 ALMT 2021: Call-ID: 00582C2E-7A90-EB11-8ED2-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 16:33:20 ALMT 2021: Contact: <sip:1002@10.22.33.17:5061>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 16:33:20 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 16:33:20 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 16:33:20 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 16:33:20 ALMT 2021: Content-Length: 0.
+Wed Mar 31 16:33:20 ALMT 2021: 
+Wed Mar 31 17:03:26 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 17:03:26 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #1
+Wed Mar 31 17:03:26 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bK9fa4ec525f4cdd82e.
+Wed Mar 31 17:03:26 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 17:03:26 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 17:03:26 ALMT 2021: CSeq: 28013 PING.
+Wed Mar 31 17:03:26 ALMT 2021: Content-Length: 0.
+Wed Mar 31 17:03:26 ALMT 2021: 
+Wed Mar 31 17:03:26 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #2
+Wed Mar 31 17:03:26 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bK9fa4ec525f4cdd82e;rport=5060.
+Wed Mar 31 17:03:26 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 17:03:26 ALMT 2021: CSeq: 28013 PING.
+Wed Mar 31 17:03:26 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 17:03:26 ALMT 2021: .
+Wed Mar 31 17:03:26 ALMT 2021: #
+Wed Mar 31 17:03:26 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 17:03:26 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 17:03:26 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 17:03:26 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 17:03:26 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 17:03:26 ALMT 2021: .
+Wed Mar 31 17:03:26 ALMT 2021: #
+Wed Mar 31 17:03:26 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Wed Mar 31 17:03:26 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 17:03:26 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 17:03:26 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGRXKGBkVfyWzG9HYc0GKZ6Ws3HpeF4X".
+Wed Mar 31 17:03:26 ALMT 2021: Content-Length: 0.
+Wed Mar 31 17:03:26 ALMT 2021: 
+Wed Mar 31 17:03:26 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #5
+Wed Mar 31 17:03:26 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKe82aec44b32f1b657.
+Wed Mar 31 17:03:26 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 17:03:26 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 17:03:26 ALMT 2021: CSeq: 28015 PING.
+Wed Mar 31 17:03:26 ALMT 2021: Content-Length: 0.
+Wed Mar 31 17:03:26 ALMT 2021: 
+Wed Mar 31 17:03:26 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #6
+Wed Mar 31 17:03:26 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKe82aec44b32f1b657;rport=5060.
+Wed Mar 31 17:03:26 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 17:03:26 ALMT 2021: CSeq: 28015 PING.
+Wed Mar 31 17:03:26 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 17:03:26 ALMT 2021: .
+Wed Mar 31 17:03:26 ALMT 2021: #
+Wed Mar 31 17:03:26 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 17:03:26 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 17:03:26 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 17:03:26 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 17:03:26 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 17:03:26 ALMT 2021: .
+Wed Mar 31 17:03:26 ALMT 2021: #
+Wed Mar 31 17:03:26 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Wed Mar 31 17:03:26 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 17:03:26 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 17:03:26 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGRXoGBkVnTkEswwP1xuaJXDs4zFDwJs".
+Wed Mar 31 17:03:26 ALMT 2021: Content-Length: 0.
+Wed Mar 31 17:03:26 ALMT 2021: 
+Wed Mar 31 17:03:26 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #9
+Wed Mar 31 17:03:26 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bK57eccf8688cd6d7cc.
+Wed Mar 31 17:03:26 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 17:03:26 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 17:03:26 ALMT 2021: CSeq: 28017 PING.
+Wed Mar 31 17:03:26 ALMT 2021: Content-Length: 0.
+Wed Mar 31 17:03:26 ALMT 2021: 
+Wed Mar 31 17:03:26 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #10
+Wed Mar 31 17:03:26 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bK57eccf8688cd6d7cc;rport=5060.
+Wed Mar 31 17:03:26 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 17:03:26 ALMT 2021: CSeq: 28017 PING.
+Wed Mar 31 17:03:26 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 17:03:26 ALMT 2021: .
+Wed Mar 31 17:03:26 ALMT 2021: #
+Wed Mar 31 17:03:26 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 17:03:26 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1768839663.
+Wed Mar 31 17:03:26 ALMT 2021: Call-ID: 00582C2E-7A90-EB11-8ED2-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 17:03:26 ALMT 2021: Contact: <sip:1002@10.22.33.17:5061>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 17:03:26 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 17:03:26 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 17:03:26 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 17:03:26 ALMT 2021: Content-Length: 0.
+Wed Mar 31 17:03:26 ALMT 2021: 
+Wed Mar 31 17:03:26 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5061 #12
+Wed Mar 31 17:03:26 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK00a369297e90eb118ed8a8ed6e6e3c59;rport=5061;received=10.22.33.17.
+Wed Mar 31 17:03:26 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.1795d2ff.
+Wed Mar 31 17:03:26 ALMT 2021: CSeq: 275 REGISTER.
+Wed Mar 31 17:03:26 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 17:03:26 ALMT 2021: .
+Wed Mar 31 17:03:26 ALMT 2021: #
+Wed Mar 31 17:03:26 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 17:03:26 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1768839663.
+Wed Mar 31 17:03:26 ALMT 2021: Call-ID: 00582C2E-7A90-EB11-8ED2-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 17:03:26 ALMT 2021: Contact: <sip:1002@10.22.33.17:5061>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 17:03:26 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 17:03:26 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Wed Mar 31 17:03:26 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 17:03:26 ALMT 2021: Content-Length: 0.
+Wed Mar 31 17:03:26 ALMT 2021: 
+Wed Mar 31 17:03:26 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5061 #14
+Wed Mar 31 17:03:26 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK00a369297e90eb118ed9a8ed6e6e3c59;rport=5061;received=10.22.33.17.
+Wed Mar 31 17:03:26 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.1795d2ff.
+Wed Mar 31 17:03:26 ALMT 2021: CSeq: 276 REGISTER.
+Wed Mar 31 17:03:26 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 17:03:26 ALMT 2021: .
+Wed Mar 31 17:03:26 ALMT 2021: #
+Wed Mar 31 17:03:26 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 17:03:26 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 17:03:26 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 17:03:26 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 17:03:26 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 17:03:26 ALMT 2021: .
+Wed Mar 31 17:03:28 ALMT 2021: #
+Wed Mar 31 17:33:49 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 17:33:49 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #1
+Wed Mar 31 17:33:49 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKfdf5bb82acdf0ed67.
+Wed Mar 31 17:33:49 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 17:33:49 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 17:33:49 ALMT 2021: CSeq: 28049 PING.
+Wed Mar 31 17:33:49 ALMT 2021: Content-Length: 0.
+Wed Mar 31 17:33:49 ALMT 2021: 
+Wed Mar 31 17:34:49 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #2
+Wed Mar 31 17:34:49 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKfdf5bb82acdf0ed67;rport=5060.
+Wed Mar 31 17:34:49 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Wed Mar 31 17:34:49 ALMT 2021: CSeq: 28049 PING.
+Wed Mar 31 17:34:49 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 17:34:49 ALMT 2021: .
+Wed Mar 31 17:34:49 ALMT 2021: #
+Wed Mar 31 17:34:49 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Wed Mar 31 17:34:49 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Wed Mar 31 17:34:49 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 17:34:49 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 17:34:49 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Wed Mar 31 17:34:49 ALMT 2021: .
+Wed Mar 31 17:35:49 ALMT 2021: #
+Wed Mar 31 17:35:49 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Wed Mar 31 17:35:49 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Wed Mar 31 17:35:49 ALMT 2021: Call-ID: a9b1ce82addca191.
+Wed Mar 31 17:35:49 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGRfm2BkXm8gySMKSGNiesDn8fjrO8r+".
+Wed Mar 31 17:35:49 ALMT 2021: Content-Length: 0.
+Wed Mar 31 17:35:49 ALMT 2021: 
+Wed Mar 31 17:35:49 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #5
+Wed Mar 31 17:35:49 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bK5718c65e5195e2ebd.
+Wed Mar 31 17:35:49 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 17:35:49 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Wed Mar 31 17:35:49 ALMT 2021: CSeq: 28051 PING.
+Wed Mar 31 17:35:49 ALMT 2021: Content-Length: 0.
+Wed Mar 31 17:35:49 ALMT 2021: 
+Wed Mar 31 17:39:36 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Wed Mar 31 17:39:36 ALMT 2021: U 10.22.33.17:5061 -> 192.168.17.81:5060 #1
+Wed Mar 31 17:39:36 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK00cc0d708390eb118edca8ed6e6e3c59;rport.
+Wed Mar 31 17:39:36 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 17:39:36 ALMT 2021: CSeq: 283 REGISTER.
+Wed Mar 31 17:39:36 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRej2BkXWNW7bYLtli+h4kjQ05cWNHf", uri="sip:sip-proxy1.dom.loc", response="a2e1b2c491002194e2b362116d0698a2", algorithm=MD5.
+Wed Mar 31 17:39:36 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 17:39:36 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Wed Mar 31 17:39:36 ALMT 2021: Content-Length: 0.
+Wed Mar 31 17:39:36 ALMT 2021: 
+Wed Mar 31 17:39:36 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5061 #2
+Wed Mar 31 17:39:36 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK00cc0d708390eb118edca8ed6e6e3c59;rport=5061;received=10.22.33.17.
+Wed Mar 31 17:39:36 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.1795d2ff.
+Wed Mar 31 17:39:36 ALMT 2021: CSeq: 283 REGISTER.
+Wed Mar 31 17:39:36 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 17:39:36 ALMT 2021: .
+Wed Mar 31 17:39:36 ALMT 2021: #
+Wed Mar 31 17:39:36 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 17:39:36 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=3499561805.
+Wed Mar 31 17:39:36 ALMT 2021: Call-ID: 00CC0D70-8390-EB11-8EDD-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 17:39:36 ALMT 2021: Contact: <sip:1002@10.22.33.17:5061>;Expires=0;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 17:39:36 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Wed Mar 31 17:39:36 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 17:39:36 ALMT 2021: Expires: 0.
+Wed Mar 31 17:39:36 ALMT 2021: .
+Wed Mar 31 17:39:37 ALMT 2021: #
+Wed Mar 31 17:39:37 ALMT 2021: SIP/2.0 200 OK.
+Wed Mar 31 17:39:37 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=3499561805.
+Wed Mar 31 17:39:37 ALMT 2021: Call-ID: 00CC0D70-8390-EB11-8EDD-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 17:39:37 ALMT 2021: Server: NtVoice SIP Switch.
+Wed Mar 31 17:39:37 ALMT 2021: .
+Wed Mar 31 17:39:37 ALMT 2021: #
+Wed Mar 31 17:39:37 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Wed Mar 31 17:39:37 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2718570995.
+Wed Mar 31 17:39:37 ALMT 2021: Call-ID: 00CC0D70-8390-EB11-8EDF-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 17:39:37 ALMT 2021: Contact: <sip:1002@10.22.33.17:5061>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Wed Mar 31 17:39:37 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 17:39:37 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 17:39:37 ALMT 2021: Expires: 600.
+Wed Mar 31 17:39:37 ALMT 2021: .
+Wed Mar 31 17:39:37 ALMT 2021: #
+Wed Mar 31 17:39:37 ALMT 2021: SIP/2.0 401 Unauthorized.
+Wed Mar 31 17:39:37 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2718570995.
+Wed Mar 31 17:39:37 ALMT 2021: Call-ID: 00CC0D70-8390-EB11-8EDF-A8ED6E6E3C59@10.22.33.17.
+Wed Mar 31 17:39:37 ALMT 2021: WWW-Authenticate: Digest realm="sip-proxy1.dom.loc", nonce="YGRgu2BkX49yprWvPrH16svfV+W5/4Uc".
+Wed Mar 31 17:39:37 ALMT 2021: Content-Length: 0.
+Wed Mar 31 17:39:37 ALMT 2021: 
+Wed Mar 31 17:39:37 ALMT 2021: U 10.22.33.17:5061 -> 192.168.17.81:5060 #7
+Wed Mar 31 17:39:37 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK00cc0d708390eb118ee3a8ed6e6e3c59;rport.
+Wed Mar 31 17:39:37 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Wed Mar 31 17:39:37 ALMT 2021: CSeq: 286 REGISTER.
+Wed Mar 31 17:39:37 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGRgu2BkX49yprWvPrH16svfV+W5/4Uc", uri="sip:sip-proxy1.dom.loc", response="26b0bf7b1fe56658eaffa7e0653f6ee0", algorithm=MD5.
+Wed Mar 31 17:39:37 ALMT 2021: Max-Forwards: 70.
+Wed Mar 31 17:39:37 ALMT 2021: User-Agent: PhonerLite 2.88.
+Wed Mar 31 17:39:37 ALMT 2021: Expires: 600.
+Wed Mar 31 17:39:37 ALMT 2021: .
+Wed Mar 31 17:39:43 ALMT 2021: #
+Thu Apr 01 09:21:29 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Thu Apr 01 09:21:29 ALMT 2021: U 10.22.33.17:5061 -> 192.168.17.81:5060 #1
+Thu Apr 01 09:21:29 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK80426d040791eb11a507a34d5c72acdf;rport.
+Thu Apr 01 09:21:29 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Thu Apr 01 09:21:29 ALMT 2021: CSeq: 1 REGISTER.
+Thu Apr 01 09:21:29 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Thu Apr 01 09:21:29 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Thu Apr 01 09:21:29 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Thu Apr 01 09:21:29 ALMT 2021: Content-Length: 0.
+Thu Apr 01 09:21:29 ALMT 2021: 
+Thu Apr 01 09:21:29 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5061 #2
+Thu Apr 01 09:21:29 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK80426d040791eb11a507a34d5c72acdf;rport=5061;received=10.22.33.17.
+Thu Apr 01 09:21:29 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.1795d2ff.
+Thu Apr 01 09:21:29 ALMT 2021: CSeq: 1 REGISTER.
+Thu Apr 01 09:21:29 ALMT 2021: Server: NtVoice SIP Switch.
+Thu Apr 01 09:21:29 ALMT 2021: .
+Thu Apr 01 09:21:29 ALMT 2021: #
+Thu Apr 01 09:21:29 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Thu Apr 01 09:21:29 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=214209293.
+Thu Apr 01 09:21:29 ALMT 2021: Call-ID: 80426D04-0791-EB11-A504-A34D5C72ACDF@10.22.33.17.
+Thu Apr 01 09:21:29 ALMT 2021: Contact: <sip:1002@10.22.33.17:5061>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Thu Apr 01 09:21:29 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Thu Apr 01 09:21:29 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Thu Apr 01 09:21:29 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Thu Apr 01 09:21:29 ALMT 2021: Content-Length: 0.
+Thu Apr 01 09:21:29 ALMT 2021: 
+Thu Apr 01 09:21:30 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5061 #4
+Thu Apr 01 09:21:30 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK80426d040791eb11a508a34d5c72acdf;rport=5061;received=10.22.33.17.
+Thu Apr 01 09:21:30 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.1795d2ff.
+Thu Apr 01 09:21:30 ALMT 2021: CSeq: 2 REGISTER.
+Thu Apr 01 09:21:30 ALMT 2021: Server: NtVoice SIP Switch.
+Thu Apr 01 09:21:30 ALMT 2021: .
+Thu Apr 01 09:21:30 ALMT 2021: #
+Thu Apr 01 09:21:30 ALMT 2021: PING sip:192.168.17.81:5060 SIP/2.0.
+Thu Apr 01 09:21:30 ALMT 2021: Proxy-Require: com.nortelnetworks.firewall.
+Thu Apr 01 09:21:30 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Thu Apr 01 09:21:30 ALMT 2021: Call-ID: a9b1ce82addca191.
+Thu Apr 01 09:21:30 ALMT 2021: User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Thu Apr 01 09:21:30 ALMT 2021: .
+Thu Apr 01 09:21:39 ALMT 2021: #
+Thu Apr 01 09:21:39 ALMT 2021: SIP/2.0 407 Proxy Authentication Required.
+Thu Apr 01 09:21:39 ALMT 2021: From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Thu Apr 01 09:21:39 ALMT 2021: Call-ID: a9b1ce82addca191.
+Thu Apr 01 09:21:39 ALMT 2021: Proxy-Authenticate: Digest realm="sip-proxy.dom.loc", nonce="YGU9fmBlPFIYLHGWfvEftlsfsK3PIGm5".
+Thu Apr 01 09:21:39 ALMT 2021: Content-Length: 0.
+Thu Apr 01 09:21:39 ALMT 2021: 
+Thu Apr 01 09:21:39 ALMT 2021: U 192.168.17.83:5060 -> 192.168.17.81:5060 #7
+Thu Apr 01 09:21:39 ALMT 2021: Via: SIP/2.0/UDP 192.168.17.83:5060;rport;branch=z9hG4bKPj60b8feed-6370-4e29-b3eb-6b9659533c78.
+Thu Apr 01 09:21:39 ALMT 2021: To: <sip:1008@192.168.17.81>.
+Thu Apr 01 09:21:39 ALMT 2021: CSeq: 55129 REGISTER.
+Thu Apr 01 09:21:39 ALMT 2021: Expires: 3600.
+Thu Apr 01 09:21:39 ALMT 2021: Max-Forwards: 70.
+Thu Apr 01 09:21:39 ALMT 2021: Content-Length:  0.
+Thu Apr 01 09:21:39 ALMT 2021: 
+Thu Apr 01 09:21:39 ALMT 2021: U 192.168.17.81:5060 -> 192.168.17.83:5060 #8
+Thu Apr 01 09:21:39 ALMT 2021: Via: SIP/2.0/UDP 192.168.17.83:5060;rport=5060;branch=z9hG4bKPj60b8feed-6370-4e29-b3eb-6b9659533c78;received=192.168.17.83.
+Thu Apr 01 09:21:39 ALMT 2021: To: <sip:1008@192.168.17.81>;tag=1be26f7abdde97114f91438f0f38563b.df6938ca.
+Thu Apr 01 09:21:39 ALMT 2021: CSeq: 55129 REGISTER.
+Thu Apr 01 09:21:39 ALMT 2021: Server: NtVoice SIP Switch.
+Thu Apr 01 09:21:39 ALMT 2021: .
+Thu Apr 01 09:21:39 ALMT 2021: #
+Thu Apr 01 09:21:39 ALMT 2021: REGISTER sip:192.168.17.81 SIP/2.0.
+Thu Apr 01 09:21:39 ALMT 2021: From: <sip:1008@192.168.17.81>;tag=ba000b48-c90f-4956-8e4d-bc6277597b93.
+Thu Apr 01 09:21:39 ALMT 2021: Call-ID: 5542a1c9-9a43-477e-91d2-81f081cf409f.
+Thu Apr 01 09:21:39 ALMT 2021: Contact: <sip:s@192.168.17.83:5060>.
+Thu Apr 01 09:21:39 ALMT 2021: Allow: OPTIONS, REGISTER, SUBSCRIBE, NOTIFY, PUBLISH, INVITE, ACK, BYE, CANCEL, UPDATE, PRACK, MESSAGE, REFER.
+Thu Apr 01 09:21:39 ALMT 2021: User-Agent: Asterisk PBX 16.16.0.
+Thu Apr 01 09:21:39 ALMT 2021: Content-Length:  0.
+Thu Apr 01 09:21:39 ALMT 2021: 
+Thu Apr 01 10:53:34 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Thu Apr 01 10:53:34 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #1
+Thu Apr 01 10:53:34 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKe969101e2a91bb596.
+Thu Apr 01 10:53:34 ALMT 2021: Max-Forwards: 70.
+Thu Apr 01 10:53:34 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Thu Apr 01 10:53:34 ALMT 2021: CSeq: 29088 PING.
+Thu Apr 01 10:53:34 ALMT 2021: Content-Length: 0.
+Thu Apr 01 10:53:34 ALMT 2021: 
+Thu Apr 01 10:53:40 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.118:5060 #2
+Thu Apr 01 10:53:40 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bKe969101e2a91bb596;rport=5060.
+Thu Apr 01 10:53:40 ALMT 2021: To: <sip:sip-proxy.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.4a236d6e.
+Thu Apr 01 10:53:40 ALMT 2021: CSeq: 29088 PING.
+Thu Apr 01 10:53:40 ALMT 2021: Server: NtVoice SIP Switch.
+Thu Apr 01 10:53:40 ALMT 2021: .
+Thu Apr 01 10:53:40 ALMT 2021: #
+Thu Apr 01 10:53:40 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Thu Apr 01 10:53:40 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=214209293.
+Thu Apr 01 10:53:40 ALMT 2021: Call-ID: 80426D04-0791-EB11-A504-A34D5C72ACDF@10.22.33.17.
+Thu Apr 01 10:53:40 ALMT 2021: Contact: <sip:1002@10.22.33.17:5061>;Expires=0;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Thu Apr 01 10:53:40 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Thu Apr 01 10:53:40 ALMT 2021: User-Agent: PhonerLite 2.88.
+Thu Apr 01 10:53:40 ALMT 2021: Expires: 0.
+Thu Apr 01 10:53:40 ALMT 2021: .
+Thu Apr 01 10:53:40 ALMT 2021: #
+Thu Apr 01 10:53:40 ALMT 2021: SIP/2.0 401 Unauthorized.
+Thu Apr 01 10:53:40 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=214209293.
+Thu Apr 01 10:53:40 ALMT 2021: Call-ID: 80426D04-0791-EB11-A504-A34D5C72ACDF@10.22.33.17.
+Thu Apr 01 10:53:40 ALMT 2021: WWW-Authenticate: Digest realm="sip-proxy1.dom.loc", nonce="YGVTGGBlUex/kDWMUByv0zZcMJb4OGql".
+Thu Apr 01 10:53:40 ALMT 2021: Content-Length: 0.
+Thu Apr 01 10:53:40 ALMT 2021: 
+Thu Apr 01 10:53:40 ALMT 2021: U 10.22.33.17:5061 -> 192.168.17.81:5060 #5
+Thu Apr 01 10:53:40 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK00e228e51391eb11a513a34d5c72acdf;rport.
+Thu Apr 01 10:53:40 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Thu Apr 01 10:53:40 ALMT 2021: CSeq: 22 REGISTER.
+Thu Apr 01 10:53:40 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGVTGGBlUex/kDWMUByv0zZcMJb4OGql", uri="sip:sip-proxy1.dom.loc", response="1669f416bde5b3f0b720c119ca374444", algorithm=MD5.
+Thu Apr 01 10:53:40 ALMT 2021: Max-Forwards: 70.
+Thu Apr 01 10:53:40 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Thu Apr 01 10:53:40 ALMT 2021: Content-Length: 0.
+Thu Apr 01 10:53:40 ALMT 2021: 
+Thu Apr 01 10:53:40 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5061 #6
+Thu Apr 01 10:53:40 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK00e228e51391eb11a513a34d5c72acdf;rport=5061;received=10.22.33.17.
+Thu Apr 01 10:53:40 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.1795d2ff.
+Thu Apr 01 10:53:40 ALMT 2021: CSeq: 22 REGISTER.
+Thu Apr 01 10:53:40 ALMT 2021: Content-Length: 0.
+Thu Apr 01 10:53:40 ALMT 2021: 
+Thu Apr 01 10:53:40 ALMT 2021: U 10.22.33.17:5061 -> 192.168.17.81:5060 #7
+Thu Apr 01 10:53:40 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK00e228e51391eb11a517a34d5c72acdf;rport.
+Thu Apr 01 10:53:40 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Thu Apr 01 10:53:40 ALMT 2021: CSeq: 23 REGISTER.
+Thu Apr 01 10:53:40 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Thu Apr 01 10:53:40 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Thu Apr 01 10:53:40 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Thu Apr 01 10:53:40 ALMT 2021: Content-Length: 0.
+Thu Apr 01 10:53:40 ALMT 2021: 
+Thu Apr 01 10:53:40 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5061 #8
+Thu Apr 01 10:53:40 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK00e228e51391eb11a517a34d5c72acdf;rport=5061;received=10.22.33.17.
+Thu Apr 01 10:53:40 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.1795d2ff.
+Thu Apr 01 10:53:40 ALMT 2021: CSeq: 23 REGISTER.
+Thu Apr 01 10:53:40 ALMT 2021: Server: NtVoice SIP Switch.
+Thu Apr 01 10:53:40 ALMT 2021: .
+Thu Apr 01 10:53:40 ALMT 2021: #
+Thu Apr 01 10:53:40 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Thu Apr 01 10:53:40 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1489070497.
+Thu Apr 01 10:53:40 ALMT 2021: Call-ID: 00E228E5-1391-EB11-A514-A34D5C72ACDF@10.22.33.17.
+Thu Apr 01 10:53:40 ALMT 2021: Contact: <sip:1002@10.22.33.17:5061>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Thu Apr 01 10:53:40 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Thu Apr 01 10:53:40 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Thu Apr 01 10:53:40 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Thu Apr 01 10:53:40 ALMT 2021: Content-Length: 0.
+Thu Apr 01 10:53:40 ALMT 2021: 
+Thu Apr 01 11:00:23 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Thu Apr 01 11:00:23 ALMT 2021: U 10.22.33.17:5061 -> 192.168.17.81:5060 #1
+Thu Apr 01 11:00:23 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK80cd5dd51491eb11a518a34d5c72acdf;rport.
+Thu Apr 01 11:00:23 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Thu Apr 01 11:00:23 ALMT 2021: CSeq: 25 REGISTER.
+Thu Apr 01 11:00:23 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGVTGGBlUex/kDWMUByv0zZcMJb4OGql", uri="sip:sip-proxy1.dom.loc", response="1669f416bde5b3f0b720c119ca374444", algorithm=MD5.
+Thu Apr 01 11:00:23 ALMT 2021: Max-Forwards: 70.
+Thu Apr 01 11:00:23 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Thu Apr 01 11:00:23 ALMT 2021: Content-Length: 0.
+Thu Apr 01 11:00:23 ALMT 2021: 
+Thu Apr 01 11:00:23 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5061 #2
+Thu Apr 01 11:00:23 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK80cd5dd51491eb11a518a34d5c72acdf;rport=5061;received=10.22.33.17.
+Thu Apr 01 11:00:23 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.1795d2ff.
+Thu Apr 01 11:00:23 ALMT 2021: CSeq: 25 REGISTER.
+Thu Apr 01 11:00:23 ALMT 2021: Server: NtVoice SIP Switch.
+Thu Apr 01 11:00:23 ALMT 2021: .
+Thu Apr 01 11:00:23 ALMT 2021: #
+Thu Apr 01 11:00:23 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Thu Apr 01 11:00:23 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2744351431.
+Thu Apr 01 11:00:23 ALMT 2021: Call-ID: 80CD5DD5-1491-EB11-A519-A34D5C72ACDF@10.22.33.17.
+Thu Apr 01 11:00:23 ALMT 2021: Contact: <sip:1002@10.22.33.17:5061>;Expires=0;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Thu Apr 01 11:00:23 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Thu Apr 01 11:00:23 ALMT 2021: User-Agent: PhonerLite 2.88.
+Thu Apr 01 11:00:23 ALMT 2021: Expires: 0.
+Thu Apr 01 11:00:23 ALMT 2021: .
+Thu Apr 01 11:00:23 ALMT 2021: #
+Thu Apr 01 11:00:23 ALMT 2021: SIP/2.0 200 OK.
+Thu Apr 01 11:00:23 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2744351431.
+Thu Apr 01 11:00:23 ALMT 2021: Call-ID: 80CD5DD5-1491-EB11-A519-A34D5C72ACDF@10.22.33.17.
+Thu Apr 01 11:00:23 ALMT 2021: Server: NtVoice SIP Switch.
+Thu Apr 01 11:00:23 ALMT 2021: .
+Thu Apr 01 11:00:23 ALMT 2021: #
+Thu Apr 01 11:00:23 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Thu Apr 01 11:00:23 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2347258440.
+Thu Apr 01 11:00:23 ALMT 2021: Call-ID: 80CD5DD5-1491-EB11-A51B-A34D5C72ACDF@10.22.33.17.
+Thu Apr 01 11:00:23 ALMT 2021: Contact: <sip:1002@10.22.33.17:5061>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Thu Apr 01 11:00:23 ALMT 2021: Max-Forwards: 70.
+Thu Apr 01 11:00:23 ALMT 2021: User-Agent: PhonerLite 2.88.
+Thu Apr 01 11:00:23 ALMT 2021: Expires: 600.
+Thu Apr 01 11:00:23 ALMT 2021: .
+Thu Apr 01 11:00:23 ALMT 2021: #
+Thu Apr 01 11:00:23 ALMT 2021: SIP/2.0 401 Unauthorized.
+Thu Apr 01 11:00:23 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=2347258440.
+Thu Apr 01 11:00:23 ALMT 2021: Call-ID: 80CD5DD5-1491-EB11-A51B-A34D5C72ACDF@10.22.33.17.
+Thu Apr 01 11:00:23 ALMT 2021: WWW-Authenticate: Digest realm="sip-proxy1.dom.loc", nonce="YGVUq2BlU38c0k8LoSVqu+odo52LIHxM".
+Thu Apr 01 11:00:23 ALMT 2021: Content-Length: 0.
+Thu Apr 01 11:00:23 ALMT 2021: 
+Thu Apr 01 11:00:23 ALMT 2021: U 10.22.33.17:5061 -> 192.168.17.81:5060 #7
+Thu Apr 01 11:00:23 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK80cd5dd51491eb11a51fa34d5c72acdf;rport.
+Thu Apr 01 11:00:23 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Thu Apr 01 11:00:23 ALMT 2021: CSeq: 28 REGISTER.
+Thu Apr 01 11:00:23 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGVUq2BlU38c0k8LoSVqu+odo52LIHxM", uri="sip:sip-proxy1.dom.loc", response="2c37b006eb3a6a29d7b71be837e60394", algorithm=MD5.
+Thu Apr 01 11:00:23 ALMT 2021: Max-Forwards: 70.
+Thu Apr 01 11:00:23 ALMT 2021: User-Agent: PhonerLite 2.88.
+Thu Apr 01 11:00:23 ALMT 2021: Expires: 600.
+Thu Apr 01 11:00:23 ALMT 2021: .
+Thu Apr 01 11:00:26 ALMT 2021: #
+Thu Apr 01 12:19:58 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Thu Apr 01 12:19:58 ALMT 2021: U 10.22.33.17:5061 -> 192.168.17.81:5060 #1
+Thu Apr 01 12:19:58 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK00fb7cf31f91eb11a527a34d5c72acdf;rport.
+Thu Apr 01 12:19:58 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Thu Apr 01 12:19:58 ALMT 2021: CSeq: 45 REGISTER.
+Thu Apr 01 12:19:58 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGVme2BlZU9MW0FAPtbTqk9qgrFEshaQ", uri="sip:sip-proxy1.dom.loc", response="51d71efc5279d270c5169534d23537c9", algorithm=MD5.
+Thu Apr 01 12:19:58 ALMT 2021: Max-Forwards: 70.
+Thu Apr 01 12:19:58 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Thu Apr 01 12:19:58 ALMT 2021: Content-Length: 0.
+Thu Apr 01 12:19:58 ALMT 2021: 
+Thu Apr 01 12:19:59 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5061 #2
+Thu Apr 01 12:19:59 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK00fb7cf31f91eb11a527a34d5c72acdf;rport=5061;received=10.22.33.17.
+Thu Apr 01 12:19:59 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.1795d2ff.
+Thu Apr 01 12:19:59 ALMT 2021: CSeq: 45 REGISTER.
+Thu Apr 01 12:19:59 ALMT 2021: Content-Length: 0.
+Thu Apr 01 12:19:59 ALMT 2021: 
+Thu Apr 01 12:19:59 ALMT 2021: U 10.22.33.17:5061 -> 192.168.17.81:5060 #3
+Thu Apr 01 12:19:59 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK00fb7cf31f91eb11a52ca34d5c72acdf;rport.
+Thu Apr 01 12:19:59 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Thu Apr 01 12:19:59 ALMT 2021: CSeq: 46 REGISTER.
+Thu Apr 01 12:19:59 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Thu Apr 01 12:19:59 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Thu Apr 01 12:19:59 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Thu Apr 01 12:19:59 ALMT 2021: Content-Length: 0.
+Thu Apr 01 12:19:59 ALMT 2021: 
+Thu Apr 01 12:19:59 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5061 #4
+Thu Apr 01 12:19:59 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK00fb7cf31f91eb11a52ca34d5c72acdf;rport=5061;received=10.22.33.17.
+Thu Apr 01 12:19:59 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.1795d2ff.
+Thu Apr 01 12:19:59 ALMT 2021: CSeq: 46 REGISTER.
+Thu Apr 01 12:19:59 ALMT 2021: Server: NtVoice SIP Switch.
+Thu Apr 01 12:19:59 ALMT 2021: .
+Thu Apr 01 12:19:59 ALMT 2021: #
+Thu Apr 01 12:19:59 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Thu Apr 01 12:19:59 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=819031922.
+Thu Apr 01 12:19:59 ALMT 2021: Call-ID: 00FB7CF3-1F91-EB11-A529-A34D5C72ACDF@10.22.33.17.
+Thu Apr 01 12:19:59 ALMT 2021: Contact: <sip:1002@10.22.33.17:5061>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Thu Apr 01 12:19:59 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Thu Apr 01 12:19:59 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Thu Apr 01 12:19:59 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Thu Apr 01 12:19:59 ALMT 2021: Content-Length: 0.
+Thu Apr 01 12:19:59 ALMT 2021: 
+Thu Apr 01 12:23:21 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Thu Apr 01 12:23:21 ALMT 2021: U 10.22.33.17:5061 -> 192.168.17.81:5060 #1
+Thu Apr 01 12:23:21 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK80527c6c2091eb11a531a34d5c72acdf;rport.
+Thu Apr 01 12:23:21 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Thu Apr 01 12:23:21 ALMT 2021: CSeq: 51 REGISTER.
+Thu Apr 01 12:23:21 ALMT 2021: Authorization: Digest username="1002", realm="sip-proxy1.dom.loc", nonce="YGVoA2BlZtdyeYD4S1E1WOFdyi4wMXtW", uri="sip:sip-proxy1.dom.loc", response="b3aed8a08e91fa52b2f5ca84e6c69c02", algorithm=MD5.
+Thu Apr 01 12:23:21 ALMT 2021: Max-Forwards: 70.
+Thu Apr 01 12:23:21 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Thu Apr 01 12:23:21 ALMT 2021: Content-Length: 0.
+Thu Apr 01 12:23:21 ALMT 2021: 
+Thu Apr 01 12:23:21 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5061 #2
+Thu Apr 01 12:23:21 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK80527c6c2091eb11a531a34d5c72acdf;rport=5061;received=10.22.33.17.
+Thu Apr 01 12:23:21 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.1795d2ff.
+Thu Apr 01 12:23:21 ALMT 2021: CSeq: 51 REGISTER.
+Thu Apr 01 12:23:21 ALMT 2021: Content-Length: 0.
+Thu Apr 01 12:23:21 ALMT 2021: 
+Thu Apr 01 12:23:21 ALMT 2021: U 10.22.33.17:5061 -> 192.168.17.81:5060 #3
+Thu Apr 01 12:23:21 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK80527c6c2091eb11a536a34d5c72acdf;rport.
+Thu Apr 01 12:23:21 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>.
+Thu Apr 01 12:23:21 ALMT 2021: CSeq: 52 REGISTER.
+Thu Apr 01 12:23:21 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Thu Apr 01 12:23:21 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Thu Apr 01 12:23:21 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Thu Apr 01 12:23:21 ALMT 2021: Content-Length: 0.
+Thu Apr 01 12:23:21 ALMT 2021: 
+Thu Apr 01 12:23:21 ALMT 2021: U 192.168.17.81:5060 -> 10.22.33.17:5061 #4
+Thu Apr 01 12:23:21 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.17:5061;branch=z9hG4bK80527c6c2091eb11a536a34d5c72acdf;rport=5061;received=10.22.33.17.
+Thu Apr 01 12:23:21 ALMT 2021: To: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1be26f7abdde97114f91438f0f38563b.1795d2ff.
+Thu Apr 01 12:23:21 ALMT 2021: CSeq: 52 REGISTER.
+Thu Apr 01 12:23:21 ALMT 2021: Server: NtVoice SIP Switch.
+Thu Apr 01 12:23:21 ALMT 2021: .
+Thu Apr 01 12:23:21 ALMT 2021: #
+Thu Apr 01 12:23:21 ALMT 2021: REGISTER sip:sip-proxy1.dom.loc SIP/2.0.
+Thu Apr 01 12:23:21 ALMT 2021: From: "PhonerLite" <sip:1002@sip-proxy1.dom.loc>;tag=1449466212.
+Thu Apr 01 12:23:21 ALMT 2021: Call-ID: 80527C6C-2091-EB11-A533-A34D5C72ACDF@10.22.33.17.
+Thu Apr 01 12:23:21 ALMT 2021: Contact: <sip:1002@10.22.33.17:5061>;+sip.instance="<urn:uuid:80C6C83F-5A8C-EB11-8445-69F79BAC783A>".
+Thu Apr 01 12:23:21 ALMT 2021: Allow: INVITE, ACK, BYE, CANCEL, MESSAGE, NOTIFY, OPTIONS, REFER, UPDATE, PRACK.
+Thu Apr 01 12:23:21 ALMT 2021: Allow-Events: org.3gpp.nwinitdereg.
+Thu Apr 01 12:23:21 ALMT 2021: Supported: 100rel, replaces, from-change, gruu.
+Thu Apr 01 12:23:21 ALMT 2021: Content-Length: 0.
+Thu Apr 01 12:23:21 ALMT 2021: 
+Thu Apr 01 12:30:02 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Thu Apr 01 14:31:45 ALMT 2021: filter: ( port 5060 ) and ((ip || ip6) || (vlan && (ip || ip6)))
+Thu Apr 01 14:31:45 ALMT 2021: U 10.22.33.118:5060 -> 192.168.17.81:5060 #1
+Thu Apr 01 14:31:45 ALMT 2021: Via: SIP/2.0/UDP 10.22.33.118:5060;branch=z9hG4bK553866e7f0e431395.
+Thu Apr 01 14:31:45 ALMT 2021: Max-Forwards: 70.
+Thu Apr 01 14:31:45 ALMT 2021: To: <sip:sip-proxy.dom.loc>.
+Thu Apr 01 14:31:45 ALMT 2021: CSeq: 29306 PING.
+Thu Apr 01 14:31:45 ALMT 2021: Content-Length: 0.
+Thu Apr 01 14:31:45 ALMT 2021: 

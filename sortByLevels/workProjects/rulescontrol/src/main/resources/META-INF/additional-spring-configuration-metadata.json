@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.thymeleaf.expose-request-attributes",
+      "type": "java.lang.String",
+      "description": "Description for spring.thymeleaf.expose-request-attributes."
+  }
+] }

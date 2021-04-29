@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="348.0">Order</node>
+    <node x="21.5" y="174.0">OrderItem</node>
+    <node x="44.0" y="0.0">Good</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Order" target="OrderItem">
+      <point x="-76.0" y="-73.5" />
+      <point x="38.0" y="323.0" />
+      <point x="52.333333333333336" y="323.0" />
+      <point x="-61.666666666666664" y="62.0" />
+    </edge>
+    <edge source="OrderItem" target="Good">
+      <point x="-61.66666666666666" y="-62.0" />
+      <point x="52.33333333333334" y="149.0" />
+      <point x="67.33333333333334" y="149.0" />
+      <point x="-46.66666666666666" y="62.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="247.77777777777783" y="236.44444444444446" />
+  <SelectedNodes>
+    <node>Order</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

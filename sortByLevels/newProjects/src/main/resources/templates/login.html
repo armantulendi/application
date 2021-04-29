@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<link rel="stylesheet" href="css/logStyle.css">
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+        <!-- Tabs Titles -->
+
+        <!-- Icon -->
+        <div class="fadeIn first">
+            <h1>VoIP</h1>
+<!--         <img src="/d3.jpg"  id="icon" alt="User Icon" /> -->
+        </div>
+        <div th:if="${param.error}">
+            Неправильное имя или пароль
+        </div>
+        <div th:if="${param.logout}">
+            Вы вышли из системы
+        </div>
+        <!-- Login Form -->
+        <form th:action="@{login}" method="post">
+            <div>
+            <label for="login"><input type="text" id="login" class="fadeIn second" name="username" placeholder="логин"></label>
+            </div>
+            <div>
+            <label for="password"><input type="password" id="password" class="fadeIn third" name="password" placeholder="пароль"></label>
+            </div>
+            <input type="hidden" name="_csrf" value="${_csrf.token}">
+                <div><input type="submit" class="fadeIn fourth" value="Войти"></div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

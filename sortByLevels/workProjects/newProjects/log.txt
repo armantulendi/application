@@ -1,0 +1,121 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.3)
+
+2021-04-05 16:08:57.423  INFO 2824 --- [           main] c.e.withfront.WithfrontApplication       : Starting WithfrontApplication v0.0.1-SNAPSHOT using Java 1.8.0_282 on arman-X541UA with PID 2824 (/home/arman/newProjects/target/withfront-0.0.1-SNAPSHOT.jar started by arman in /home/arman/newProjects)
+2021-04-05 16:08:57.444  INFO 2824 --- [           main] c.e.withfront.WithfrontApplication       : No active profile set, falling back to default profiles: default
+2021-04-05 16:09:02.040  INFO 2824 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-05 16:09:02.225  INFO 2824 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 166 ms. Found 4 JPA repository interfaces.
+2021-04-05 16:09:02.227  INFO 2824 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-05 16:09:02.261  INFO 2824 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2021-04-05 16:09:02.262  INFO 2824 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-05 16:09:02.286  INFO 2824 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2021-04-05 16:09:03.695  INFO 2824 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1cbb87f3' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-05 16:09:03.701  INFO 2824 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-05 16:09:04.783  INFO 2824 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-05 16:09:04.898  INFO 2824 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-05 16:09:04.899  INFO 2824 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-05 16:09:05.010  INFO 2824 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-05 16:09:05.011  INFO 2824 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6472 ms
+2021-04-05 16:09:05.499  INFO 2824 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: subscriberUnit]
+2021-04-05 16:09:05.730  INFO 2824 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-05 16:09:06.158  INFO 2824 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-05 16:09:07.660  INFO 2824 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-05 16:09:08.262  INFO 2824 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-05 16:09:08.311  INFO 2824 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+log4j:ERROR Could not find value for key log4j.appender.file.layout
+log4j:WARN File option not set for appender [file].
+log4j:WARN Are you using FileAppender instead of ConsoleAppender?
+2021-04-05 16:09:09.762  INFO 2824 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-05 16:09:09.772  INFO 2824 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'subscriberUnit'
+2021-04-05 16:09:09.790  INFO 2824 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: userUnit]
+2021-04-05 16:09:10.015  INFO 2824 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-04-05 16:09:10.571  INFO 2824 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-04-05 16:09:10.572  INFO 2824 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-05 16:09:10.952  INFO 2824 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-05 16:09:10.952  INFO 2824 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'userUnit'
+2021-04-05 16:09:10.986  INFO 2824 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: bookUnit]
+2021-04-05 16:09:11.192  INFO 2824 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-04-05 16:09:11.233  INFO 2824 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-04-05 16:09:11.233  INFO 2824 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-05 16:09:11.740  INFO 2824 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-05 16:09:11.741  INFO 2824 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'bookUnit'
+2021-04-05 16:09:13.500  INFO 2824 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@777d0bc3, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f2d995e, org.springframework.security.web.header.HeaderWriterFilter@14fded9d, org.springframework.security.web.csrf.CsrfFilter@668625f5, org.springframework.security.web.authentication.logout.LogoutFilter@27df95e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@939ff41, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6198e9b5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ecd00b5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3178219a, org.springframework.security.web.session.SessionManagementFilter@4a3bd45b, org.springframework.security.web.access.ExceptionTranslationFilter@5d7399f9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d0cac1f]
+2021-04-05 16:09:13.675  INFO 2824 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-05 16:09:13.822  INFO 2824 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-04-05 16:09:14.593  INFO 2824 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-04-05 16:09:14.605  INFO 2824 --- [           main] c.e.withfront.WithfrontApplication       : Started WithfrontApplication in 19.12 seconds (JVM running for 23.529)
+2021-04-05 16:09:58.019  INFO 2824 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-05 16:09:58.020  INFO 2824 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-05 16:09:58.022  INFO 2824 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+Hibernate: select user0_.id as id1_6_, user0_.active as active2_6_, user0_.email as email3_6_, user0_.firstname as firstnam4_6_, user0_.lastname as lastname5_6_, user0_.password as password6_6_, user0_.repeat_password as repeat_p7_6_, user0_.username as username8_6_ from usr user0_ where user0_.username=?
+Hibernate: select roles0_.user_id as user_id1_5_0_, roles0_.roles as roles2_5_0_ from user_role roles0_ where roles0_.user_id=?
+Hibernate: select subscriber0_.id as id1_4_, subscriber0_.domain as domain2_4_, subscriber0_.ha1 as ha3_4_, subscriber0_.ha1b as ha4_4_, subscriber0_.password as password5_4_, subscriber0_.username as username6_4_ from subscriber subscriber0_
+Hibernate: select drgateway0_.gwid as gwid1_1_, drgateway0_.attrs as attrs2_1_, drgateway0_.description as descript3_1_, drgateway0_.address as address4_1_, drgateway0_.pri_prefix as pri_pref5_1_, drgateway0_.strip as strip6_1_, drgateway0_.type as type7_1_ from dr_gateways drgateway0_
+Hibernate: select user0_.id as id1_6_, user0_.active as active2_6_, user0_.email as email3_6_, user0_.firstname as firstnam4_6_, user0_.lastname as lastname5_6_, user0_.password as password6_6_, user0_.repeat_password as repeat_p7_6_, user0_.username as username8_6_ from usr user0_
+Hibernate: select roles0_.user_id as user_id1_5_0_, roles0_.roles as roles2_5_0_ from user_role roles0_ where roles0_.user_id=?
+log4j:ERROR No output stream or file set for the appender named [file].
+Mon Apr 05 16:10:13 ALMT 2021:interface: ens192 (192.168.17.0/255.255.255.0)
+Mon Apr 05 16:10:14 ALMT 2021:#
+Mon Apr 05 16:10:14 ALMT 2021:PING sip:192.168.17.81:5060 SIP/2.0.
+Mon Apr 05 16:10:14 ALMT 2021:Proxy-Require: com.nortelnetworks.firewall.
+Mon Apr 05 16:10:14 ALMT 2021:From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Mon Apr 05 16:10:14 ALMT 2021:Call-ID: a9b1ce82addca191.
+Mon Apr 05 16:10:14 ALMT 2021:User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Mon Apr 05 16:10:14 ALMT 2021:.
+Mon Apr 05 16:10:14 ALMT 2021:#
+Hibernate: select user0_.id as id1_6_, user0_.active as active2_6_, user0_.email as email3_6_, user0_.firstname as firstnam4_6_, user0_.lastname as lastname5_6_, user0_.password as password6_6_, user0_.repeat_password as repeat_p7_6_, user0_.username as username8_6_ from usr user0_
+Hibernate: select roles0_.user_id as user_id1_5_0_, roles0_.roles as roles2_5_0_ from user_role roles0_ where roles0_.user_id=?
+Hibernate: select user0_.id as id1_6_, user0_.active as active2_6_, user0_.email as email3_6_, user0_.firstname as firstnam4_6_, user0_.lastname as lastname5_6_, user0_.password as password6_6_, user0_.repeat_password as repeat_p7_6_, user0_.username as username8_6_ from usr user0_ where user0_.username=?
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: insert into usr (active, email, firstname, lastname, password, repeat_password, username, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into user_role (user_id, roles) values (?, ?)
+Hibernate: select user0_.id as id1_6_, user0_.active as active2_6_, user0_.email as email3_6_, user0_.firstname as firstnam4_6_, user0_.lastname as lastname5_6_, user0_.password as password6_6_, user0_.repeat_password as repeat_p7_6_, user0_.username as username8_6_ from usr user0_
+Hibernate: select roles0_.user_id as user_id1_5_0_, roles0_.roles as roles2_5_0_ from user_role roles0_ where roles0_.user_id=?
+Hibernate: select roles0_.user_id as user_id1_5_0_, roles0_.roles as roles2_5_0_ from user_role roles0_ where roles0_.user_id=?
+Hibernate: select user0_.id as id1_6_, user0_.active as active2_6_, user0_.email as email3_6_, user0_.firstname as firstnam4_6_, user0_.lastname as lastname5_6_, user0_.password as password6_6_, user0_.repeat_password as repeat_p7_6_, user0_.username as username8_6_ from usr user0_ where user0_.username=?
+Hibernate: select roles0_.user_id as user_id1_5_0_, roles0_.roles as roles2_5_0_ from user_role roles0_ where roles0_.user_id=?
+Hibernate: select user0_.id as id1_6_, user0_.active as active2_6_, user0_.email as email3_6_, user0_.firstname as firstnam4_6_, user0_.lastname as lastname5_6_, user0_.password as password6_6_, user0_.repeat_password as repeat_p7_6_, user0_.username as username8_6_ from usr user0_ where user0_.username=?
+Hibernate: select roles0_.user_id as user_id1_5_0_, roles0_.roles as roles2_5_0_ from user_role roles0_ where roles0_.user_id=?
+Hibernate: select user0_.id as id1_6_, user0_.active as active2_6_, user0_.email as email3_6_, user0_.firstname as firstnam4_6_, user0_.lastname as lastname5_6_, user0_.password as password6_6_, user0_.repeat_password as repeat_p7_6_, user0_.username as username8_6_ from usr user0_
+Hibernate: select roles0_.user_id as user_id1_5_0_, roles0_.roles as roles2_5_0_ from user_role roles0_ where roles0_.user_id=?
+Hibernate: select roles0_.user_id as user_id1_5_0_, roles0_.roles as roles2_5_0_ from user_role roles0_ where roles0_.user_id=?
+Hibernate: select drgateway0_.gwid as gwid1_1_, drgateway0_.attrs as attrs2_1_, drgateway0_.description as descript3_1_, drgateway0_.address as address4_1_, drgateway0_.pri_prefix as pri_pref5_1_, drgateway0_.strip as strip6_1_, drgateway0_.type as type7_1_ from dr_gateways drgateway0_
+Hibernate: select subscriber0_.id as id1_4_, subscriber0_.domain as domain2_4_, subscriber0_.ha1 as ha3_4_, subscriber0_.ha1b as ha4_4_, subscriber0_.password as password5_4_, subscriber0_.username as username6_4_ from subscriber subscriber0_
+Hibernate: select subscriber0_.id as id1_4_, subscriber0_.domain as domain2_4_, subscriber0_.ha1 as ha3_4_, subscriber0_.ha1b as ha4_4_, subscriber0_.password as password5_4_, subscriber0_.username as username6_4_ from subscriber subscriber0_
+Hibernate: select drgateway0_.gwid as gwid1_1_, drgateway0_.attrs as attrs2_1_, drgateway0_.description as descript3_1_, drgateway0_.address as address4_1_, drgateway0_.pri_prefix as pri_pref5_1_, drgateway0_.strip as strip6_1_, drgateway0_.type as type7_1_ from dr_gateways drgateway0_
+Hibernate: select user0_.id as id1_6_, user0_.active as active2_6_, user0_.email as email3_6_, user0_.firstname as firstnam4_6_, user0_.lastname as lastname5_6_, user0_.password as password6_6_, user0_.repeat_password as repeat_p7_6_, user0_.username as username8_6_ from usr user0_
+Hibernate: select roles0_.user_id as user_id1_5_0_, roles0_.roles as roles2_5_0_ from user_role roles0_ where roles0_.user_id=?
+Hibernate: select roles0_.user_id as user_id1_5_0_, roles0_.roles as roles2_5_0_ from user_role roles0_ where roles0_.user_id=?
+Hibernate: select subscriber0_.id as id1_4_, subscriber0_.domain as domain2_4_, subscriber0_.ha1 as ha3_4_, subscriber0_.ha1b as ha4_4_, subscriber0_.password as password5_4_, subscriber0_.username as username6_4_ from subscriber subscriber0_
+Hibernate: select user0_.id as id1_6_, user0_.active as active2_6_, user0_.email as email3_6_, user0_.firstname as firstnam4_6_, user0_.lastname as lastname5_6_, user0_.password as password6_6_, user0_.repeat_password as repeat_p7_6_, user0_.username as username8_6_ from usr user0_
+Hibernate: select roles0_.user_id as user_id1_5_0_, roles0_.roles as roles2_5_0_ from user_role roles0_ where roles0_.user_id=?
+Hibernate: select roles0_.user_id as user_id1_5_0_, roles0_.roles as roles2_5_0_ from user_role roles0_ where roles0_.user_id=?
+Hibernate: select drgateway0_.gwid as gwid1_1_, drgateway0_.attrs as attrs2_1_, drgateway0_.description as descript3_1_, drgateway0_.address as address4_1_, drgateway0_.pri_prefix as pri_pref5_1_, drgateway0_.strip as strip6_1_, drgateway0_.type as type7_1_ from dr_gateways drgateway0_
+Hibernate: select subscriber0_.id as id1_4_, subscriber0_.domain as domain2_4_, subscriber0_.ha1 as ha3_4_, subscriber0_.ha1b as ha4_4_, subscriber0_.password as password5_4_, subscriber0_.username as username6_4_ from subscriber subscriber0_
+Hibernate: select drgateway0_.gwid as gwid1_1_, drgateway0_.attrs as attrs2_1_, drgateway0_.description as descript3_1_, drgateway0_.address as address4_1_, drgateway0_.pri_prefix as pri_pref5_1_, drgateway0_.strip as strip6_1_, drgateway0_.type as type7_1_ from dr_gateways drgateway0_
+Mon Apr 05 16:16:50 ALMT 2021:interface: ens192 (192.168.17.0/255.255.255.0)
+Mon Apr 05 16:17:14 ALMT 2021:#
+Mon Apr 05 16:17:14 ALMT 2021:PING sip:192.168.17.81:5060 SIP/2.0.
+Mon Apr 05 16:17:14 ALMT 2021:Proxy-Require: com.nortelnetworks.firewall.
+Mon Apr 05 16:17:14 ALMT 2021:From: <sip:sip-proxy.dom.loc>;tag=fb6a7d2b99.
+Mon Apr 05 16:17:14 ALMT 2021:Call-ID: a9b1ce82addca191.
+Mon Apr 05 16:17:14 ALMT 2021:User-Agent: Nortel IP Phone 11xx v.1.0 (06A5C39d29).
+Mon Apr 05 16:17:14 ALMT 2021:.
+Mon Apr 05 16:17:14 ALMT 2021:#
+2021-04-05 16:59:37.485  INFO 2824 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-05 16:59:37.501  INFO 2824 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'bookUnit'
+2021-04-05 16:59:37.503  INFO 2824 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2021-04-05 16:59:37.538  INFO 2824 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2021-04-05 16:59:37.539  INFO 2824 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'userUnit'
+2021-04-05 16:59:37.539  INFO 2824 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'subscriberUnit'
+2021-04-05 16:59:37.540  INFO 2824 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-05 16:59:37.552  INFO 2824 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-05 16:59:37.552  INFO 2824 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-04-05 16:59:37.580  INFO 2824 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.

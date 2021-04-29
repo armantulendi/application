@@ -1,0 +1,16 @@
+com\example\demo\controller\DrGatewayController.class
+com\example\demo\DataJpaApplication.class
+com\example\demo\repo\DrGroupsRepo.class
+com\example\demo\model\Subscriber.class
+com\example\demo\service\SubscriberService.class
+com\example\demo\controller\SubscribeController.class
+com\example\demo\repo\EmployeeDao.class
+com\example\demo\model\DrGroups.class
+com\example\demo\repo\DrRulesRepo.class
+com\example\demo\controller\DrGroupsController.class
+com\example\demo\repo\SubscriberRepo.class
+com\example\demo\controller\DrRulesController.class
+com\example\demo\model\DrRules.class
+com\example\demo\repo\DrGatewayRepo.class
+com\example\demo\second\Employee.class
+com\example\demo\model\DrGateway.class
