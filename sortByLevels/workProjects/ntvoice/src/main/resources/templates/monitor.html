@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+          content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Monsterlite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Monster admin lite design, Monster admin lite dashboard bootstrap 5 dashboard template">
+    <meta name="description"
+          content="Monster Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
+    <meta name="robots" content="noindex,nofollow">
+    <title>NtVoice</title>
+    <link rel="canonical" href="https://www.wrappixel.com/templates/monster-admin-lite/" />
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <!-- Custom CSS -->
+    <!--    from manual-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+
+    <link th:href="@{/monster-html/css/style.min.css}" rel="stylesheet">
+    <link th:href="@{/css/forCounter.css}" rel="stylesheet">
+    <link th:href="@{/css/forCircle.css}" rel="stylesheet">
+
+
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script th:src="@{/js/forCounter.js} "></script>
+    <script th:src="@{/js/forCircle.js} "></script>
+    <style type="text/css">:root {
+        background: #fff;
+    }
+
+    span#procent {
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        font-size: 50px;
+        transform: translate(-50%, -50%);
+        color: #22a927;
+    }
+
+    /*span#procent::after {*/
+    /*    content: '%';*/
+    /*}*/
+
+    .canvas-wrap {
+        position: relative;
+        width: 250px;
+        height: 250px;
+    }</style>
+</head>
+
+<body>
+
+<!-- ============================================================== -->
+<!-- Preloader - style you can find in spinners.css -->
+<!-- ============================================================== -->
+
+<div class="preloader">
+    <div class="lds-ripple">
+        <div class="lds-pos"></div>
+        <div class="lds-pos"></div>
+    </div>
+</div>
+<!-- ============================================================== -->
+<!-- Main wrapper - style you can find in pages.scss -->
+<!-- ============================================================== -->
+<div id="main-wrapper" data-layout="vertical" data-navbarbg="skin3" data-sidebartype="full" data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+    <!-- ============================================================== -->
+    <!-- Topbar header - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div th:replace="template/header :: header"></div>
+    <!-- ============================================================== -->
+    <!-- End Topbar header -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <div th:replace="template/navbar :: navbar"></div>
+    <!-- ============================================================== -->
+    <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Page wrapper  -->
+    <!-- ============================================================== -->
+
+    <div class="page-wrapper">
+        <!-- ============================================================== -->
+        <!-- Bread crumb and right sidebar toggle -->
+        <!-- ============================================================== -->
+        <div class="page-breadcrumb">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-8 align-self-center">
+                    <h3 class="page-title mb-0 p-0" th:text="#{monitorNumbers}"> </h3>
+                    <div class="d-flex align-items-center">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/" th:text="#{main}">Главная</a></li>
+                                <li class="breadcrumb-item active" aria-current="page" th:text="#{monitorNumbers}"> </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Bread crumb and right sidebar toggle -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Container fluid  -->
+        <!-- ============================================================== -->
+        <div class="container-fluid">
+            <!-- ============================================================== -->
+            <!-- Sales chart -->
+            <!-- ============================================================== -->
+            <div class="row">
+                <!-- Column -->
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title" >Активные номера </h4>
+
+                            <div >
+                                <h2 class="font-light " style="color: green">  </h2>
+                                <span   th:text="${connecting.toString()}"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- ============================================================== -->
+            <!-- Sales chart -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Container fluid  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- footer -->
+        <!-- ============================================================== -->
+        <footer class="footer text-center">
+            © 2021 Monster Admin by <a href="https://www.wrappixel.com/">wrappixel.com</a>
+        </footer>
+        <!-- ============================================================== -->
+        <!-- End footer -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Page wrapper  -->
+    <!-- ============================================================== -->
+</div>
+<!-- ============================================================== -->
+<!-- End Wrapper -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- All Jquery -->
+<!-- ============================================================== -->
+<script src="/assets/plugins/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap tether Core JavaScript -->
+<script src="/assets/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/monster-html/js/app-style-switcher.js"></script>
+<!--Wave Effects -->
+<script src="/monster-html/js/waves.js"></script>
+<!--Menu sidebar -->
+<script src="/monster-html/js/sidebarmenu.js"></script>
+<!--Custom JavaScript -->
+<script src="/monster-html/js/custom.js"></script>
+<!--This page JavaScript -->
+<!--flot chart-->
+<script type="text/javascript">
+    window.onload = function() {
+        var can = document.getElementById('canvas'),
+            spanProcent = document.getElementById('procent'),
+            c = can.getContext('2d');
+
+        var posX = can.width / 2,
+            posY = can.height / 2,
+            fps = 1000 / 100,
+            procent = 0,
+            all=[[${countCalls}]],
+            notReg=all-[[${countNotRegCallers}]],
+            oneProcent = 360 / all  ,
+            result = oneProcent * [[${countRegCallers}]];
+
+        c.lineCap = 'round';
+        arcMove();
+
+        function arcMove(){
+            var deegres = 0;
+            var acrInterval = setInterval (function() {
+                deegres += 1;
+                c.clearRect( 0, 0, can.width, can.height );
+                procent = deegres / oneProcent;
+                notReg=deegres / oneProcent;
+                spanProcent.innerHTML = procent.toFixed() ;
+
+                c.beginPath();
+                c.arc( posX, posY, 70, (Math.PI/180) * 270, (Math.PI/180) * (270 + 360) );
+                c.strokeStyle = '#94c8ea';
+                c.lineWidth = '20';
+                c.stroke();
+
+                c.beginPath();
+                c.strokeStyle = '#22a927';
+                c.lineWidth = '20';
+                c.arc( posX, posY, 70, (Math.PI/180) * 270, (Math.PI/180) * (270 + deegres) );
+                c.stroke();
+                if( deegres >= result )
+                    clearInterval(acrInterval);
+            }, fps);
+
+        }
+
+
+    }</script>
+<script>
+
+    $(document).ready(function () {
+
+        $('.count').each(function () {
+            $(this).prop('Counter',0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 1000,
+                easing: 'swing',
+                step: function (now) {
+                    $(this).text(Math.round(now));
+                }
+            });
+        });
+
+    });
+    $(document).ready(function () {
+
+        $('.countDrop').each(function () {
+            $(this).prop('Counter',0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 1000,
+                easing: 'swing',
+                step: function (now) {
+
+                    $(this).text(Math.round(now*100)/100);
+                }
+            });
+        });
+
+    });
+</script>
+<script src="/assets/plugins/flot/jquery.flot.js"></script>
+<script src="/assets/plugins/flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
+<script src="/monster-html/js/pages/dashboards/dashboard1.js"></script>
+</body>
+
+</html>

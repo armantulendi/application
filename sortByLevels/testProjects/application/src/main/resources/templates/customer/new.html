@@ -25,7 +25,7 @@
                             <div class="col-2"><label class="col-form-label">iin</label></div>
                             <div class="col-4"><input type="text" class="form-control" th:field="*{iin}"></div>
                             <div class="col-4"><span class="form-text" th:if="${#fields.hasErrors('iin')}" th:errors="*{iin}"> </span>
-                                <span th:if="${!iinError.isEmpty()}">Неправильный ИИН</span>
+                                <span class="form-text" th:if="${iinError!=null}">Неправильный ИИН</span>
                             </div>
 
                         </div>

@@ -6,22 +6,23 @@
 </head>
 <body>
 <div class="row">
-    <div class="col-sm-4"></div>
-    <div class="col-sm-4">
+    <div class="col-sm-4 "></div>
+    <div class="col-sm-4 ">
         <form   th:method="POST" th:action="@{/credit/}" th:object="${credit}">
-            <div class="row mt-3">
+            <div class="row ">
 
                 <table>
                     <thead><h2>Данные о кредите</h2></thead>
-
+                    <tbody>
                     <tr>
                         <td>Сумма</td>
-                        <td ><input type="number" th:field="*{sum}" /></td>
+                        <td ><input id="sum" type="number" onchange="myFunction()" th:field="*{sum}" /></td>
                         <td th:if="${#fields.hasErrors('sum')}" th:errors="*{sum}">Name Error</td>
                     </tr>
+
                     <tr>
                         <td>Срок</td>
-                        <td>   <select class="col-6" th:field="*{rate}">
+                        <td>   <select id="rate" class="col-6" th:field="*{rate}">
                             <option th:value="0">выберите</option>
                             <option th:each="r:${rates}"  th:value="${r.id}" th:text="${r.value}+' мес.'"></option>
                         </select></td>
@@ -33,19 +34,38 @@
                             <option th:each="term:${terms}"  th:value="${term.id}" th:text="${term.value}+'%'"></option>
                         </select></td>
                      </tr>
-                    <tr><hr></tr>
+                    <tr><td><hr></td><td><hr></td></tr>
                     <tr>
                         <td>Еж.платеж</td>
-<!--                        <td>   <select class="col-6" th:field="*{}">-->
-<!--                            <option value="0">выберите</option>-->
-<!--                            <option th:each="term:${terms}"  th:value="${term.id}" th:text="${term.value}+'%'"></option>-->
-<!--                        </select></td>-->
+                        <td>
+                        <input id="fname" type="number" />
+                        </td>
+                     </tr><tr>
+                        <td>Сумма в $</td>
+                        <td>
+                        <input  id="sumOfDollar" type="number" />
+                        </td>
                      </tr>
 
                     <tr>
                         <td><button type="submit" class="btn btn-primary">Подтвердить</button></td>
                     </tr>
+                    </tbody>
                 </table>
+<!--                А=К*(П/(1+П)-М-1), 1000000*(1+0.1)-12-1=1100000-13
+                где К – сумма кредита,
+                    П – процентная ставка,
+                    М – количество месяцев.  -->
+                <script>function myFunction() {
+                    var x = document.getElementById("fname");
+                    var sumOfDollar = document.getElementById("sumOfDollar");
+                    sumOfDollar.value = x.value/430;
+                    var sum = document.getElementById("sum");
+                    var rate = document.getElementById("rate");
+                    var term = document.getElementById("term");
+                    x.value = sum.value*(term.value/(1+term.value/100)-rate.value-1);
+
+                }</script>
             </div>
         </form>
     </div>
