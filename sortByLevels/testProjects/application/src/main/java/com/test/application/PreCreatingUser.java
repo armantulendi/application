@@ -1,5 +1,6 @@
 package com.test.application;
 
+import com.test.application.model.credit.Rate;
 import com.test.application.model.credit.Term;
 import com.test.application.model.user.User;
 import com.test.application.repo.RateRepo;
@@ -12,11 +13,16 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 
 @Component
 class PreCreatingUser implements CommandLineRunner {
     @Autowired
     private UserRepo userRepo;
+    @Autowired
+    private RateRepo rateRepo;
+    @Autowired
+    private TermRepo termRepo;
     @Override
     public void run(String... args) throws Exception {
 //        проверяет есть ли дефолтный пользователь user если нет, то создает
@@ -35,6 +41,22 @@ class PreCreatingUser implements CommandLineRunner {
             user.setPassword("$2y$12$VGciANZ.FWUxAn/Rg.XcI.6fXTujqti11lrr7N2ab7hIqTxa5ZX1u ");
             userRepo.save(user);
         }
-
-    }
+        int[] rate1 ={9,10,11};
+        for (int i =0; i < rate1.length; i++) {
+            Rate rate=new Rate();
+            if(!rateRepo.findByValue(rate1[i]).isEmpty())
+                rateRepo.deleteByValue(i);
+            rate.setValue(rate1[i]);
+            rateRepo.save(rate);
+        }
+        int[] term1 ={3,6,9,12,24};
+        for (int i = 0; i < term1.length; i++) {
+            if(!termRepo.findByValue(term1[i]).isEmpty())
+                termRepo.deleteByValue(i);
+        Term term=new Term();
+        term.setId(i);
+        term.setValue(term1[i]);
+        termRepo.save(term);
+        }
+}
 }
