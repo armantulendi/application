@@ -49,6 +49,7 @@ class PreCreatingUser implements CommandLineRunner {
             rate.setValue(rate1[i]);
             rateRepo.save(rate);
         }
+
         int[] term1 ={3,6,9,12,24};
         for (int i = 0; i < term1.length; i++) {
             if(!termRepo.findByValue(term1[i]).isEmpty())
