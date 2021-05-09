@@ -20,7 +20,7 @@ import java.util.Date;
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private Integer id;
     @NotEmpty
     @Size(min = 12,max = 12,message = "ИИН должно состоить из 12 символов")
     private String iin;
@@ -34,9 +34,9 @@ public class Customer {
     private String mobileNum;
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date birthDay;
-    private boolean gender;
+    private String gender;
     @Min(value = 0)
-//    @Size(min = 8,max = 12,message = "размер номера документа не в интервале 8-12")
+    @Column(nullable = false)
     private long docNum;
     @NotEmpty
     private String issuedBy;
@@ -52,7 +52,4 @@ public class Customer {
     private long utilities;
     @ManyToOne(fetch = FetchType.LAZY)
     private User user;
-//    @ManyToOne(fetch = FetchType.LAZY)
-//    @JoinColumn(name="credit_id", nullable=false)
-//    private Credit credit;
 }

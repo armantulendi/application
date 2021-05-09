@@ -1,9 +1,9 @@
 package com.test.application.controller;
 
 import com.test.application.model.user.Customer;
+import com.test.application.model.user.Orders;
 import com.test.application.model.user.User;
-import com.test.application.repo.CustomerRepo;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.test.application.repo.OrderRepo;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,32 +11,36 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Controller
 @RequestMapping("/")
-public class MainControler {
-    private final CustomerRepo customerRepo;
+public class MainController {
 
-    public MainControler(CustomerRepo customerRepo) {
-        this.customerRepo = customerRepo;
+    private final OrderRepo orderRepo;
+
+    public MainController(  OrderRepo orderRepo) {
+
+        this.orderRepo = orderRepo;
     }
 
     @GetMapping
     public String get(@AuthenticationPrincipal User user,
                       @RequestParam(required = false,defaultValue = "")
                       String filter, Model model){
-        if (customerRepo.getByUserId(user.getId())!=null){
-            List<Customer> customers;
+        if (orderRepo.getByUserId(user.getId()).size()!=0){
+            List<Orders> orders;
+
             if (filter==null||filter.isEmpty())
-                customers=customerRepo.findAll();
+                orders= orderRepo.findAll();
             else
-                customers=customerRepo.findByIin(filter);
-            model.addAttribute("customers",customers);
+                orders= orderRepo.findByIin(filter);
+            model.addAttribute("orders",orders);
             return "customer/customers";
         }
-        return "customer/new";
+        else
+            return "redirect:/customer/new";
     }
+
 
 }

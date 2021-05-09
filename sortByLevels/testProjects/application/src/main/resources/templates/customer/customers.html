@@ -10,9 +10,9 @@
 </head>
 <body>
 <div class="row mt-4">
-    <div class="col-sm-4 "></div>
-    <div class="col-sm-6">
-
+    <div class="col-sm-3 "></div>
+    <div class="col-sm-7">
+        <h2 class="card-title mt-4">Список заявок</h2>
         <form class="search-tag-link" th:action="@{/}" method="get">
             <label>
                 <input type="text" name="filter" th:value="${filter}" class="form-control" placeholder="ИИН"><i class="ui-icon-search"></i>
@@ -23,21 +23,27 @@
             <thead>
             <tr>
                 <th class="border-top-0">ИИН</th>
-                <th class="border-top-0">Имя</th>
+                <th class="border-top-0">Дата обращения</th>
+                <th class="border-top-0">Номер заявки</th>
                 <th class="border-top-0">Сумма</th>
                 <th class="border-top-0">Срок</th>
                 <th class="border-top-0">Статус</th>
             </tr>
             </thead>
             <tbody>
-            <tr th:each="customer:${customers}">
-                <td th:text="${customer.iin}"></td>
-                <td th:text="${customer.name}"></td>
-<!--                <td th:text="${customer.credit.sum}"></td>-->
-            </tr>
+            <tr th:each="order:${orders}">
+                <td th:text="${order.iin}"></td>
+                <td th:text="${order.date}"></td>
+                <td th:text="${order.id}"></td>
+                <td th:text="${order.sum}"></td>
+                <td th:text="${order.term}"></td>
+                <td th:text="${order.status}?'одобрено':'отказано'"></td>
+              </tr>
             </tbody>
         </table>
         <a href="/customer/new">Новая заявка</a>
+    </div>
+    <div class="col-sm-7">      <form style="visibility: hidden" id="form" method="post" action="#" th:action="Выйти"></form>
     </div>
 </div>
 </body>
