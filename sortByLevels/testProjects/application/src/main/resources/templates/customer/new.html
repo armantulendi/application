@@ -18,96 +18,110 @@
     <!-- column -->
     <div class="col-sm-4"></div>
     <div class="col-sm-8">
-                <h2 class="card-title mt-4">Данные о клиенте</h2>
-                <form th:method="POST" th:action="@{/customer/new}" th:object="${customer}">
-                    <div class="row ">
-                        <div class="row  g-1 align-items-center">
-                            <div class="col-2"><label class="col-form-label">iin</label></div>
-                            <div class="col-4"><input type="text" class="form-control" th:field="*{iin}"></div>
-                            <div class="col-4"><span class="form-text" th:if="${#fields.hasErrors('iin')}" th:errors="*{iin}"> </span>
-                                <span class="form-text" th:if="${iinError!=null}">Неправильный ИИН</span>
-                            </div>
-
-                        </div>
-                        <div class="row g-1 align-items-center">
-                            <div class="col-2"><label class="col-form-label">surname</label></div>
-                            <div class="col-4"><input type="text" class="form-control" th:field="*{surname}"></div>
-                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('surname')}" th:errors="*{surname}"> </span></div>
-                        </div>
-                        <div class="row g-1 align-items-center">
-                            <div class="col-2"><label class="col-form-label">name</label></div>
-                            <div class="col-4"><input type="text" class="form-control" th:field="*{name}"></div>
-                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('name')}" th:errors="*{name}"> </span></div>
-                        </div>
-                        <div class="row g-1 align-items-center">
-                            <div class="col-2"><label class="col-form-label">patronymic</label></div>
-                            <div class="col-4"><input type="text" class="form-control" th:field="*{patronymic}"></div>
-                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('patronymic')}" th:errors="*{patronymic}"> </span></div>
-                        </div>
-<!--                       -->
-                        <div class="row g-1 align-items-center">
-                            <div class="col-2"><label class="col-form-label">mobileNum</label></div>
-                            <div class="col-4"><input type="text" id="mobileNum"  th:field="*{mobileNum}" class="form-control"></div>
-                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('mobileNum')}" th:errors="*{mobileNum}"> </span></div>
-                        </div>
-                        <div class="row g-1 align-items-center">
-                            <div class="col-2"><label class="col-form-label">birthDay</label></div>
-                            <div class="col-4"><input type="date" class="form-control" th:field="*{birthDay}"></div>
-                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('birthDay')}" th:errors="*{birthDay}"> </span></div>
-                        </div>
-                        <div class="row g-1 align-items-center">
-                            <div class="col-2"><label class="col-form-label">gender</label></div>
-                            <div class="col-4"><input type="text" class="form-control" th:field="*{gender}"></div>
-                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('gender')}" th:errors="*{gender}"> </span></div>
-                        </div>
-                        <div><hr></div>
-                        <div class="row g-1 align-items-center">
-                            <div class="col-2"><label class="col-form-label">docNum</label></div>
-                            <div class="col-4"><input type="text" class="form-control" th:field="*{docNum}"></div>
-                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('docNum')}" th:errors="*{docNum}"> </span></div>
-                        </div>
-                        <div class="row g-1 align-items-center">
-                            <div class="col-2"><label class="col-form-label">issuedBy</label></div>
-                            <div class="col-4"><input type="text" class="form-control" th:field="*{issuedBy}"></div>
-                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('issuedBy')}" th:errors="*{issuedBy}"> </span></div>
-                        </div>
-                        <div class="row g-1 align-items-center">
-                            <div class="col-2"><label class="col-form-label">dateIssue</label></div>
-                            <div class="col-4"><input type="date" class="form-control" th:field="*{dateIssue}"></div>
-                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('dateIssue')}" th:errors="*{dateIssue}"> </span></div>
-                        </div>
-                        <div class="row g-1 align-items-center">
-                            <div class="col-2"><label class="col-form-label">validFor</label></div>
-                            <div class="col-4"><input type="date" class="form-control" th:field="*{validFor}"></div>
-                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('validFor')}" th:errors="*{validFor}"> </span></div>
-                        </div>
-                        <div class="row g-1 align-items-center">
-                            <div class="col-2"><label class="col-form-label">salary</label></div>
-                            <div class="col-4"><input type="text" class="form-control" th:field="*{salary}"></div>
-                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('salary')}" th:errors="*{salary}"> </span></div>
-                        </div>
-                        <div class="row g-1 align-items-center">
-                            <div class="col-2"><label class="col-form-label">utilities</label></div>
-                            <div class="col-4"><input type="text" class="form-control" th:field="*{utilities}"></div>
-                            <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('utilities')}" th:errors="*{utilities}"> </span></div>
-                        </div>
-                        <div class="row g-1 align-items-center">
-                            <div class="col-2">
-                                <button type="submit" class="btn btn-primary">Подтвердить</button>
-                            </div>
-                        </div>
+        <h2 class="card-title mt-4">Данные о клиенте</h2>
+        <form th:method="POST" th:action="@{/customer/new}" th:object="${customer}">
+            <div class="row ">
+                <div class="row  g-1 align-items-center">
+                    <div class="col-2"><label class="col-form-label">ИИН</label></div>
+                    <div class="col-4"><input type="text" class="form-control" th:field="*{iin}"></div>
+                    <div class="col-4"><span class="form-text" th:if="${#fields.hasErrors('iin')}" th:errors="*{iin}"> </span>
+                        <span class="form-text" th:if="${iinError!=null}">Неправильный ИИН</span>
                     </div>
-                </form>
-            </div>
-        </div>
-<script>
-    // $(document).ready(function () {
-        $(function(){
-            //2. Получить элемент, к которому необходимо добавить маску
-            $("#mobileNum").mask("+7(777) 999-9999");
-        });
-    // });
 
+                </div>
+                <div class="row g-1 align-items-center">
+                    <div class="col-2"><label class="col-form-label">Фамилия</label></div>
+                    <div class="col-4"><input type="text" class="form-control" th:field="*{surname}"></div>
+                    <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('surname')}" th:errors="*{surname}"> </span></div>
+                </div>
+                <div class="row g-1 align-items-center">
+                    <div class="col-2"><label class="col-form-label">Имя</label></div>
+                    <div class="col-4"><input type="text" class="form-control" th:field="*{name}"></div>
+                    <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('name')}" th:errors="*{name}"> </span></div>
+                </div>
+                <div class="row g-1 align-items-center">
+                    <div class="col-2"><label class="col-form-label">Отчество</label></div>
+                    <div class="col-4"><input type="text" class="form-control" th:field="*{patronymic}"></div>
+                    <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('patronymic')}" th:errors="*{patronymic}"> </span></div>
+                </div>
+                <!--                       -->
+                <div class="row g-1 align-items-center">
+                    <div class="col-2"><label class="col-form-label">Мобильный номер</label></div>
+                    <div class="col-4"><input type="text" id="mobileNum"  th:field="*{mobileNum}" class="form-control"></div>
+                    <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('mobileNum')}" th:errors="*{mobileNum}"> </span></div>
+                </div>
+                <div class="row g-1 align-items-center">
+                    <div class="col-2"><label class="col-form-label">Дата рождения</label></div>
+                    <div class="col-4"><input type="date" class="form-control" th:field="*{birthDay}"></div>
+                    <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('birthDay')}" th:errors="*{birthDay}"> </span></div>
+                </div>
+                <div class="row g-1 align-items-center">
+                    <div class="col-2"><label class="col-form-label">Пол</label></div>
+                    <div class="col-4">
+                        <select th:field="*{gender}"  class="form-control">
+                            <option
+                                    th:text="М"
+                                    th:value="man">
+
+                            </option> <option
+                                th:text="Ж"
+                                th:value="woman">
+
+                        </option></select>
+                    </div>
+                    <div class="col-2">
+                        <span class="form-text" th:if="${#fields.hasErrors('gender')}" th:errors="*{gender}"> </span></div>
+                </div>
+
+
+                </select>
+                <div><hr></div>
+                <div class="row g-1 align-items-center">
+                    <div class="col-2"><label class="col-form-label">Номер документа</label></div>
+                    <div class="col-4"><input type="text" class="form-control" th:field="*{docNum}"></div>
+                    <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('docNum')}" th:errors="*{docNum}"> </span></div>
+                </div>
+                <div class="row g-1 align-items-center">
+                    <div class="col-2"><label class="col-form-label">Кем выдан</label></div>
+                    <div class="col-4"><input type="text" class="form-control" th:field="*{issuedBy}"></div>
+                    <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('issuedBy')}" th:errors="*{issuedBy}"> </span></div>
+                </div>
+                <div class="row g-1 align-items-center">
+                    <div class="col-2"><label class="col-form-label">Дата выдачи</label></div>
+                    <div class="col-4"><input type="date" class="form-control" th:field="*{dateIssue}"></div>
+                    <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('dateIssue')}" th:errors="*{dateIssue}"> </span></div>
+                </div>
+                <div class="row g-1 align-items-center">
+                    <div class="col-2"><label class="col-form-label">Действителен до</label></div>
+                    <div class="col-4"><input type="date" class="form-control" th:field="*{validFor}"></div>
+                    <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('validFor')}" th:errors="*{validFor}"> </span></div>
+                </div>
+                <div class="row g-1 align-items-center">
+                    <div class="col-2"><label class="col-form-label">Заработная плата</label></div>
+                    <div class="col-4"><input type="text" class="form-control" th:field="*{salary}"></div>
+                    <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('salary')}" th:errors="*{salary}"> </span></div>
+                </div>
+                <div class="row g-1 align-items-center">
+                    <div class="col-2"><label class="col-form-label">Коммунальные платежи</label></div>
+                    <div class="col-4"><input type="text" class="form-control" th:field="*{utilities}"></div>
+                    <div class="col-2"><span class="form-text" th:if="${#fields.hasErrors('utilities')}" th:errors="*{utilities}"> </span></div>
+                </div>
+
+                <div class="row g-1 align-items-center">
+                    <div class="col-2">
+                        <button type="submit" class="btn btn-primary">Подтвердить</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+              <form style="visibility: hidden" id="form" method="post" action="#" th:action="@{/logout}">Выйти</form>
+
+
+</div>
+<script>
+    $(function(){
+        $("#mobileNum").mask("+7(777) 999-9999");
+    });
 </script>
 </body>
 </html>

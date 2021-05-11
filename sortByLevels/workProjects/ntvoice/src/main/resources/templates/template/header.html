@@ -6,6 +6,7 @@
 </head>
 <body>
 <header class="topbar" style="background: linear-gradient(to right,#169d97 0%,#8eb104 100%) " data-navbarbg="skin1" th:fragment="header">
+
     <nav class="navbar top-navbar navbar-expand-md navbar-dark">
         <div class="navbar-header" data-logobg="skin6">
             <!-- ============================================================== -->
@@ -20,19 +21,7 @@
                     <img   th:width="200" th:height="100"   src="/assets/images/logo-icon.jpg"  class="dark-logo">
                     </div>
                 </b>
-                <!--End Logo icon -->
-                <!-- Logo text -->
-<!--                <span class="logo-text mt-4">-->
-<!--                            &lt;!&ndash; dark Logo text &ndash;&gt;-->
-<!--                           <span style="color: #54667a">platform</span>-->
-<!--                        </span>-->
             </a>
-            <!-- ============================================================== -->
-            <!-- End Logo -->
-            <!-- ============================================================== -->
-            <!-- ============================================================== -->
-            <!-- toggle and nav items -->
-            <!-- ============================================================== -->
             <a class="nav-toggler waves-effect waves-light text-dark d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
         </div>
         <!-- ============================================================== -->
@@ -50,22 +39,16 @@
 
                 <li class="nav-item hidden-sm-down">
                     <form class="app-search ps-3">
-                        <input type="text" class="form-control" placeholder="Search for..."> <a class="srh-btn"><i class="ti-search"></i></a>
+                        <input type="text" class="form-control" th:placeholder="#{search}"> <a class="srh-btn"><i class="ti-search"></i></a>
                     </form>
                 </li>
             </ul>
 
-            <!-- ============================================================== -->
-            <!-- Right side toggle and nav items -->
-            <!-- ============================================================== -->
-            <ul class="navbar-nav">
-                <!-- ============================================================== -->
-                <!-- User profile and search -->
-                <!-- ============================================================== -->
+             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle waves-effect waves-dark" th:href="@{/(l='kz_KZ')}">Qz</a>
-                <a class="nav-link dropdown-toggle waves-effect waves-dark" th:href="@{/(l='ru_RU')}">Ру</a>
-                <a class="nav-link dropdown-toggle waves-effect waves-dark" th:href="@{/(l='en_US')}">En</a>
+                <a class="nav-link dropdown-toggle waves-effect waves-dark" th:href="@{${#httpServletRequest.requestURI}(l='la_La')}">Qz</a>
+                <a class="nav-link dropdown-toggle waves-effect waves-dark" th:href="@{${#httpServletRequest.requestURI}(l='ru_RU')}">Ру</a>
+                <a class="nav-link dropdown-toggle waves-effect waves-dark" th:href="@{${#httpServletRequest.requestURI}(l='en_US')}">En</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle waves-effect waves-dark" th:text="${#authentication.name}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
